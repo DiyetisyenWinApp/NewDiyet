@@ -52,3 +52,5 @@ C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\UI_Layerr\obj\Debug\UI_Layer
 C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\UI_Layerr\obj\Debug\UI_Layerr.Form4.resources
 C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\UI_Layerr\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\UI_Layerr\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\UI_Layerr\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\UI_Layerr\bin\Debug\EntityFramework.SqlServer.xml

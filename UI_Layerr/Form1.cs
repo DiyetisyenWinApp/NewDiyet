@@ -37,24 +37,30 @@ namespace UI_Layerr
         public int BulunanID;
         private void btn_Giris_Click(object sender, EventArgs e)
         {
-            
-            Context db = new Context();
-            var query = db.Users.Where(x => x.E_Mail == txt_ePosta.Text && x.KullanıcıSifre == ShaHash(txt_Parola.Text)).FirstOrDefault();
 
-            
-
-            if (query.UserID == null)
+            if (txt_ePosta.Text!="" && txt_Parola.Text!="")
             {
-                MessageBox.Show("Hatalı şifre veya e_posta");
+                Context db = new Context();
+                string pass = ShaHash(txt_Parola.Text);
+                var Userquery = db.Users.FirstOrDefault(x => x.E_Mail == txt_ePosta.Text && x.KullanıcıSifre==pass);
+                if (Userquery == null)
+                {
+                    MessageBox.Show("Hatalı şifre veya e_posta");
+                }
+                else
+                {
+                    BulunanID = Userquery.UserID;
+                    Form2 frm2 = new Form2(BulunanID);
+                    frm2.Show();
+                    this.Hide();
+                    // form2 ye bulunan kullanıcının ID si gönderilecek
+                }
             }
             else
             {
-                BulunanID = query.UserID;
-                Form2 frm2 = new Form2(BulunanID);
-                frm2.Show();
-                this.Hide();
-                // form2 ye bulunan kullanıcının ID si gönderilecek
+                MessageBox.Show("Boş giriş yaptınız");
             }
+          
 
             
             
