@@ -37,15 +37,15 @@
             this.dtp_DogumTarihi = new RJCodeAdvance.RJControls.RJDatePicker();
             this.cmb_kilo = new System.Windows.Forms.ComboBox();
             this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
-            this.chb_kadın = new MaterialSkin.Controls.MaterialCheckBox();
             this.lbl_Cinsiyet = new MaterialSkin.Controls.MaterialLabel();
-            this.chb_Erkek = new MaterialSkin.Controls.MaterialCheckBox();
             this.txt_Parola = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.txt_ePosta = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.txt_Soyad = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.txt_Ad = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.rjCircularPictureBox1 = new RJCodeAdvance.RJControls.RJCircularPictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.Rdo_Erkek = new RJCodeAdvance.RJControls.RJRadioButton();
+            this.Rdo_Kadın = new RJCodeAdvance.RJControls.RJRadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.rjCircularPictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -754,22 +754,6 @@
             this.materialLabel2.TabIndex = 35;
             this.materialLabel2.Text = "KİLO";
             // 
-            // chb_kadın
-            // 
-            this.chb_kadın.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.chb_kadın.Depth = 0;
-            this.chb_kadın.Font = new System.Drawing.Font("Roboto", 10F);
-            this.chb_kadın.Location = new System.Drawing.Point(524, 142);
-            this.chb_kadın.Margin = new System.Windows.Forms.Padding(0);
-            this.chb_kadın.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.chb_kadın.MouseState = MaterialSkin.MouseState.HOVER;
-            this.chb_kadın.Name = "chb_kadın";
-            this.chb_kadın.Ripple = true;
-            this.chb_kadın.Size = new System.Drawing.Size(90, 23);
-            this.chb_kadın.TabIndex = 34;
-            this.chb_kadın.Text = "KADIN";
-            this.chb_kadın.UseVisualStyleBackColor = true;
-            // 
             // lbl_Cinsiyet
             // 
             this.lbl_Cinsiyet.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
@@ -782,22 +766,6 @@
             this.lbl_Cinsiyet.Size = new System.Drawing.Size(202, 31);
             this.lbl_Cinsiyet.TabIndex = 33;
             this.lbl_Cinsiyet.Text = "CİNSİYET";
-            // 
-            // chb_Erkek
-            // 
-            this.chb_Erkek.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.chb_Erkek.Depth = 0;
-            this.chb_Erkek.Font = new System.Drawing.Font("Roboto", 10F);
-            this.chb_Erkek.Location = new System.Drawing.Point(414, 142);
-            this.chb_Erkek.Margin = new System.Windows.Forms.Padding(0);
-            this.chb_Erkek.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.chb_Erkek.MouseState = MaterialSkin.MouseState.HOVER;
-            this.chb_Erkek.Name = "chb_Erkek";
-            this.chb_Erkek.Ripple = true;
-            this.chb_Erkek.Size = new System.Drawing.Size(90, 23);
-            this.chb_Erkek.TabIndex = 32;
-            this.chb_Erkek.Text = "ERKEK";
-            this.chb_Erkek.UseVisualStyleBackColor = true;
             // 
             // txt_Parola
             // 
@@ -900,11 +868,45 @@
             this.pictureBox1.TabIndex = 26;
             this.pictureBox1.TabStop = false;
             // 
+            // Rdo_Erkek
+            // 
+            this.Rdo_Erkek.AutoSize = true;
+            this.Rdo_Erkek.CheckedColor = System.Drawing.Color.MediumSlateBlue;
+            this.Rdo_Erkek.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Rdo_Erkek.Location = new System.Drawing.Point(413, 141);
+            this.Rdo_Erkek.MinimumSize = new System.Drawing.Size(0, 21);
+            this.Rdo_Erkek.Name = "Rdo_Erkek";
+            this.Rdo_Erkek.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.Rdo_Erkek.Size = new System.Drawing.Size(82, 24);
+            this.Rdo_Erkek.TabIndex = 43;
+            this.Rdo_Erkek.TabStop = true;
+            this.Rdo_Erkek.Text = "Erkek";
+            this.Rdo_Erkek.UnCheckedColor = System.Drawing.Color.Gray;
+            this.Rdo_Erkek.UseVisualStyleBackColor = true;
+            // 
+            // Rdo_Kadın
+            // 
+            this.Rdo_Kadın.AutoSize = true;
+            this.Rdo_Kadın.CheckedColor = System.Drawing.Color.MediumSlateBlue;
+            this.Rdo_Kadın.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Rdo_Kadın.Location = new System.Drawing.Point(527, 140);
+            this.Rdo_Kadın.MinimumSize = new System.Drawing.Size(0, 21);
+            this.Rdo_Kadın.Name = "Rdo_Kadın";
+            this.Rdo_Kadın.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.Rdo_Kadın.Size = new System.Drawing.Size(82, 24);
+            this.Rdo_Kadın.TabIndex = 44;
+            this.Rdo_Kadın.TabStop = true;
+            this.Rdo_Kadın.Text = "Kadın";
+            this.Rdo_Kadın.UnCheckedColor = System.Drawing.Color.Gray;
+            this.Rdo_Kadın.UseVisualStyleBackColor = true;
+            // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(644, 450);
+            this.Controls.Add(this.Rdo_Kadın);
+            this.Controls.Add(this.Rdo_Erkek);
             this.Controls.Add(this.btn_ResimEkle);
             this.Controls.Add(this.btn_KayıtOl);
             this.Controls.Add(this.cmb_boy);
@@ -913,9 +915,7 @@
             this.Controls.Add(this.dtp_DogumTarihi);
             this.Controls.Add(this.cmb_kilo);
             this.Controls.Add(this.materialLabel2);
-            this.Controls.Add(this.chb_kadın);
             this.Controls.Add(this.lbl_Cinsiyet);
-            this.Controls.Add(this.chb_Erkek);
             this.Controls.Add(this.txt_Parola);
             this.Controls.Add(this.txt_ePosta);
             this.Controls.Add(this.txt_Soyad);
@@ -943,14 +943,14 @@
         private RJCodeAdvance.RJControls.RJDatePicker dtp_DogumTarihi;
         private System.Windows.Forms.ComboBox cmb_kilo;
         private MaterialSkin.Controls.MaterialLabel materialLabel2;
-        private MaterialSkin.Controls.MaterialCheckBox chb_kadın;
         private MaterialSkin.Controls.MaterialLabel lbl_Cinsiyet;
-        private MaterialSkin.Controls.MaterialCheckBox chb_Erkek;
         private MaterialSkin.Controls.MaterialSingleLineTextField txt_Parola;
         private MaterialSkin.Controls.MaterialSingleLineTextField txt_ePosta;
         private MaterialSkin.Controls.MaterialSingleLineTextField txt_Soyad;
         private MaterialSkin.Controls.MaterialSingleLineTextField txt_Ad;
         private RJCodeAdvance.RJControls.RJCircularPictureBox rjCircularPictureBox1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private RJCodeAdvance.RJControls.RJRadioButton Rdo_Erkek;
+        private RJCodeAdvance.RJControls.RJRadioButton Rdo_Kadın;
     }
 }
