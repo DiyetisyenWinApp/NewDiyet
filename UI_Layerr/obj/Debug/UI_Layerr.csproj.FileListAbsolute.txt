@@ -18,3 +18,5 @@ C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\UI_Layerr\obj\Debug\UI_Layer
 C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\UI_Layerr\obj\Debug\UI_Layerr.csproj.CopyComplete
 C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\UI_Layerr\obj\Debug\UI_Layerr.exe
 C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\UI_Layerr\obj\Debug\UI_Layerr.pdb
+C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\UI_Layerr\bin\Debug\EntityFramework.dll
+C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\UI_Layerr\bin\Debug\EntityFramework.xml

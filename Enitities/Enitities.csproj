@@ -51,16 +51,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Concrete2\BesinBilgileri.cs" />
-    <Compile Include="Concrete2\Kullanici.cs" />
-    <Compile Include="Concrete2\TuketilenBesin.cs" />
-    <Compile Include="Concrete2\VucutAnalizi.cs" />
+    <Compile Include="Concrete\BodyAnalysis.cs" />
+    <Compile Include="Concrete\FoodInfo.cs" />
+    <Compile Include="Concrete\Meal.cs" />
     <Compile Include="Concrete\User.cs" />
     <Compile Include="Concrete\UserDetail.cs" />
     <Compile Include="Enums\AcitvityLevel.cs" />
     <Compile Include="Enums\Gender.cs" />
     <Compile Include="Enums\Intention.cs" />
+    <Compile Include="Enums\MealType.cs" />
     <Compile Include="Enums\UserType.cs" />
+    <Compile Include="NewFolder1\BesinBilgileri.cs" />
+    <Compile Include="NewFolder1\Kullanici.cs" />
+    <Compile Include="NewFolder1\TuketilenBesin.cs" />
+    <Compile Include="NewFolder1\VucutAnalizi.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

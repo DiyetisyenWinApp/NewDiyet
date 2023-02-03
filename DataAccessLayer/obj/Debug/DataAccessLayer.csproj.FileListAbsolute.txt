@@ -19,3 +19,5 @@ C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\bin\Debug\En
 C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\bin\Debug\EntityFramework.xml
 C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.V01.resources
+C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.cache
