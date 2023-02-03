@@ -46,6 +46,8 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.Rdo_Erkek = new RJCodeAdvance.RJControls.RJRadioButton();
             this.Rdo_Kadın = new RJCodeAdvance.RJControls.RJRadioButton();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             ((System.ComponentModel.ISupportInitialize)(this.rjCircularPictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -81,75 +83,6 @@
             this.cmb_boy.FormattingEnabled = true;
             this.cmb_boy.Items.AddRange(new object[] {
             "",
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12",
-            "13",
-            "14",
-            "15",
-            "16",
-            "17",
-            "18",
-            "19",
-            "20",
-            "21",
-            "22",
-            "23",
-            "24",
-            "25",
-            "26",
-            "27",
-            "28",
-            "29",
-            "30",
-            "31",
-            "32",
-            "33",
-            "34",
-            "35",
-            "36",
-            "37",
-            "38",
-            "39",
-            "40",
-            "41",
-            "42",
-            "43",
-            "44",
-            "45",
-            "46",
-            "47",
-            "48",
-            "49",
-            "50",
-            "51",
-            "52",
-            "53",
-            "54",
-            "55",
-            "56",
-            "57",
-            "58",
-            "59",
-            "60",
-            "61",
-            "62",
-            "63",
-            "64",
-            "65",
-            "66",
-            "67",
-            "68",
-            "69",
             "70",
             "71",
             "72",
@@ -330,57 +263,7 @@
             "247",
             "248",
             "249",
-            "250",
-            "251",
-            "252",
-            "253",
-            "254",
-            "255",
-            "256",
-            "257",
-            "258",
-            "259",
-            "260",
-            "261",
-            "262",
-            "263",
-            "264",
-            "265",
-            "266",
-            "267",
-            "268",
-            "269",
-            "270",
-            "271",
-            "272",
-            "273",
-            "274",
-            "275",
-            "276",
-            "277",
-            "278",
-            "279",
-            "280",
-            "281",
-            "282",
-            "283",
-            "284",
-            "285",
-            "286",
-            "287",
-            "288",
-            "289",
-            "290",
-            "291",
-            "292",
-            "293",
-            "294",
-            "295",
-            "296",
-            "297",
-            "298",
-            "299",
-            "300"});
+            "250"});
             this.cmb_boy.Location = new System.Drawing.Point(477, 239);
             this.cmb_boy.Name = "cmb_boy";
             this.cmb_boy.Size = new System.Drawing.Size(137, 24);
@@ -434,35 +317,6 @@
             this.cmb_kilo.FormattingEnabled = true;
             this.cmb_kilo.Items.AddRange(new object[] {
             "",
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12",
-            "13",
-            "14",
-            "15",
-            "16",
-            "17",
-            "18",
-            "19",
-            "20",
-            "21",
-            "22",
-            "23",
-            "24",
-            "25",
-            "26",
-            "27",
-            "28",
-            "29",
             "30",
             "31",
             "32",
@@ -663,77 +517,7 @@
             "227",
             "228",
             "229",
-            "230",
-            "231",
-            "232",
-            "233",
-            "234",
-            "235",
-            "236",
-            "237",
-            "238",
-            "239",
-            "240",
-            "241",
-            "242",
-            "243",
-            "244",
-            "245",
-            "246",
-            "247",
-            "248",
-            "249",
-            "250",
-            "251",
-            "252",
-            "253",
-            "254",
-            "255",
-            "256",
-            "257",
-            "258",
-            "259",
-            "260",
-            "261",
-            "262",
-            "263",
-            "264",
-            "265",
-            "266",
-            "267",
-            "268",
-            "269",
-            "270",
-            "271",
-            "272",
-            "273",
-            "274",
-            "275",
-            "276",
-            "277",
-            "278",
-            "279",
-            "280",
-            "281",
-            "282",
-            "283",
-            "284",
-            "285",
-            "286",
-            "287",
-            "288",
-            "289",
-            "290",
-            "291",
-            "292",
-            "293",
-            "294",
-            "295",
-            "296",
-            "297",
-            "298",
-            "299",
-            "300"});
+            "230"});
             this.cmb_kilo.Location = new System.Drawing.Point(477, 198);
             this.cmb_kilo.Name = "cmb_kilo";
             this.cmb_kilo.Size = new System.Drawing.Size(137, 24);
@@ -900,11 +684,42 @@
             this.Rdo_Kadın.UnCheckedColor = System.Drawing.Color.Gray;
             this.Rdo_Kadın.UseVisualStyleBackColor = true;
             // 
+            // comboBox1
+            // 
+            this.comboBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Yok",
+            "Az",
+            "Orta",
+            "Çok",
+            "Fazla"});
+            this.comboBox1.Location = new System.Drawing.Point(478, 295);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(137, 24);
+            this.comboBox1.TabIndex = 45;
+            // 
+            // materialLabel1
+            // 
+            this.materialLabel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.materialLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.materialLabel1.Depth = 0;
+            this.materialLabel1.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel1.Location = new System.Drawing.Point(474, 266);
+            this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel1.Name = "materialLabel1";
+            this.materialLabel1.Size = new System.Drawing.Size(148, 26);
+            this.materialLabel1.TabIndex = 46;
+            this.materialLabel1.Text = "Aktivite Düzeyi";
+            // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(644, 450);
+            this.Controls.Add(this.materialLabel1);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.Rdo_Kadın);
             this.Controls.Add(this.Rdo_Erkek);
             this.Controls.Add(this.btn_ResimEkle);
@@ -952,5 +767,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private RJCodeAdvance.RJControls.RJRadioButton Rdo_Erkek;
         private RJCodeAdvance.RJControls.RJRadioButton Rdo_Kadın;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private MaterialSkin.Controls.MaterialLabel materialLabel1;
     }
 }
