@@ -1,0 +1,6 @@
+C:\ProjectWorkSpace\DataAccessLayer\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\ProjectWorkSpace\DataAccessLayer\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\ProjectWorkSpace\DataAccessLayer\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+C:\ProjectWorkSpace\DataAccessLayer\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\ProjectWorkSpace\DataAccessLayer\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\ProjectWorkSpace\DataAccessLayer\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
