@@ -23,8 +23,8 @@ namespace Enitities.Concrete
         public Intention intention { get; set; }
 
         //Bağlantılar
-        public virtual int? UserID { get; set; }
-        public User User { get; set; }
+        //public virtual int? UserID { get; set; }
+        //public User User { get; set; }
 
 
         public ICollection<BodyAnalysis> BodyAnalyses { get; set; }

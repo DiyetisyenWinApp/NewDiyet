@@ -46,10 +46,12 @@ namespace UI_Layerr
                 if (txt_Ad.Text != "" && txt_ePosta.Text != "" && txt_Parola.Text != "" && txt_Soyad.Text != "" && dtp_DogumTarihi.Value.Year < DateTime.Now.Year)
 
                 {
+                    Form1 form1 = new Form1();
                     User N_user = new User();
                     N_user.E_Mail = txt_ePosta.Text;
                     N_user.UserName = txt_Ad.Text;
-                    N_user.UserSurname = txt_Parola.Text;
+                    N_user.UserSurname = txt_Soyad.Text;
+                    N_user.KullanıcıSifre = form1.ShaHash(txt_Parola.Text);
                     UserDetail userDetail = new UserDetail();
                     userDetail.BirthDate = dtp_DogumTarihi.Value;
 
@@ -63,8 +65,8 @@ namespace UI_Layerr
                         userDetail.gender = Enitities.Enums.Gender.Kadın;
                     }
                     //userDetail. cmb_kilo.Text
-                    Form4 form4 = new Form4();
-                    form4.Show();
+                    
+                    form1.Show();
                     this.Hide();
                 }
                 else
