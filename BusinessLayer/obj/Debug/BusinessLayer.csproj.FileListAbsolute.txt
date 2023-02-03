@@ -16,3 +16,21 @@ C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\BusinessLayer\obj\Debug\Busi
 C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
 C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\BusinessLayer\obj\Debug\BusinessLayer.dll
 C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\BusinessLayer\bin\Debug\BusinessLayer.dll.config
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\BusinessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\BusinessLayer\bin\Debug\Enitities.dll
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\BusinessLayer\bin\Debug\EntityFramework.dll
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\BusinessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\BusinessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\BusinessLayer\bin\Debug\Enitities.pdb
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\BusinessLayer\bin\Debug\Enitities.dll.config
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\BusinessLayer\bin\Debug\EntityFramework.xml
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\BusinessLayer\obj\Debug\BusinessLayer.pdb

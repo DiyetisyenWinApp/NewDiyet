@@ -10,3 +10,15 @@ C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\Enitities\bin\Debug\EntityFr
 C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\Enitities\obj\Debug\Enitities.csproj.CopyComplete
 C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\Enitities\obj\Debug\Enitities.dll
 C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\Enitities\obj\Debug\Enitities.pdb
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\Enitities\bin\Debug\Enitities.dll.config
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\Enitities\bin\Debug\Enitities.dll
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\Enitities\bin\Debug\Enitities.pdb
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\Enitities\bin\Debug\EntityFramework.dll
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\Enitities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\Enitities\bin\Debug\EntityFramework.xml
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\Enitities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\Enitities\obj\Debug\Enitities.csproj.AssemblyReference.cache
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\Enitities\obj\Debug\Enitities.csproj.CoreCompileInputs.cache
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\Enitities\obj\Debug\Enitities.csproj.CopyComplete
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\Enitities\obj\Debug\Enitities.dll
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\Enitities\obj\Debug\Enitities.pdb

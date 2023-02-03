@@ -21,3 +21,20 @@ C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\bin\Debug\En
 C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
 C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.V01.resources
 C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.cache
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\DataAccessLayer\bin\Debug\Enitities.dll
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\DataAccessLayer\bin\Debug\Enitities.pdb
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\DataAccessLayer\bin\Debug\Enitities.dll.config
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.V01.resources
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.cache
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
