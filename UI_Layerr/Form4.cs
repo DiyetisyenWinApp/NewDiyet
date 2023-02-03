@@ -8,21 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace deneme12
+namespace UI_Layerr
 {
-    public partial class Form2 : Form
+    public partial class Form4 : Form
     {
-        public Form2()
+        public Form4()
         {
             InitializeComponent();
-        }
-
-        private void rjButton2_Click(object sender, EventArgs e)
-        {
-            Form3 frm3 = new Form3();
-            frm3.Show();
-
-            this.Hide();
         }
     }
 }
