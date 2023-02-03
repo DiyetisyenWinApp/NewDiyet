@@ -29,56 +29,57 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form4));
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.btn_ResimEkle = new System.Windows.Forms.Button();
+            this.btn_KayıtOl = new System.Windows.Forms.Button();
+            this.cmb_boy = new System.Windows.Forms.ComboBox();
             this.materialLabel4 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
-            this.rjDatePicker1 = new RJCodeAdvance.RJControls.RJDatePicker();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.lbl_DogumTarihi = new MaterialSkin.Controls.MaterialLabel();
+            this.dtp_DogumTarihi = new RJCodeAdvance.RJControls.RJDatePicker();
+            this.cmb_kilo = new System.Windows.Forms.ComboBox();
             this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialCheckBox2 = new MaterialSkin.Controls.MaterialCheckBox();
-            this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialCheckBox1 = new MaterialSkin.Controls.MaterialCheckBox();
-            this.materialSingleLineTextField4 = new MaterialSkin.Controls.MaterialSingleLineTextField();
-            this.KullanıcıAdı = new MaterialSkin.Controls.MaterialSingleLineTextField();
-            this.materialSingleLineTextField2 = new MaterialSkin.Controls.MaterialSingleLineTextField();
-            this.materialSingleLineTextField1 = new MaterialSkin.Controls.MaterialSingleLineTextField();
+            this.chb_kadın = new MaterialSkin.Controls.MaterialCheckBox();
+            this.lbl_Cinsiyet = new MaterialSkin.Controls.MaterialLabel();
+            this.chb_Erkek = new MaterialSkin.Controls.MaterialCheckBox();
+            this.txt_Parola = new MaterialSkin.Controls.MaterialSingleLineTextField();
+            this.txt_ePosta = new MaterialSkin.Controls.MaterialSingleLineTextField();
+            this.txt_Soyad = new MaterialSkin.Controls.MaterialSingleLineTextField();
+            this.txt_Ad = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.rjCircularPictureBox1 = new RJCodeAdvance.RJControls.RJCircularPictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.rjCircularPictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // button2
+            // btn_ResimEkle
             // 
-            this.button2.BackColor = System.Drawing.Color.SlateBlue;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button2.ForeColor = System.Drawing.Color.Transparent;
-            this.button2.Location = new System.Drawing.Point(0, 181);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(164, 36);
-            this.button2.TabIndex = 42;
-            this.button2.Text = "RESİM EKLE";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btn_ResimEkle.BackColor = System.Drawing.Color.SlateBlue;
+            this.btn_ResimEkle.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_ResimEkle.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_ResimEkle.Location = new System.Drawing.Point(0, 181);
+            this.btn_ResimEkle.Name = "btn_ResimEkle";
+            this.btn_ResimEkle.Size = new System.Drawing.Size(164, 36);
+            this.btn_ResimEkle.TabIndex = 42;
+            this.btn_ResimEkle.Text = "RESİM EKLE";
+            this.btn_ResimEkle.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // btn_KayıtOl
             // 
-            this.button1.BackColor = System.Drawing.Color.SlateBlue;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.ForeColor = System.Drawing.Color.Transparent;
-            this.button1.Location = new System.Drawing.Point(0, 223);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(164, 40);
-            this.button1.TabIndex = 41;
-            this.button1.Text = "KAYIT OL";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btn_KayıtOl.BackColor = System.Drawing.Color.SlateBlue;
+            this.btn_KayıtOl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_KayıtOl.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_KayıtOl.Location = new System.Drawing.Point(0, 223);
+            this.btn_KayıtOl.Name = "btn_KayıtOl";
+            this.btn_KayıtOl.Size = new System.Drawing.Size(164, 40);
+            this.btn_KayıtOl.TabIndex = 41;
+            this.btn_KayıtOl.Text = "KAYIT OL";
+            this.btn_KayıtOl.UseVisualStyleBackColor = false;
+            this.btn_KayıtOl.Click += new System.EventHandler(this.btn_KayıtOl_Click);
             // 
-            // comboBox2
+            // cmb_boy
             // 
-            this.comboBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.cmb_boy.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.cmb_boy.FormattingEnabled = true;
+            this.cmb_boy.Items.AddRange(new object[] {
             "",
             "1",
             "2",
@@ -380,17 +381,17 @@
             "298",
             "299",
             "300"});
-            this.comboBox2.Location = new System.Drawing.Point(477, 239);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(137, 24);
-            this.comboBox2.TabIndex = 40;
+            this.cmb_boy.Location = new System.Drawing.Point(477, 239);
+            this.cmb_boy.Name = "cmb_boy";
+            this.cmb_boy.Size = new System.Drawing.Size(137, 24);
+            this.cmb_boy.TabIndex = 40;
             // 
             // materialLabel4
             // 
             this.materialLabel4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.materialLabel4.BackColor = System.Drawing.Color.Transparent;
             this.materialLabel4.Depth = 0;
-            this.materialLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.materialLabel4.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel4.Location = new System.Drawing.Point(409, 237);
             this.materialLabel4.MouseState = MaterialSkin.MouseState.HOVER;
@@ -399,39 +400,39 @@
             this.materialLabel4.TabIndex = 39;
             this.materialLabel4.Text = "BOY";
             // 
-            // materialLabel3
+            // lbl_DogumTarihi
             // 
-            this.materialLabel3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.materialLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.materialLabel3.Depth = 0;
-            this.materialLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.materialLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel3.Location = new System.Drawing.Point(189, 106);
-            this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel3.Name = "materialLabel3";
-            this.materialLabel3.Size = new System.Drawing.Size(199, 31);
-            this.materialLabel3.TabIndex = 38;
-            this.materialLabel3.Text = "DOĞUM TARİHİ";
+            this.lbl_DogumTarihi.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbl_DogumTarihi.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_DogumTarihi.Depth = 0;
+            this.lbl_DogumTarihi.Font = new System.Drawing.Font("Roboto", 11F);
+            this.lbl_DogumTarihi.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.lbl_DogumTarihi.Location = new System.Drawing.Point(189, 106);
+            this.lbl_DogumTarihi.MouseState = MaterialSkin.MouseState.HOVER;
+            this.lbl_DogumTarihi.Name = "lbl_DogumTarihi";
+            this.lbl_DogumTarihi.Size = new System.Drawing.Size(199, 31);
+            this.lbl_DogumTarihi.TabIndex = 38;
+            this.lbl_DogumTarihi.Text = "DOĞUM TARİHİ";
             // 
-            // rjDatePicker1
+            // dtp_DogumTarihi
             // 
-            this.rjDatePicker1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.rjDatePicker1.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.rjDatePicker1.BorderSize = 0;
-            this.rjDatePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F);
-            this.rjDatePicker1.Location = new System.Drawing.Point(189, 142);
-            this.rjDatePicker1.MinimumSize = new System.Drawing.Size(4, 35);
-            this.rjDatePicker1.Name = "rjDatePicker1";
-            this.rjDatePicker1.Size = new System.Drawing.Size(199, 35);
-            this.rjDatePicker1.SkinColor = System.Drawing.Color.MediumSlateBlue;
-            this.rjDatePicker1.TabIndex = 37;
-            this.rjDatePicker1.TextColor = System.Drawing.Color.White;
+            this.dtp_DogumTarihi.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.dtp_DogumTarihi.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.dtp_DogumTarihi.BorderSize = 0;
+            this.dtp_DogumTarihi.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F);
+            this.dtp_DogumTarihi.Location = new System.Drawing.Point(189, 142);
+            this.dtp_DogumTarihi.MinimumSize = new System.Drawing.Size(4, 35);
+            this.dtp_DogumTarihi.Name = "dtp_DogumTarihi";
+            this.dtp_DogumTarihi.Size = new System.Drawing.Size(199, 35);
+            this.dtp_DogumTarihi.SkinColor = System.Drawing.Color.MediumSlateBlue;
+            this.dtp_DogumTarihi.TabIndex = 37;
+            this.dtp_DogumTarihi.TextColor = System.Drawing.Color.White;
             // 
-            // comboBox1
+            // cmb_kilo
             // 
-            this.comboBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cmb_kilo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.cmb_kilo.FormattingEnabled = true;
+            this.cmb_kilo.Items.AddRange(new object[] {
             "",
             "1",
             "2",
@@ -733,10 +734,10 @@
             "298",
             "299",
             "300"});
-            this.comboBox1.Location = new System.Drawing.Point(477, 198);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(137, 24);
-            this.comboBox1.TabIndex = 36;
+            this.cmb_kilo.Location = new System.Drawing.Point(477, 198);
+            this.cmb_kilo.Name = "cmb_kilo";
+            this.cmb_kilo.Size = new System.Drawing.Size(137, 24);
+            this.cmb_kilo.TabIndex = 36;
             // 
             // materialLabel2
             // 
@@ -744,132 +745,132 @@
             this.materialLabel2.AutoSize = true;
             this.materialLabel2.BackColor = System.Drawing.Color.Transparent;
             this.materialLabel2.Depth = 0;
-            this.materialLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.materialLabel2.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel2.Location = new System.Drawing.Point(409, 198);
             this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel2.Name = "materialLabel2";
-            this.materialLabel2.Size = new System.Drawing.Size(51, 24);
+            this.materialLabel2.Size = new System.Drawing.Size(50, 24);
             this.materialLabel2.TabIndex = 35;
             this.materialLabel2.Text = "KİLO";
             // 
-            // materialCheckBox2
+            // chb_kadın
             // 
-            this.materialCheckBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.materialCheckBox2.Depth = 0;
-            this.materialCheckBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.materialCheckBox2.Location = new System.Drawing.Point(524, 142);
-            this.materialCheckBox2.Margin = new System.Windows.Forms.Padding(0);
-            this.materialCheckBox2.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.materialCheckBox2.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCheckBox2.Name = "materialCheckBox2";
-            this.materialCheckBox2.Ripple = true;
-            this.materialCheckBox2.Size = new System.Drawing.Size(90, 23);
-            this.materialCheckBox2.TabIndex = 34;
-            this.materialCheckBox2.Text = "KADIN";
-            this.materialCheckBox2.UseVisualStyleBackColor = true;
+            this.chb_kadın.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.chb_kadın.Depth = 0;
+            this.chb_kadın.Font = new System.Drawing.Font("Roboto", 10F);
+            this.chb_kadın.Location = new System.Drawing.Point(524, 142);
+            this.chb_kadın.Margin = new System.Windows.Forms.Padding(0);
+            this.chb_kadın.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.chb_kadın.MouseState = MaterialSkin.MouseState.HOVER;
+            this.chb_kadın.Name = "chb_kadın";
+            this.chb_kadın.Ripple = true;
+            this.chb_kadın.Size = new System.Drawing.Size(90, 23);
+            this.chb_kadın.TabIndex = 34;
+            this.chb_kadın.Text = "KADIN";
+            this.chb_kadın.UseVisualStyleBackColor = true;
             // 
-            // materialLabel1
+            // lbl_Cinsiyet
             // 
-            this.materialLabel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.materialLabel1.Depth = 0;
-            this.materialLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.materialLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel1.Location = new System.Drawing.Point(412, 106);
-            this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel1.Name = "materialLabel1";
-            this.materialLabel1.Size = new System.Drawing.Size(202, 31);
-            this.materialLabel1.TabIndex = 33;
-            this.materialLabel1.Text = "VÜCUT TİPİ";
+            this.lbl_Cinsiyet.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbl_Cinsiyet.Depth = 0;
+            this.lbl_Cinsiyet.Font = new System.Drawing.Font("Roboto", 11F);
+            this.lbl_Cinsiyet.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.lbl_Cinsiyet.Location = new System.Drawing.Point(412, 106);
+            this.lbl_Cinsiyet.MouseState = MaterialSkin.MouseState.HOVER;
+            this.lbl_Cinsiyet.Name = "lbl_Cinsiyet";
+            this.lbl_Cinsiyet.Size = new System.Drawing.Size(202, 31);
+            this.lbl_Cinsiyet.TabIndex = 33;
+            this.lbl_Cinsiyet.Text = "CİNSİYET";
             // 
-            // materialCheckBox1
+            // chb_Erkek
             // 
-            this.materialCheckBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.materialCheckBox1.Depth = 0;
-            this.materialCheckBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.materialCheckBox1.Location = new System.Drawing.Point(414, 142);
-            this.materialCheckBox1.Margin = new System.Windows.Forms.Padding(0);
-            this.materialCheckBox1.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.materialCheckBox1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCheckBox1.Name = "materialCheckBox1";
-            this.materialCheckBox1.Ripple = true;
-            this.materialCheckBox1.Size = new System.Drawing.Size(90, 23);
-            this.materialCheckBox1.TabIndex = 32;
-            this.materialCheckBox1.Text = "ERKEK";
-            this.materialCheckBox1.UseVisualStyleBackColor = true;
+            this.chb_Erkek.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.chb_Erkek.Depth = 0;
+            this.chb_Erkek.Font = new System.Drawing.Font("Roboto", 10F);
+            this.chb_Erkek.Location = new System.Drawing.Point(414, 142);
+            this.chb_Erkek.Margin = new System.Windows.Forms.Padding(0);
+            this.chb_Erkek.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.chb_Erkek.MouseState = MaterialSkin.MouseState.HOVER;
+            this.chb_Erkek.Name = "chb_Erkek";
+            this.chb_Erkek.Ripple = true;
+            this.chb_Erkek.Size = new System.Drawing.Size(90, 23);
+            this.chb_Erkek.TabIndex = 32;
+            this.chb_Erkek.Text = "ERKEK";
+            this.chb_Erkek.UseVisualStyleBackColor = true;
             // 
-            // materialSingleLineTextField4
+            // txt_Parola
             // 
-            this.materialSingleLineTextField4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.materialSingleLineTextField4.Depth = 0;
-            this.materialSingleLineTextField4.Font = new System.Drawing.Font("Javanese Text", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.materialSingleLineTextField4.Hint = "";
-            this.materialSingleLineTextField4.Location = new System.Drawing.Point(189, 62);
-            this.materialSingleLineTextField4.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialSingleLineTextField4.Name = "materialSingleLineTextField4";
-            this.materialSingleLineTextField4.PasswordChar = '\0';
-            this.materialSingleLineTextField4.SelectedText = "";
-            this.materialSingleLineTextField4.SelectionLength = 0;
-            this.materialSingleLineTextField4.SelectionStart = 0;
-            this.materialSingleLineTextField4.Size = new System.Drawing.Size(199, 28);
-            this.materialSingleLineTextField4.TabIndex = 31;
-            this.materialSingleLineTextField4.Text = "PAROLA";
-            this.materialSingleLineTextField4.UseSystemPasswordChar = false;
+            this.txt_Parola.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txt_Parola.Depth = 0;
+            this.txt_Parola.Font = new System.Drawing.Font("Javanese Text", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Parola.Hint = "";
+            this.txt_Parola.Location = new System.Drawing.Point(416, 63);
+            this.txt_Parola.MouseState = MaterialSkin.MouseState.HOVER;
+            this.txt_Parola.Name = "txt_Parola";
+            this.txt_Parola.PasswordChar = '\0';
+            this.txt_Parola.SelectedText = "";
+            this.txt_Parola.SelectionLength = 0;
+            this.txt_Parola.SelectionStart = 0;
+            this.txt_Parola.Size = new System.Drawing.Size(199, 28);
+            this.txt_Parola.TabIndex = 31;
+            this.txt_Parola.Text = "PAROLA";
+            this.txt_Parola.UseSystemPasswordChar = false;
             // 
-            // KullanıcıAdı
+            // txt_ePosta
             // 
-            this.KullanıcıAdı.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.KullanıcıAdı.Depth = 0;
-            this.KullanıcıAdı.Font = new System.Drawing.Font("Javanese Text", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.KullanıcıAdı.Hint = "";
-            this.KullanıcıAdı.Location = new System.Drawing.Point(416, 62);
-            this.KullanıcıAdı.MouseState = MaterialSkin.MouseState.HOVER;
-            this.KullanıcıAdı.Name = "KullanıcıAdı";
-            this.KullanıcıAdı.PasswordChar = '\0';
-            this.KullanıcıAdı.SelectedText = "";
-            this.KullanıcıAdı.SelectionLength = 0;
-            this.KullanıcıAdı.SelectionStart = 0;
-            this.KullanıcıAdı.Size = new System.Drawing.Size(199, 28);
-            this.KullanıcıAdı.TabIndex = 30;
-            this.KullanıcıAdı.Text = "E-POSTA ";
-            this.KullanıcıAdı.UseSystemPasswordChar = false;
+            this.txt_ePosta.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txt_ePosta.Depth = 0;
+            this.txt_ePosta.Font = new System.Drawing.Font("Javanese Text", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_ePosta.Hint = "";
+            this.txt_ePosta.Location = new System.Drawing.Point(189, 63);
+            this.txt_ePosta.MouseState = MaterialSkin.MouseState.HOVER;
+            this.txt_ePosta.Name = "txt_ePosta";
+            this.txt_ePosta.PasswordChar = '\0';
+            this.txt_ePosta.SelectedText = "";
+            this.txt_ePosta.SelectionLength = 0;
+            this.txt_ePosta.SelectionStart = 0;
+            this.txt_ePosta.Size = new System.Drawing.Size(199, 28);
+            this.txt_ePosta.TabIndex = 30;
+            this.txt_ePosta.Text = "E-POSTA ";
+            this.txt_ePosta.UseSystemPasswordChar = false;
             // 
-            // materialSingleLineTextField2
+            // txt_Soyad
             // 
-            this.materialSingleLineTextField2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.materialSingleLineTextField2.Depth = 0;
-            this.materialSingleLineTextField2.Font = new System.Drawing.Font("Javanese Text", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.materialSingleLineTextField2.ForeColor = System.Drawing.Color.Transparent;
-            this.materialSingleLineTextField2.Hint = "";
-            this.materialSingleLineTextField2.Location = new System.Drawing.Point(416, 20);
-            this.materialSingleLineTextField2.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialSingleLineTextField2.Name = "materialSingleLineTextField2";
-            this.materialSingleLineTextField2.PasswordChar = '\0';
-            this.materialSingleLineTextField2.SelectedText = "";
-            this.materialSingleLineTextField2.SelectionLength = 0;
-            this.materialSingleLineTextField2.SelectionStart = 0;
-            this.materialSingleLineTextField2.Size = new System.Drawing.Size(199, 28);
-            this.materialSingleLineTextField2.TabIndex = 29;
-            this.materialSingleLineTextField2.Text = "SOYAD";
-            this.materialSingleLineTextField2.UseSystemPasswordChar = false;
+            this.txt_Soyad.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txt_Soyad.Depth = 0;
+            this.txt_Soyad.Font = new System.Drawing.Font("Javanese Text", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Soyad.ForeColor = System.Drawing.Color.Transparent;
+            this.txt_Soyad.Hint = "";
+            this.txt_Soyad.Location = new System.Drawing.Point(416, 20);
+            this.txt_Soyad.MouseState = MaterialSkin.MouseState.HOVER;
+            this.txt_Soyad.Name = "txt_Soyad";
+            this.txt_Soyad.PasswordChar = '\0';
+            this.txt_Soyad.SelectedText = "";
+            this.txt_Soyad.SelectionLength = 0;
+            this.txt_Soyad.SelectionStart = 0;
+            this.txt_Soyad.Size = new System.Drawing.Size(199, 28);
+            this.txt_Soyad.TabIndex = 29;
+            this.txt_Soyad.Text = "SOYAD";
+            this.txt_Soyad.UseSystemPasswordChar = false;
             // 
-            // materialSingleLineTextField1
+            // txt_Ad
             // 
-            this.materialSingleLineTextField1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.materialSingleLineTextField1.Depth = 0;
-            this.materialSingleLineTextField1.Font = new System.Drawing.Font("Javanese Text", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.materialSingleLineTextField1.Hint = "";
-            this.materialSingleLineTextField1.Location = new System.Drawing.Point(189, 20);
-            this.materialSingleLineTextField1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialSingleLineTextField1.Name = "materialSingleLineTextField1";
-            this.materialSingleLineTextField1.PasswordChar = '\0';
-            this.materialSingleLineTextField1.SelectedText = "";
-            this.materialSingleLineTextField1.SelectionLength = 0;
-            this.materialSingleLineTextField1.SelectionStart = 0;
-            this.materialSingleLineTextField1.Size = new System.Drawing.Size(199, 28);
-            this.materialSingleLineTextField1.TabIndex = 28;
-            this.materialSingleLineTextField1.Text = "AD";
-            this.materialSingleLineTextField1.UseSystemPasswordChar = false;
+            this.txt_Ad.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txt_Ad.Depth = 0;
+            this.txt_Ad.Font = new System.Drawing.Font("Javanese Text", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Ad.Hint = "";
+            this.txt_Ad.Location = new System.Drawing.Point(189, 20);
+            this.txt_Ad.MouseState = MaterialSkin.MouseState.HOVER;
+            this.txt_Ad.Name = "txt_Ad";
+            this.txt_Ad.PasswordChar = '\0';
+            this.txt_Ad.SelectedText = "";
+            this.txt_Ad.SelectionLength = 0;
+            this.txt_Ad.SelectionStart = 0;
+            this.txt_Ad.Size = new System.Drawing.Size(199, 28);
+            this.txt_Ad.TabIndex = 28;
+            this.txt_Ad.Text = "AD";
+            this.txt_Ad.UseSystemPasswordChar = false;
             // 
             // rjCircularPictureBox1
             // 
@@ -904,21 +905,21 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(644, 450);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.btn_ResimEkle);
+            this.Controls.Add(this.btn_KayıtOl);
+            this.Controls.Add(this.cmb_boy);
             this.Controls.Add(this.materialLabel4);
-            this.Controls.Add(this.materialLabel3);
-            this.Controls.Add(this.rjDatePicker1);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.lbl_DogumTarihi);
+            this.Controls.Add(this.dtp_DogumTarihi);
+            this.Controls.Add(this.cmb_kilo);
             this.Controls.Add(this.materialLabel2);
-            this.Controls.Add(this.materialCheckBox2);
-            this.Controls.Add(this.materialLabel1);
-            this.Controls.Add(this.materialCheckBox1);
-            this.Controls.Add(this.materialSingleLineTextField4);
-            this.Controls.Add(this.KullanıcıAdı);
-            this.Controls.Add(this.materialSingleLineTextField2);
-            this.Controls.Add(this.materialSingleLineTextField1);
+            this.Controls.Add(this.chb_kadın);
+            this.Controls.Add(this.lbl_Cinsiyet);
+            this.Controls.Add(this.chb_Erkek);
+            this.Controls.Add(this.txt_Parola);
+            this.Controls.Add(this.txt_ePosta);
+            this.Controls.Add(this.txt_Soyad);
+            this.Controls.Add(this.txt_Ad);
             this.Controls.Add(this.rjCircularPictureBox1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form4";
@@ -934,21 +935,21 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.Button btn_ResimEkle;
+        private System.Windows.Forms.Button btn_KayıtOl;
+        private System.Windows.Forms.ComboBox cmb_boy;
         private MaterialSkin.Controls.MaterialLabel materialLabel4;
-        private MaterialSkin.Controls.MaterialLabel materialLabel3;
-        private RJCodeAdvance.RJControls.RJDatePicker rjDatePicker1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private MaterialSkin.Controls.MaterialLabel lbl_DogumTarihi;
+        private RJCodeAdvance.RJControls.RJDatePicker dtp_DogumTarihi;
+        private System.Windows.Forms.ComboBox cmb_kilo;
         private MaterialSkin.Controls.MaterialLabel materialLabel2;
-        private MaterialSkin.Controls.MaterialCheckBox materialCheckBox2;
-        private MaterialSkin.Controls.MaterialLabel materialLabel1;
-        private MaterialSkin.Controls.MaterialCheckBox materialCheckBox1;
-        private MaterialSkin.Controls.MaterialSingleLineTextField materialSingleLineTextField4;
-        private MaterialSkin.Controls.MaterialSingleLineTextField KullanıcıAdı;
-        private MaterialSkin.Controls.MaterialSingleLineTextField materialSingleLineTextField2;
-        private MaterialSkin.Controls.MaterialSingleLineTextField materialSingleLineTextField1;
+        private MaterialSkin.Controls.MaterialCheckBox chb_kadın;
+        private MaterialSkin.Controls.MaterialLabel lbl_Cinsiyet;
+        private MaterialSkin.Controls.MaterialCheckBox chb_Erkek;
+        private MaterialSkin.Controls.MaterialSingleLineTextField txt_Parola;
+        private MaterialSkin.Controls.MaterialSingleLineTextField txt_ePosta;
+        private MaterialSkin.Controls.MaterialSingleLineTextField txt_Soyad;
+        private MaterialSkin.Controls.MaterialSingleLineTextField txt_Ad;
         private RJCodeAdvance.RJControls.RJCircularPictureBox rjCircularPictureBox1;
         private System.Windows.Forms.PictureBox pictureBox1;
     }

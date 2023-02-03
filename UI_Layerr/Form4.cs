@@ -4,6 +4,8 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Reflection;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -16,7 +18,6 @@ namespace UI_Layerr
         {
             InitializeComponent();
         }
-
         private void Form4_Load(object sender, EventArgs e)
         {
         }
@@ -26,5 +27,24 @@ namespace UI_Layerr
           Form1 form1 = new Form1();
             form1.Show();
         }
+
+        private void btn_KayıtOl_Click(object sender, EventArgs e)
+        {
+            Form4 form4 = new Form4();
+
+            form4.Show();
+            this.Hide();
+        }
+
+
+
+
+
+
+
+
+
+
+ 
     }
 }

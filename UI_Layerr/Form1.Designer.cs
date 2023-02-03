@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.rjButton2 = new RJCodeAdvance.RJControls.RJButton();
-            this.rjButton1 = new RJCodeAdvance.RJControls.RJButton();
-            this.materialSingleLineTextField2 = new MaterialSkin.Controls.MaterialSingleLineTextField();
-            this.materialSingleLineTextField1 = new MaterialSkin.Controls.MaterialSingleLineTextField();
+            this.btn_Kayit = new RJCodeAdvance.RJControls.RJButton();
+            this.btn_Giris = new RJCodeAdvance.RJControls.RJButton();
+            this.txt_Parola = new MaterialSkin.Controls.MaterialSingleLineTextField();
+            this.txt_ePosta = new MaterialSkin.Controls.MaterialSingleLineTextField();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -47,96 +47,99 @@
             this.pictureBox1.TabIndex = 17;
             this.pictureBox1.TabStop = false;
             // 
-            // rjButton2
+            // btn_Kayit
             // 
-            this.rjButton2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.rjButton2.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.rjButton2.BackgroundColor = System.Drawing.Color.MediumSlateBlue;
-            this.rjButton2.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.rjButton2.BorderRadius = 0;
-            this.rjButton2.BorderSize = 0;
-            this.rjButton2.FlatAppearance.BorderSize = 0;
-            this.rjButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton2.ForeColor = System.Drawing.Color.Transparent;
-            this.rjButton2.Location = new System.Drawing.Point(445, 303);
-            this.rjButton2.Name = "rjButton2";
-            this.rjButton2.Size = new System.Drawing.Size(154, 27);
-            this.rjButton2.TabIndex = 24;
-            this.rjButton2.Text = "KAYIT OL";
-            this.rjButton2.TextColor = System.Drawing.Color.Transparent;
-            this.rjButton2.UseVisualStyleBackColor = false;
-            this.rjButton2.Click += new System.EventHandler(this.rjButton2_Click_1);
+            this.btn_Kayit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_Kayit.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.btn_Kayit.BackgroundColor = System.Drawing.Color.MediumSlateBlue;
+            this.btn_Kayit.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btn_Kayit.BorderRadius = 0;
+            this.btn_Kayit.BorderSize = 0;
+            this.btn_Kayit.FlatAppearance.BorderSize = 0;
+            this.btn_Kayit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Kayit.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_Kayit.Location = new System.Drawing.Point(445, 303);
+            this.btn_Kayit.Name = "btn_Kayit";
+            this.btn_Kayit.Size = new System.Drawing.Size(154, 27);
+            this.btn_Kayit.TabIndex = 24;
+            this.btn_Kayit.Text = "KAYIT OL";
+            this.btn_Kayit.TextColor = System.Drawing.Color.Transparent;
+            this.btn_Kayit.UseVisualStyleBackColor = false;
+            this.btn_Kayit.Click += new System.EventHandler(this.btn_Kayit_Click);
             // 
-            // rjButton1
+            // btn_Giris
             // 
-            this.rjButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.rjButton1.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.rjButton1.BackgroundColor = System.Drawing.Color.MediumSlateBlue;
-            this.rjButton1.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.rjButton1.BorderRadius = 0;
-            this.rjButton1.BorderSize = 0;
-            this.rjButton1.FlatAppearance.BorderSize = 0;
-            this.rjButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.rjButton1.ForeColor = System.Drawing.Color.White;
-            this.rjButton1.Location = new System.Drawing.Point(445, 244);
-            this.rjButton1.Name = "rjButton1";
-            this.rjButton1.Size = new System.Drawing.Size(154, 40);
-            this.rjButton1.TabIndex = 23;
-            this.rjButton1.Text = "GİRİŞ YAP";
-            this.rjButton1.TextColor = System.Drawing.Color.White;
-            this.rjButton1.UseVisualStyleBackColor = false;
+            this.btn_Giris.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_Giris.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.btn_Giris.BackgroundColor = System.Drawing.Color.MediumSlateBlue;
+            this.btn_Giris.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btn_Giris.BorderRadius = 0;
+            this.btn_Giris.BorderSize = 0;
+            this.btn_Giris.FlatAppearance.BorderSize = 0;
+            this.btn_Giris.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Giris.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_Giris.ForeColor = System.Drawing.Color.White;
+            this.btn_Giris.Location = new System.Drawing.Point(445, 244);
+            this.btn_Giris.Name = "btn_Giris";
+            this.btn_Giris.Size = new System.Drawing.Size(154, 40);
+            this.btn_Giris.TabIndex = 23;
+            this.btn_Giris.Text = "GİRİŞ YAP";
+            this.btn_Giris.TextColor = System.Drawing.Color.White;
+            this.btn_Giris.UseVisualStyleBackColor = false;
+            this.btn_Giris.Click += new System.EventHandler(this.btn_Giris_Click);
             // 
-            // materialSingleLineTextField2
+            // txt_Parola
             // 
-            this.materialSingleLineTextField2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txt_Parola.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.materialSingleLineTextField2.Depth = 0;
-            this.materialSingleLineTextField2.Font = new System.Drawing.Font("Javanese Text", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.materialSingleLineTextField2.Hint = "";
-            this.materialSingleLineTextField2.Location = new System.Drawing.Point(396, 180);
-            this.materialSingleLineTextField2.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialSingleLineTextField2.Name = "materialSingleLineTextField2";
-            this.materialSingleLineTextField2.PasswordChar = '\0';
-            this.materialSingleLineTextField2.SelectedText = "";
-            this.materialSingleLineTextField2.SelectionLength = 0;
-            this.materialSingleLineTextField2.SelectionStart = 0;
-            this.materialSingleLineTextField2.Size = new System.Drawing.Size(195, 28);
-            this.materialSingleLineTextField2.TabIndex = 22;
-            this.materialSingleLineTextField2.Text = "PAROLA";
-            this.materialSingleLineTextField2.UseSystemPasswordChar = false;
+            this.txt_Parola.Depth = 0;
+            this.txt_Parola.Font = new System.Drawing.Font("Javanese Text", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Parola.Hint = "";
+            this.txt_Parola.Location = new System.Drawing.Point(396, 180);
+            this.txt_Parola.MouseState = MaterialSkin.MouseState.HOVER;
+            this.txt_Parola.Name = "txt_Parola";
+            this.txt_Parola.PasswordChar = '\0';
+            this.txt_Parola.SelectedText = "";
+            this.txt_Parola.SelectionLength = 0;
+            this.txt_Parola.SelectionStart = 0;
+            this.txt_Parola.Size = new System.Drawing.Size(195, 28);
+            this.txt_Parola.TabIndex = 22;
+            this.txt_Parola.Text = "PAROLA";
+            this.txt_Parola.UseSystemPasswordChar = false;
+            this.txt_Parola.Click += new System.EventHandler(this.txt_Parola_Click);
             // 
-            // materialSingleLineTextField1
+            // txt_ePosta
             // 
-            this.materialSingleLineTextField1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txt_ePosta.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.materialSingleLineTextField1.Depth = 0;
-            this.materialSingleLineTextField1.Font = new System.Drawing.Font("Javanese Text", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.materialSingleLineTextField1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.materialSingleLineTextField1.Hint = "";
-            this.materialSingleLineTextField1.Location = new System.Drawing.Point(396, 130);
-            this.materialSingleLineTextField1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialSingleLineTextField1.Name = "materialSingleLineTextField1";
-            this.materialSingleLineTextField1.PasswordChar = '\0';
-            this.materialSingleLineTextField1.SelectedText = "";
-            this.materialSingleLineTextField1.SelectionLength = 0;
-            this.materialSingleLineTextField1.SelectionStart = 0;
-            this.materialSingleLineTextField1.Size = new System.Drawing.Size(195, 28);
-            this.materialSingleLineTextField1.TabIndex = 21;
-            this.materialSingleLineTextField1.Text = "E-posta";
-            this.materialSingleLineTextField1.UseSystemPasswordChar = false;
+            this.txt_ePosta.Depth = 0;
+            this.txt_ePosta.Font = new System.Drawing.Font("Javanese Text", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_ePosta.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.txt_ePosta.Hint = "";
+            this.txt_ePosta.Location = new System.Drawing.Point(396, 130);
+            this.txt_ePosta.MouseState = MaterialSkin.MouseState.HOVER;
+            this.txt_ePosta.Name = "txt_ePosta";
+            this.txt_ePosta.PasswordChar = '\0';
+            this.txt_ePosta.SelectedText = "";
+            this.txt_ePosta.SelectionLength = 0;
+            this.txt_ePosta.SelectionStart = 0;
+            this.txt_ePosta.Size = new System.Drawing.Size(195, 28);
+            this.txt_ePosta.TabIndex = 21;
+            this.txt_ePosta.Text = "E-posta";
+            this.txt_ePosta.UseSystemPasswordChar = false;
+            this.txt_ePosta.Click += new System.EventHandler(this.txt_ePosta_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(651, 450);
-            this.Controls.Add(this.rjButton2);
-            this.Controls.Add(this.rjButton1);
-            this.Controls.Add(this.materialSingleLineTextField2);
-            this.Controls.Add(this.materialSingleLineTextField1);
+            this.Controls.Add(this.btn_Kayit);
+            this.Controls.Add(this.btn_Giris);
+            this.Controls.Add(this.txt_Parola);
+            this.Controls.Add(this.txt_ePosta);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -147,10 +150,10 @@
 
         #endregion
         private System.Windows.Forms.PictureBox pictureBox1;
-        private RJCodeAdvance.RJControls.RJButton rjButton2;
-        private RJCodeAdvance.RJControls.RJButton rjButton1;
-        private MaterialSkin.Controls.MaterialSingleLineTextField materialSingleLineTextField2;
-        private MaterialSkin.Controls.MaterialSingleLineTextField materialSingleLineTextField1;
+        private RJCodeAdvance.RJControls.RJButton btn_Kayit;
+        private RJCodeAdvance.RJControls.RJButton btn_Giris;
+        private MaterialSkin.Controls.MaterialSingleLineTextField txt_Parola;
+        private MaterialSkin.Controls.MaterialSingleLineTextField txt_ePosta;
     }
 }
 
