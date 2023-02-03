@@ -16,5 +16,10 @@ namespace UI_Layyer
         {
             InitializeComponent();
         }
+
+        private void Giriş_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

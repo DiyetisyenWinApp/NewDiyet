@@ -11,7 +11,7 @@ namespace Entities.Concrete
     {
         public int ID { get; set; }
         public string BesinAdi { get; set; }
-        public OlcuBirimi OlcuBirimi { get; set; }
+
         public float GramKarsiligi { get; set; }
         public float Kalori { get; set; }
         public float Karbonhidrat { get; set; }

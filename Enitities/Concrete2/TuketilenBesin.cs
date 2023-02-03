@@ -1,5 +1,4 @@
-﻿using Entities.Abstract;
-using Entities.Enums;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Entities.Concrete
 {
-    public class TuketilenBesin : ITuketilenBesin, IBaseEntity
+    public class TuketilenBesin 
     {
 
         public int ID { get; set; }
@@ -17,7 +16,7 @@ namespace Entities.Concrete
         public Kullanici Kullanici { get; set; }
         public virtual int? BesinBilgileriID { get; set; }
         public BesinBilgileri BesinBilgileri { get; set; }
-        public Ogun Ogun { get; set; }
+        //public Ogun Ogun { get; set; }
 
         public DateTime TuketilenTarih { get; set; }
         public DateTime CreatedDate { get; set; } = DateTime.Now;
@@ -26,6 +25,6 @@ namespace Entities.Concrete
         public string CreatedBy { get; set; }
         public string DeletedBy { get; set; }
         public string ModifiedBy { get; set; }
-        public Status Status { get; set; } = Status.Active;
+        //public Status Status { get; set; } = Status.Active;
     }
 }

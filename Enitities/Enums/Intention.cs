@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UI_Layyer
+namespace Enitities.Enums
 {
-    public class Class1
+    public enum Intention
     {
+        WeightLose = 0,
+        KeepWeight,
+        WeightGain
     }
 }

@@ -4,3 +4,18 @@ C:\ProjectWorkSpace\DataAccessLayer\DataAccessLayer\obj\Debug\DataAccessLayer.cs
 C:\ProjectWorkSpace\DataAccessLayer\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
 C:\ProjectWorkSpace\DataAccessLayer\DataAccessLayer\obj\Debug\DataAccessLayer.dll
 C:\ProjectWorkSpace\DataAccessLayer\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\bin\Debug\Enitities.dll
+C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\bin\Debug\Enitities.pdb
+C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\bin\Debug\Enitities.dll.config
+C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete

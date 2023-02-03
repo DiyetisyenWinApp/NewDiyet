@@ -1,0 +1,12 @@
+C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\Enitities\obj\Debug\Enitities.csproj.AssemblyReference.cache
+C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\Enitities\obj\Debug\Enitities.csproj.CoreCompileInputs.cache
+C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\Enitities\bin\Debug\Enitities.dll.config
+C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\Enitities\bin\Debug\Enitities.dll
+C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\Enitities\bin\Debug\Enitities.pdb
+C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\Enitities\bin\Debug\EntityFramework.dll
+C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\Enitities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\Enitities\bin\Debug\EntityFramework.xml
+C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\Enitities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\Enitities\obj\Debug\Enitities.csproj.CopyComplete
+C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\Enitities\obj\Debug\Enitities.dll
+C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\Enitities\obj\Debug\Enitities.pdb
