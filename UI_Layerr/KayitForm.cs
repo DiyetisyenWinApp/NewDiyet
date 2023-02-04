@@ -60,7 +60,7 @@ namespace UI_Layerr
                     N_user.UserName = txt_Ad.Text;
                     N_user.UserSurname = txt_Soyad.Text;
                     N_user.KullanıcıSifre = form1.ShaHash(txt_Parola.Text);
-                    N_user.UserDetailID = N_userDetail.UserDetailID;
+                    
                     //N_user.ImageURL = rjCircularPictureBox1 // url eklenecek
 
 
@@ -82,22 +82,26 @@ namespace UI_Layerr
 
                     N_bdyAnaliz.UserWeight = cmb_kilo.SelectedIndex + 30;
                     N_bdyAnaliz.UserHeight = cmb_boy.SelectedIndex + 30;
-                    N_bdyAnaliz.UserDetailID = N_userDetail.UserDetailID;
+                    
                     N_bdyAnaliz.VKE = VKE_Hesapla((float)N_bdyAnaliz.UserHeight, (float)N_bdyAnaliz.UserWeight);
 
+                    db.UserDetails.Add(N_userDetail);
+                    db.SaveChanges();
+                    N_user.UserDetailID = N_userDetail.UserDetailID;
+                    N_bdyAnaliz.UserDetailID = N_userDetail.UserDetailID;
+                    db.BodyAnalyses.Add(N_bdyAnaliz);
+                    db.SaveChanges();
+                    db.Users.Add(N_user);
+                    db.SaveChanges();
+
                     // form 2 ye gödnerilecek olan ID
-                    KayitDevamForm frmDevam = new KayitDevamForm((int)N_user.UserDetailID, (int)N_bdyAnaliz.UserHeight, (int)N_bdyAnaliz.UserWeight, N_userDetail.gender, (DateTime.Now.Year - N_userDetail.BirthDate.Year));
+                    KayitDevamForm frmDevam = new KayitDevamForm((int)N_userDetail.UserDetailID, (int)N_bdyAnaliz.UserHeight, (int)N_bdyAnaliz.UserWeight, N_userDetail.gender, (DateTime.Now.Year - N_userDetail.BirthDate.Year));
                     frmDevam.Show();
                     this.Hide();
 
 
 
-                    db.UserDetails.Add(N_userDetail);
-                    db.SaveChanges();
-                    db.BodyAnalyses.Add(N_bdyAnaliz);
-                    db.SaveChanges();
-                    db.Users.Add(N_user);
-                    db.SaveChanges();
+
 
 
                 }

@@ -43,3 +43,6 @@ C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\obj\Debug\Da
 C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.V04.resources
 C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.V05.resources
 C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.V06.resources
+C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.V07.resources
+C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.V08.resources
+C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.V09.resources

@@ -23,7 +23,6 @@ namespace Enitities.Concrete
         [MaxLength(70)]
         public string E_Mail { get; set; }
         [Required]
-        [MaxLength(50)]
         public string KullanıcıSifre { get; set; }
         public DateTime CreatedDate { get; set; } = DateTime.Now;
         public UserType userType { get; set; } = UserType.User;

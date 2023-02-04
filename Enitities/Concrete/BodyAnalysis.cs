@@ -21,8 +21,8 @@ namespace Enitities.Concrete
         public DateTime CreatedDate { get; set; } = DateTime.Now;
 
         //Bağlantılar
-        [Required]
-        public virtual int UserDetailID { get; set; }
+        
+        public virtual int? UserDetailID { get; set; }
         public UserDetail UserDetail { get; set; }
 
     }
