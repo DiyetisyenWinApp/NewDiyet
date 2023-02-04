@@ -39,8 +39,8 @@
             // btn_Kayit
             // 
             this.btn_Kayit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_Kayit.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.btn_Kayit.BackgroundColor = System.Drawing.Color.MediumSlateBlue;
+            this.btn_Kayit.BackColor = System.Drawing.Color.Black;
+            this.btn_Kayit.BackgroundColor = System.Drawing.Color.Black;
             this.btn_Kayit.BorderColor = System.Drawing.Color.PaleVioletRed;
             this.btn_Kayit.BorderRadius = 0;
             this.btn_Kayit.BorderSize = 0;
@@ -59,8 +59,8 @@
             // btn_Giris
             // 
             this.btn_Giris.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_Giris.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.btn_Giris.BackgroundColor = System.Drawing.Color.MediumSlateBlue;
+            this.btn_Giris.BackColor = System.Drawing.Color.Black;
+            this.btn_Giris.BackgroundColor = System.Drawing.Color.Black;
             this.btn_Giris.BorderColor = System.Drawing.Color.PaleVioletRed;
             this.btn_Giris.BorderRadius = 0;
             this.btn_Giris.BorderSize = 0;
@@ -105,7 +105,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_ePosta.Depth = 0;
             this.txt_ePosta.Font = new System.Drawing.Font("Javanese Text", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_ePosta.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.txt_ePosta.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.txt_ePosta.Hint = "";
             this.txt_ePosta.Location = new System.Drawing.Point(396, 130);
             this.txt_ePosta.MouseState = MaterialSkin.MouseState.HOVER;

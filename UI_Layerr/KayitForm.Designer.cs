@@ -52,7 +52,7 @@
             // 
             // btn_ResimEkle
             // 
-            this.btn_ResimEkle.BackColor = System.Drawing.Color.SlateBlue;
+            this.btn_ResimEkle.BackColor = System.Drawing.Color.Black;
             this.btn_ResimEkle.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btn_ResimEkle.ForeColor = System.Drawing.Color.Transparent;
             this.btn_ResimEkle.Location = new System.Drawing.Point(0, 199);
@@ -64,7 +64,7 @@
             // 
             // btn_KayıtOl
             // 
-            this.btn_KayıtOl.BackColor = System.Drawing.Color.SlateBlue;
+            this.btn_KayıtOl.BackColor = System.Drawing.Color.Black;
             this.btn_KayıtOl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btn_KayıtOl.ForeColor = System.Drawing.Color.Transparent;
             this.btn_KayıtOl.Location = new System.Drawing.Point(0, 241);
@@ -291,7 +291,7 @@
             this.materialLabel4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.materialLabel4.BackColor = System.Drawing.Color.Transparent;
             this.materialLabel4.Depth = 0;
-            this.materialLabel4.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.materialLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel4.Location = new System.Drawing.Point(370, 248);
             this.materialLabel4.MouseState = MaterialSkin.MouseState.HOVER;
@@ -305,7 +305,7 @@
             this.lbl_DogumTarihi.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl_DogumTarihi.BackColor = System.Drawing.Color.Transparent;
             this.lbl_DogumTarihi.Depth = 0;
-            this.lbl_DogumTarihi.Font = new System.Drawing.Font("Roboto", 11F);
+            this.lbl_DogumTarihi.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.lbl_DogumTarihi.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.lbl_DogumTarihi.Location = new System.Drawing.Point(189, 99);
             this.lbl_DogumTarihi.MouseState = MaterialSkin.MouseState.HOVER;
@@ -324,7 +324,7 @@
             this.dtp_DogumTarihi.MinimumSize = new System.Drawing.Size(4, 35);
             this.dtp_DogumTarihi.Name = "dtp_DogumTarihi";
             this.dtp_DogumTarihi.Size = new System.Drawing.Size(199, 35);
-            this.dtp_DogumTarihi.SkinColor = System.Drawing.Color.MediumSlateBlue;
+            this.dtp_DogumTarihi.SkinColor = System.Drawing.Color.Black;
             this.dtp_DogumTarihi.TabIndex = 37;
             this.dtp_DogumTarihi.TextColor = System.Drawing.Color.White;
             // 
@@ -545,12 +545,12 @@
             this.materialLabel2.AutoSize = true;
             this.materialLabel2.BackColor = System.Drawing.Color.Transparent;
             this.materialLabel2.Depth = 0;
-            this.materialLabel2.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.materialLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel2.Location = new System.Drawing.Point(370, 196);
             this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel2.Name = "materialLabel2";
-            this.materialLabel2.Size = new System.Drawing.Size(93, 24);
+            this.materialLabel2.Size = new System.Drawing.Size(94, 24);
             this.materialLabel2.TabIndex = 35;
             this.materialLabel2.Text = "KİLO (KG)";
             // 
@@ -558,7 +558,7 @@
             // 
             this.lbl_Cinsiyet.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl_Cinsiyet.Depth = 0;
-            this.lbl_Cinsiyet.Font = new System.Drawing.Font("Roboto", 11F);
+            this.lbl_Cinsiyet.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.lbl_Cinsiyet.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.lbl_Cinsiyet.Location = new System.Drawing.Point(412, 99);
             this.lbl_Cinsiyet.MouseState = MaterialSkin.MouseState.HOVER;
@@ -679,8 +679,8 @@
             // rjCircularPictureBox1
             // 
             this.rjCircularPictureBox1.BorderCapStyle = System.Drawing.Drawing2D.DashCap.Flat;
-            this.rjCircularPictureBox1.BorderColor = System.Drawing.Color.RoyalBlue;
-            this.rjCircularPictureBox1.BorderColor2 = System.Drawing.Color.HotPink;
+            this.rjCircularPictureBox1.BorderColor = System.Drawing.Color.Black;
+            this.rjCircularPictureBox1.BorderColor2 = System.Drawing.Color.Thistle;
             this.rjCircularPictureBox1.BorderLineStyle = System.Drawing.Drawing2D.DashStyle.Solid;
             this.rjCircularPictureBox1.BorderSize = 2;
             this.rjCircularPictureBox1.Dock = System.Windows.Forms.DockStyle.Left;

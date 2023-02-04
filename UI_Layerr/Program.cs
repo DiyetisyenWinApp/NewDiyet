@@ -16,7 +16,7 @@ namespace UI_Layerr
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frm_GirisYap());
+            Application.Run(new frm_AnaMenü());
         }
     }
 }

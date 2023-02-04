@@ -38,8 +38,6 @@ C:\Users\Ertan\Desktop\Diyet-\NewDiyet\UI_Layerr\bin\Debug\Enitities.dll.config
 C:\Users\Ertan\Desktop\Diyet-\NewDiyet\UI_Layerr\bin\Debug\EntityFramework.xml
 C:\Users\Ertan\Desktop\Diyet-\NewDiyet\UI_Layerr\obj\Debug\UI_Layerr.csproj.AssemblyReference.cache
 C:\Users\Ertan\Desktop\Diyet-\NewDiyet\UI_Layerr\obj\Debug\UI_Layerr.csproj.SuggestedBindingRedirects.cache
-C:\Users\Ertan\Desktop\Diyet-\NewDiyet\UI_Layerr\obj\Debug\UI_Layerr.Form1.resources
-C:\Users\Ertan\Desktop\Diyet-\NewDiyet\UI_Layerr\obj\Debug\UI_Layerr.Form4.resources
 C:\Users\Ertan\Desktop\Diyet-\NewDiyet\UI_Layerr\obj\Debug\UI_Layerr.Properties.Resources.resources
 C:\Users\Ertan\Desktop\Diyet-\NewDiyet\UI_Layerr\obj\Debug\UI_Layerr.csproj.GenerateResource.cache
 C:\Users\Ertan\Desktop\Diyet-\NewDiyet\UI_Layerr\obj\Debug\UI_Layerr.csproj.CoreCompileInputs.cache
@@ -56,3 +54,10 @@ C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\UI_Layerr\obj\Debug\UI_Layer
 C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\UI_Layerr\obj\Debug\UI_Layerr.frm_GirisYap.resources
 C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\UI_Layerr\obj\Debug\UI_Layerr.frm_KayitDevam.resources
 C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\UI_Layerr\obj\Debug\UI_Layerr.frm_KayitOl.resources
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\UI_Layerr\obj\Debug\UI_Layerr.frm_AnaMenü.resources
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\UI_Layerr\obj\Debug\UI_Layerr.frm_GirisYap.resources
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\UI_Layerr\obj\Debug\UI_Layerr.frm_KayitDevam.resources
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\UI_Layerr\obj\Debug\UI_Layerr.frm_KayitOl.resources
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\UI_Layerr\obj\Debug\UI_Layerr.frm_Meal.resources
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\UI_Layerr\obj\Debug\UI_Layerr.frm_YemekEkle.resources
+C:\Users\Ertan\Desktop\Diyet-\NewDiyet\UI_Layerr\obj\Debug\UI_Layerr.frm_Rapor.resources
