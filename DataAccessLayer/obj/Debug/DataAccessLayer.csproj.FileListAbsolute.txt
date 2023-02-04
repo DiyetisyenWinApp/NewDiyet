@@ -38,3 +38,8 @@ C:\Users\Ertan\Desktop\Diyet-\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer
 C:\Users\Ertan\Desktop\Diyet-\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
 C:\Users\Ertan\Desktop\Diyet-\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.dll
 C:\Users\Ertan\Desktop\Diyet-\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.V02.resources
+C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.V03.resources
+C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.V04.resources
+C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.V05.resources
+C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.V06.resources

@@ -15,9 +15,11 @@ namespace UI_Layerr
 {
     public partial class Form1 : Form
     {
+        public int BulunanID;
         public Form1()
         {
             InitializeComponent();
+
         }
 
 
@@ -34,7 +36,6 @@ namespace UI_Layerr
         {
             txt_Parola.Text = "";
         }
-        public int BulunanID;
         private void btn_Giris_Click(object sender, EventArgs e)
         {
 
@@ -50,9 +51,9 @@ namespace UI_Layerr
                 else
                 {
                     BulunanID = Userquery.UserID;
-                    Form2 frm2 = new Form2(BulunanID);
-                    frm2.Show();
-                    this.Hide();
+                    //KayitDevamForm frm2 = new KayitDevamForm(BulunanID);
+                    //frm2.Show();
+                    //this.Hide();
                     // form2 ye bulunan kullanıcının ID si gönderilecek
                 }
             }
@@ -68,7 +69,7 @@ namespace UI_Layerr
 
         private void btn_Kayit_Click(object sender, EventArgs e)
         {
-            Form4 form4 = new Form4();
+            KayitForm form4 = new KayitForm();
             form4.Show();
             this.Hide();
         }

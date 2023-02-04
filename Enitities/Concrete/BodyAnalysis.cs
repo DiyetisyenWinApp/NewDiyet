@@ -11,23 +11,22 @@ namespace Enitities.Concrete
     {
         [Key]
         public int BodyAnalysisID { get; set; }
-        public int VKE { get; set; }
-        public int AGK { get; set; }
-        [Required]
-        public int UserHeight { get; set; }
-        [Required]
-        public int UserWeight { get; set; }
+        public float? VKE { get; set; }
+        public float? AGK { get; set; }
+        
+        public int? UserHeight { get; set; }
+        
+        public int? UserWeight { get; set; }
         [Required]
         public DateTime CreatedDate { get; set; } = DateTime.Now;
 
         //Bağlantılar
+        [Required]
         public virtual int UserDetailID { get; set; }
         public UserDetail UserDetail { get; set; }
 
-
-
-
-
     }
+
+
 
 }

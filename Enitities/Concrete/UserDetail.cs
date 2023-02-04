@@ -17,10 +17,10 @@ namespace Enitities.Concrete
         public DateTime BirthDate { get; set; }
         [Required]
         public Gender gender { get; set; }
-        [Required]
-        public AcitvityLevel acitvityLevel { get; set; }
-        [Required]
-        public Intention intention { get; set; }
+        
+        public AcitvityLevel? acitvityLevel { get; set; } 
+        
+        public Intention? intention { get; set; }
 
         //Bağlantılar
         //public virtual int? UserID { get; set; }
