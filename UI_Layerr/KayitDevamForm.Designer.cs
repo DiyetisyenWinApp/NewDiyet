@@ -33,6 +33,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.cmb_HedefSecim = new RJCodeAdvance.RJControls.RJComboBox();
             this.btn_Kaydet = new RJCodeAdvance.RJControls.RJButton();
+            this.lbl_HataMesajı = new MaterialSkin.Controls.MaterialLabel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -109,11 +110,24 @@
             this.btn_Kaydet.UseVisualStyleBackColor = false;
             this.btn_Kaydet.Click += new System.EventHandler(this.btn_Kaydet_Click);
             // 
+            // lbl_HataMesajı
+            // 
+            this.lbl_HataMesajı.AutoSize = true;
+            this.lbl_HataMesajı.Depth = 0;
+            this.lbl_HataMesajı.Font = new System.Drawing.Font("Roboto", 11F);
+            this.lbl_HataMesajı.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.lbl_HataMesajı.Location = new System.Drawing.Point(12, 162);
+            this.lbl_HataMesajı.MouseState = MaterialSkin.MouseState.HOVER;
+            this.lbl_HataMesajı.Name = "lbl_HataMesajı";
+            this.lbl_HataMesajı.Size = new System.Drawing.Size(0, 24);
+            this.lbl_HataMesajı.TabIndex = 31;
+            // 
             // KayitDevamForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(644, 437);
+            this.Controls.Add(this.lbl_HataMesajı);
             this.Controls.Add(this.btn_Kaydet);
             this.Controls.Add(this.cmb_HedefSecim);
             this.Controls.Add(this.cmb_Aktivite);
@@ -121,9 +135,11 @@
             this.Name = "KayitDevamForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.KayitDevamForm_FormClosed);
             this.Load += new System.EventHandler(this.KayitDevamForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -132,5 +148,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private RJCodeAdvance.RJControls.RJComboBox cmb_HedefSecim;
         private RJCodeAdvance.RJControls.RJButton btn_Kaydet;
+        private MaterialSkin.Controls.MaterialLabel lbl_HataMesajı;
     }
 }

@@ -584,6 +584,7 @@
             this.txt_Parola.TabIndex = 31;
             this.txt_Parola.Text = "PAROLA";
             this.txt_Parola.UseSystemPasswordChar = false;
+            this.txt_Parola.Click += new System.EventHandler(this.txt_Parola_Click);
             // 
             // txt_ePosta
             // 
@@ -602,6 +603,7 @@
             this.txt_ePosta.TabIndex = 30;
             this.txt_ePosta.Text = "E-POSTA ";
             this.txt_ePosta.UseSystemPasswordChar = false;
+            this.txt_ePosta.Click += new System.EventHandler(this.txt_ePosta_Click);
             // 
             // txt_Soyad
             // 
@@ -621,6 +623,7 @@
             this.txt_Soyad.TabIndex = 29;
             this.txt_Soyad.Text = "SOYAD";
             this.txt_Soyad.UseSystemPasswordChar = false;
+            this.txt_Soyad.Click += new System.EventHandler(this.txt_Soyad_Click);
             // 
             // txt_Ad
             // 
@@ -639,6 +642,7 @@
             this.txt_Ad.TabIndex = 28;
             this.txt_Ad.Text = "AD";
             this.txt_Ad.UseSystemPasswordChar = false;
+            this.txt_Ad.Click += new System.EventHandler(this.txt_Ad_Click);
             // 
             // Rdo_Erkek
             // 

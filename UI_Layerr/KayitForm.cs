@@ -25,6 +25,8 @@ namespace UI_Layerr
         {
             cmb_boy.SelectedIndex = 0;
             cmb_kilo.SelectedIndex = 0;
+
+            
         }
 
         private void Form4_FormClosing(object sender, FormClosingEventArgs e)
@@ -48,27 +50,23 @@ namespace UI_Layerr
                 if (txt_Ad.Text != "" && txt_ePosta.Text != "" && txt_Parola.Text != "" && txt_Soyad.Text != "" && dtp_DogumTarihi.Value.Year < DateTime.Now.Year )
 
                 {
-                    // İlgili Tablolara Erişim
-                    
+                    // İlgili Tablolara ve Methodalra Erişim
                     Form1 form1 = new Form1();
                     User N_user = new User();                 
                     UserDetail N_userDetail = new UserDetail();
                     BodyAnalysis N_bdyAnaliz = new BodyAnalysis();
 
-                    // user tablosunda ilgili veriler
+                    // kayıt formunda girilen değerler user tablosasuna eklendi
                     N_user.E_Mail = txt_ePosta.Text; 
                     N_user.UserName = txt_Ad.Text;
                     N_user.UserSurname = txt_Soyad.Text;
                     N_user.KullanıcıSifre = form1.ShaHash(txt_Parola.Text);
-                    
-                    //N_user.ImageURL = rjCircularPictureBox1 // url eklenecek
+                                    //N_user.ImageURL = rjCircularPictureBox1 // url eklenecek
 
 
 
-
-
-                    // User detail dogum tarihi
-                    N_userDetail.BirthDate = dtp_DogumTarihi.Value;
+                    // User detail tablosuna dogum tarihi ve cinsiyet verileri eklendi
+                    N_userDetail.BirthDate = dtp_DogumTarihi.Value.Date;
                     if (Rdo_Erkek.Text == "Erkek")
                     {
 
@@ -78,23 +76,29 @@ namespace UI_Layerr
                     {
                         N_userDetail.gender = Enitities.Enums.Gender.Kadın;
                     }
-                    N_userDetail.BirthDate = dtp_DogumTarihi.Value.Date;
+                    
 
+                    //kayıt formundaki bilgiler bodyAnliz tablosuna eklendi ve vke hesaplanarak eklendi
                     N_bdyAnaliz.UserWeight = cmb_kilo.SelectedIndex + 30;
                     N_bdyAnaliz.UserHeight = cmb_boy.SelectedIndex + 30;
-                    
                     N_bdyAnaliz.VKE = VKE_Hesapla((float)N_bdyAnaliz.UserHeight, (float)N_bdyAnaliz.UserWeight);
 
+
+                    //userdetail tablsunda yapılan değişiklikler veri tabanına kayıt edildi
                     db.UserDetails.Add(N_userDetail);
                     db.SaveChanges();
+
+                    //user detail tablosunda oluşan User detail ID user ve BodyANlaize eklenerek verilerin aynı kişiye ait olduğu doğrulandı
                     N_user.UserDetailID = N_userDetail.UserDetailID;
                     N_bdyAnaliz.UserDetailID = N_userDetail.UserDetailID;
+
+                    //bodyAnaliz ve user tablsounda yapılan değişiklikler veri tabanına işlendi
                     db.BodyAnalyses.Add(N_bdyAnaliz);
                     db.SaveChanges();
                     db.Users.Add(N_user);
                     db.SaveChanges();
 
-                    // form 2 ye gödnerilecek olan ID
+                    // form 2 ye gödnerilecek olan ID gönderildi ve AGK hesaplama için gerekli olan verielr forma iletildi.
                     KayitDevamForm frmDevam = new KayitDevamForm((int)N_userDetail.UserDetailID, (int)N_bdyAnaliz.UserHeight, (int)N_bdyAnaliz.UserWeight, N_userDetail.gender, (DateTime.Now.Year - N_userDetail.BirthDate.Year));
                     frmDevam.Show();
                     this.Hide();
@@ -122,18 +126,25 @@ namespace UI_Layerr
             return kilo / ((boy / 100) * (boy / 100));
         }
 
+        // formda bulunan text boxların tıklandığında boşalmsı için clik iventi kullanıldı
+        private void txt_Ad_Click(object sender, EventArgs e)
+        {
+            txt_Ad.Text = "";
+        }
 
+        private void txt_Soyad_Click(object sender, EventArgs e)
+        {
+            txt_Soyad.Text = "";
+        }
 
+        private void txt_ePosta_Click(object sender, EventArgs e)
+        {
+            txt_ePosta.Text = "";
+        }
 
-
-
-
-
-
-
-
-
-
-
+        private void txt_Parola_Click(object sender, EventArgs e)
+        {
+            txt_Parola.Text = "";
+        }
     }
 }

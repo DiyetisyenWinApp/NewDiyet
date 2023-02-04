@@ -26,16 +26,7 @@ namespace UI_Layerr
 
 
 
-        private void txt_ePosta_Click(object sender, EventArgs e)
-        {
-            txt_ePosta.Text = "";
 
-        }
-
-        private void txt_Parola_Click(object sender, EventArgs e)
-        {
-            txt_Parola.Text = "";
-        }
         private void btn_Giris_Click(object sender, EventArgs e)
         {
 
@@ -72,6 +63,16 @@ namespace UI_Layerr
             KayitForm form4 = new KayitForm();
             form4.Show();
             this.Hide();
+        }
+        private void txt_ePosta_Click(object sender, EventArgs e)
+        {
+            txt_ePosta.Text = "";
+
+        }
+
+        private void txt_Parola_Click(object sender, EventArgs e)
+        {
+            txt_Parola.Text = "";
         }
 
 

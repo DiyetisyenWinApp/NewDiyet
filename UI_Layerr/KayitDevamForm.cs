@@ -41,9 +41,10 @@ namespace UI_Layerr
         }
         public float hareket;
         public float hedef;
-        
+        Form1 frm1;
         private void btn_Kaydet_Click(object sender, EventArgs e)
         {
+
 
             // activity level seçim
             
@@ -74,8 +75,8 @@ namespace UI_Layerr
                 query_UserDetail1.acitvityLevel = Enitities.Enums.AcitvityLevel.Extreme;
                 hareket = 1.80F;
             }
-
             
+
             // Hedef seçim veri tabanın aklayıt
 
             var query_UserDetail = db.UserDetails.Where(x => x.UserDetailID == gelenUserDetailID).FirstOrDefault();
@@ -95,11 +96,21 @@ namespace UI_Layerr
                 hedef = 500;
             }
 
+            // AGK değerini hesaplayarak body analiz tablosuna kayıt ettik
             var query_bodyAnalys = db.BodyAnalyses.Where(x => x.UserDetailID == gelenUserDetailID).FirstOrDefault();
             query_bodyAnalys.AGK = AGK_HEsapla(gelenBoy, gelenKilo, gelenGender, gelenYas);
 
+            // eklene değişiklikleri veri tabanına kaydettik
             db.SaveChanges();
-            
+
+            //kayıt başarıl ımesajı yazdırıldı ve ilk formun  yüklenemsi sağlandı
+            lbl_HataMesajı.Text = "kayıt işlemi başarılı";
+            Task.Delay(7000);
+            frm1 = new Form1();
+            frm1.Show();
+            this.Hide();
+
+
 
 
         }
@@ -116,7 +127,7 @@ namespace UI_Layerr
             {
                 bazalMetobolizma = 655.1F + (9.56F * kilo) + (1.85F * (boy / 100) - (4.67F * yas));
             }
-            return (bazalMetobolizma * hareket) + hedef;
+            return bazalMetobolizma + (bazalMetobolizma * hareket) + hedef;
         }
 
         private void KayitDevamForm_Load(object sender, EventArgs e)
@@ -134,6 +145,16 @@ namespace UI_Layerr
             cmb_HedefSecim.Items.Add("Kilomu korumak");
             cmb_HedefSecim.Items.Add("Kilo Almak.");
 
+            // cmb lerde bulunan değerlerin ön seçili halde gelmesi sağlandı.
+            cmb_Aktivite.SelectedIndex = 0;
+            cmb_HedefSecim.SelectedIndex = 0;
+        }
+
+        private void KayitDevamForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            frm1 = new Form1();
+            frm1.Show();
+            this.Hide();
         }
     }
 }
