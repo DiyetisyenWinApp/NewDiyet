@@ -48,10 +48,11 @@ C:\Users\Ertan\Desktop\Diyet-\NewDiyet\UI_Layerr\obj\Debug\UI_Layerr.exe
 C:\Users\Ertan\Desktop\Diyet-\NewDiyet\UI_Layerr\obj\Debug\UI_Layerr.pdb
 C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\UI_Layerr\bin\Debug\MaterialSkin.dll
 C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\UI_Layerr\bin\Debug\RJCodeAdvance.RJControls.dll
-C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\UI_Layerr\obj\Debug\UI_Layerr.Form1.resources
 C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\UI_Layerr\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\UI_Layerr\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Ertan\Desktop\Diyet-\NewDiyet\UI_Layerr\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Ertan\Desktop\Diyet-\NewDiyet\UI_Layerr\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\UI_Layerr\obj\Debug\UI_Layerr.KayitDevamForm.resources
-C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\UI_Layerr\obj\Debug\UI_Layerr.KayitForm.resources
+C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\UI_Layerr\obj\Debug\UI_Layerr.frm_AnaMenü.resources
+C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\UI_Layerr\obj\Debug\UI_Layerr.frm_GirisYap.resources
+C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\UI_Layerr\obj\Debug\UI_Layerr.frm_KayitDevam.resources
+C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\UI_Layerr\obj\Debug\UI_Layerr.frm_KayitOl.resources

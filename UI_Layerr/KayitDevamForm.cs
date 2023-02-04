@@ -13,10 +13,10 @@ using System.Windows.Forms;
 
 namespace UI_Layerr
 {
-    public partial class KayitDevamForm : Form
+    public partial class frm_KayitDevam : Form
     {
         Context db = new Context();
-        public KayitDevamForm()
+        public frm_KayitDevam()
         {
             InitializeComponent();
 
@@ -28,7 +28,7 @@ namespace UI_Layerr
         public Gender gelenGender;
         public int gelenYas;
 
-        public KayitDevamForm(int ID, int boy, int kilo,Gender gender, int yas)
+        public frm_KayitDevam(int ID, int boy, int kilo,Gender gender, int yas)
         {
 
             InitializeComponent();
@@ -41,7 +41,7 @@ namespace UI_Layerr
         }
         public float hareket;
         public float hedef;
-        Form1 frm1;
+        frm_GirisYap frm1;
         private void btn_Kaydet_Click(object sender, EventArgs e)
         {
 
@@ -106,7 +106,7 @@ namespace UI_Layerr
             //kayıt başarıl ımesajı yazdırıldı ve ilk formun  yüklenemsi sağlandı
             lbl_HataMesajı.Text = "kayıt işlemi başarılı";
             Task.Delay(7000);
-            frm1 = new Form1();
+            frm1 = new frm_GirisYap();
             frm1.Show();
             this.Hide();
 
@@ -152,7 +152,7 @@ namespace UI_Layerr
 
         private void KayitDevamForm_FormClosed(object sender, FormClosedEventArgs e)
         {
-            frm1 = new Form1();
+            frm1 = new frm_GirisYap();
             frm1.Show();
             this.Hide();
         }

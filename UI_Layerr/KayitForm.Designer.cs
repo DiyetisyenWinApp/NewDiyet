@@ -1,6 +1,6 @@
 ﻿namespace UI_Layerr
 {
-    partial class KayitForm
+    partial class frm_KayitOl
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(KayitForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_KayitOl));
             this.btn_ResimEkle = new System.Windows.Forms.Button();
             this.btn_KayıtOl = new System.Windows.Forms.Button();
             this.cmb_boy = new System.Windows.Forms.ComboBox();
@@ -704,7 +704,7 @@
             this.pictureBox1.TabIndex = 26;
             this.pictureBox1.TabStop = false;
             // 
-            // KayitForm
+            // frm_KayitOl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -726,7 +726,7 @@
             this.Controls.Add(this.txt_Ad);
             this.Controls.Add(this.rjCircularPictureBox1);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "KayitForm";
+            this.Name = "frm_KayitOl";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "KayıtForm";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form4_FormClosing);

@@ -13,10 +13,10 @@ using System.Windows.Forms;
 
 namespace UI_Layerr
 {
-    public partial class Form1 : Form
+    public partial class frm_GirisYap : Form
     {
         public int BulunanID;
-        public Form1()
+        public frm_GirisYap()
         {
             InitializeComponent();
 
@@ -42,10 +42,10 @@ namespace UI_Layerr
                 else
                 {
                     BulunanID = Userquery.UserID;
-                    //KayitDevamForm frm2 = new KayitDevamForm(BulunanID);
-                    //frm2.Show();
-                    //this.Hide();
-                    // form2 ye bulunan kullanıcının ID si gönderilecek
+                    frm_AnaMenü frm = new frm_AnaMenü(BulunanID);
+                    frm.Show();
+                    this.Hide();
+                    
                 }
             }
             else
@@ -60,7 +60,7 @@ namespace UI_Layerr
 
         private void btn_Kayit_Click(object sender, EventArgs e)
         {
-            KayitForm form4 = new KayitForm();
+            frm_KayitOl form4 = new frm_KayitOl();
             form4.Show();
             this.Hide();
         }

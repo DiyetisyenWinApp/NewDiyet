@@ -1,6 +1,6 @@
 ﻿namespace UI_Layerr
 {
-    partial class Form1
+    partial class frm_GirisYap
     {
         /// <summary>
         /// Required designer variable.
@@ -28,24 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btn_Kayit = new RJCodeAdvance.RJControls.RJButton();
             this.btn_Giris = new RJCodeAdvance.RJControls.RJButton();
             this.txt_Parola = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.txt_ePosta = new MaterialSkin.Controls.MaterialSingleLineTextField();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pictureBox1.Image = global::UI_Layerr.Properties.Resources.Sağlıklı_Yemek_Menüsü;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(325, 450);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 17;
-            this.pictureBox1.TabStop = false;
             // 
             // btn_Kayit
             // 
@@ -131,7 +120,18 @@
             this.txt_ePosta.UseSystemPasswordChar = false;
             this.txt_ePosta.Click += new System.EventHandler(this.txt_ePosta_Click);
             // 
-            // Form1
+            // pictureBox1
+            // 
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pictureBox1.Image = global::UI_Layerr.Properties.Resources.Sağlıklı_Yemek_Menüsü;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(325, 450);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 17;
+            this.pictureBox1.TabStop = false;
+            // 
+            // frm_GirisYap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -141,7 +141,8 @@
             this.Controls.Add(this.txt_Parola);
             this.Controls.Add(this.txt_ePosta);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "Form1";
+            this.Name = "frm_GirisYap";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

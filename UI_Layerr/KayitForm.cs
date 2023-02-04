@@ -15,9 +15,9 @@ using System.Windows.Forms;
 
 namespace UI_Layerr
 {
-    public partial class KayitForm : Form 
+    public partial class frm_KayitOl : Form 
     {
-        public KayitForm()
+        public frm_KayitOl()
         {
             InitializeComponent();
         }
@@ -31,7 +31,7 @@ namespace UI_Layerr
 
         private void Form4_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Form1 form1 = new Form1();
+            frm_GirisYap form1 = new frm_GirisYap();
             form1.Show();
         }
 
@@ -51,7 +51,7 @@ namespace UI_Layerr
 
                 {
                     // İlgili Tablolara ve Methodalra Erişim
-                    Form1 form1 = new Form1();
+                    frm_GirisYap form1 = new frm_GirisYap();
                     User N_user = new User();                 
                     UserDetail N_userDetail = new UserDetail();
                     BodyAnalysis N_bdyAnaliz = new BodyAnalysis();
@@ -99,7 +99,7 @@ namespace UI_Layerr
                     db.SaveChanges();
 
                     // form 2 ye gödnerilecek olan ID gönderildi ve AGK hesaplama için gerekli olan verielr forma iletildi.
-                    KayitDevamForm frmDevam = new KayitDevamForm((int)N_userDetail.UserDetailID, (int)N_bdyAnaliz.UserHeight, (int)N_bdyAnaliz.UserWeight, N_userDetail.gender, (DateTime.Now.Year - N_userDetail.BirthDate.Year));
+                    frm_KayitDevam frmDevam = new frm_KayitDevam((int)N_userDetail.UserDetailID, (int)N_bdyAnaliz.UserHeight, (int)N_bdyAnaliz.UserWeight, N_userDetail.gender, (DateTime.Now.Year - N_userDetail.BirthDate.Year));
                     frmDevam.Show();
                     this.Hide();
 

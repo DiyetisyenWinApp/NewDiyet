@@ -1,6 +1,6 @@
 ﻿namespace UI_Layerr
 {
-    partial class KayitDevamForm
+    partial class frm_KayitDevam
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(KayitDevamForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_KayitDevam));
             this.cmb_Aktivite = new RJCodeAdvance.RJControls.RJComboBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.cmb_HedefSecim = new RJCodeAdvance.RJControls.RJComboBox();
@@ -101,9 +101,9 @@
             this.btn_Kaydet.FlatAppearance.BorderSize = 0;
             this.btn_Kaydet.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Kaydet.ForeColor = System.Drawing.Color.White;
-            this.btn_Kaydet.Location = new System.Drawing.Point(13, 237);
+            this.btn_Kaydet.Location = new System.Drawing.Point(12, 152);
             this.btn_Kaydet.Name = "btn_Kaydet";
-            this.btn_Kaydet.Size = new System.Drawing.Size(606, 47);
+            this.btn_Kaydet.Size = new System.Drawing.Size(606, 46);
             this.btn_Kaydet.TabIndex = 30;
             this.btn_Kaydet.Text = "Kaydet";
             this.btn_Kaydet.TextColor = System.Drawing.Color.White;
@@ -122,7 +122,7 @@
             this.lbl_HataMesajı.Size = new System.Drawing.Size(0, 24);
             this.lbl_HataMesajı.TabIndex = 31;
             // 
-            // KayitDevamForm
+            // frm_KayitDevam
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -132,7 +132,7 @@
             this.Controls.Add(this.cmb_HedefSecim);
             this.Controls.Add(this.cmb_Aktivite);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "KayitDevamForm";
+            this.Name = "frm_KayitDevam";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.KayitDevamForm_FormClosed);
