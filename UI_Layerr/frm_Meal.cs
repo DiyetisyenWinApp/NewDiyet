@@ -59,21 +59,30 @@ namespace UI_Layerr
 
             string yemekAdı = textBox1.Text;
             var queryYemekelr = db.FoodInfos.Where(x => x.FoodName.Contains(yemekAdı)).FirstOrDefault();
-            
             Meal meal = new Meal();
-            meal.TüketimTarihi = DateTime.Now;
-            meal.UserDetailID = GelenID;
-            meal.TopKcall = comboBox1.SelectedIndex * 100;
-            meal.MealType =
-                (cmb_Ogun.SelectedIndex == 0 ? MealType.Kahvaltı :
-                cmb_Ogun.SelectedIndex == 1 ? MealType.Ogle :
-                cmb_Ogun.SelectedIndex == 2 ? MealType.Aksam :
-                MealType.AraOgun);
+            if (comboBox1.SelectedIndex >= 0 && cmb_Ogun.SelectedIndex >= 0 && textBox1.Text != "")
+            {
+                meal.TüketimTarihi = DateTime.Now;
+                meal.UserDetailID = GelenID;
+                meal.TopKcall = (comboBox1.SelectedIndex) * 100;
+                meal.MealType =
+                    (cmb_Ogun.SelectedIndex == 0 ? MealType.Kahvaltı :
+                    cmb_Ogun.SelectedIndex == 1 ? MealType.Ogle :
+                    cmb_Ogun.SelectedIndex == 2 ? MealType.Aksam :
+                    MealType.AraOgun);
 
-            meal.FoodInfoID = queryYemekelr.FoodInfoID;
-            db.Meals.Add(meal);
+                meal.FoodInfoID = queryYemekelr.FoodInfoID;
+                db.Meals.Add(meal);
+                db.SaveChanges();
+                MessageBox.Show("başarılı bir şekilde kaydedildi ;)");
+                textBox1.Text = "";
+            }
+            else
+            {
+                MessageBox.Show("Lütfen tüm değeri giriniz");
+            }
+            
 
-            db.SaveChanges();
 
             //kuyllanıcı ıd ile alakalı ve o güne ait öğünleri bize getiriyor
             DateTime Bugün = DateTime.Now;

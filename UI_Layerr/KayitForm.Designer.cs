@@ -61,6 +61,7 @@
             this.btn_ResimEkle.TabIndex = 42;
             this.btn_ResimEkle.Text = "RESİM EKLE";
             this.btn_ResimEkle.UseVisualStyleBackColor = false;
+            this.btn_ResimEkle.Click += new System.EventHandler(this.btn_ResimEkle_Click);
             // 
             // btn_KayıtOl
             // 
@@ -550,7 +551,7 @@
             this.materialLabel2.Location = new System.Drawing.Point(370, 196);
             this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel2.Name = "materialLabel2";
-            this.materialLabel2.Size = new System.Drawing.Size(93, 24);
+            this.materialLabel2.Size = new System.Drawing.Size(93, 23);
             this.materialLabel2.TabIndex = 35;
             this.materialLabel2.Text = "KİLO (KG)";
             // 
@@ -659,6 +660,7 @@
             this.Rdo_Erkek.Text = "Erkek";
             this.Rdo_Erkek.UnCheckedColor = System.Drawing.Color.Gray;
             this.Rdo_Erkek.UseVisualStyleBackColor = true;
+            this.Rdo_Erkek.CheckedChanged += new System.EventHandler(this.Rdo_Erkek_CheckedChanged);
             // 
             // Rdo_Kadın
             // 
@@ -675,6 +677,7 @@
             this.Rdo_Kadın.Text = "Kadın";
             this.Rdo_Kadın.UnCheckedColor = System.Drawing.Color.Gray;
             this.Rdo_Kadın.UseVisualStyleBackColor = true;
+            this.Rdo_Kadın.CheckedChanged += new System.EventHandler(this.Rdo_Kadın_CheckedChanged);
             // 
             // rjCircularPictureBox1
             // 
@@ -685,6 +688,7 @@
             this.rjCircularPictureBox1.BorderSize = 2;
             this.rjCircularPictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
             this.rjCircularPictureBox1.GradientAngle = 50F;
+            this.rjCircularPictureBox1.Image = global::UI_Layerr.Properties.Resources.istockphoto_1212576552_612x612;
             this.rjCircularPictureBox1.Location = new System.Drawing.Point(0, 0);
             this.rjCircularPictureBox1.Name = "rjCircularPictureBox1";
             this.rjCircularPictureBox1.Size = new System.Drawing.Size(183, 183);

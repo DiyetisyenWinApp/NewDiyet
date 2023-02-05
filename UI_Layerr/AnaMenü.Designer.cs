@@ -35,9 +35,11 @@
             this.btn_YemekEkle = new RJCodeAdvance.RJControls.RJButton();
             this.btn_OgunEkle = new RJCodeAdvance.RJControls.RJButton();
             this.btn_Raporlar = new RJCodeAdvance.RJControls.RJButton();
-            this.rjProgressBar2 = new RJCodeAdvance.RJControls.RJProgressBar();
             this.materialTabSelector1 = new MaterialSkin.Controls.MaterialTabSelector();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.progressBar1 = new System.Windows.Forms.ProgressBar();
+            this.rjTextBox1 = new RJCodeAdvance.RJControls.RJTextBox();
+            this.rjButton2 = new RJCodeAdvance.RJControls.RJButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -50,7 +52,7 @@
             this.materialLabel1.Location = new System.Drawing.Point(251, 31);
             this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel1.Name = "materialLabel1";
-            this.materialLabel1.Size = new System.Drawing.Size(136, 24);
+            this.materialLabel1.Size = new System.Drawing.Size(136, 23);
             this.materialLabel1.TabIndex = 29;
             this.materialLabel1.Text = "materialLabel1";
             // 
@@ -88,6 +90,7 @@
             this.rjButton1.Text = "Yiyecekler";
             this.rjButton1.TextColor = System.Drawing.Color.White;
             this.rjButton1.UseVisualStyleBackColor = false;
+            this.rjButton1.Click += new System.EventHandler(this.rjButton1_Click);
             // 
             // btn_YemekEkle
             // 
@@ -146,23 +149,6 @@
             this.btn_Raporlar.UseVisualStyleBackColor = false;
             this.btn_Raporlar.Click += new System.EventHandler(this.btn_Raporlar_Click);
             // 
-            // rjProgressBar2
-            // 
-            this.rjProgressBar2.ChannelColor = System.Drawing.Color.LightSteelBlue;
-            this.rjProgressBar2.ChannelHeight = 6;
-            this.rjProgressBar2.ForeBackColor = System.Drawing.Color.RoyalBlue;
-            this.rjProgressBar2.ForeColor = System.Drawing.Color.White;
-            this.rjProgressBar2.Location = new System.Drawing.Point(255, 87);
-            this.rjProgressBar2.Name = "rjProgressBar2";
-            this.rjProgressBar2.ShowMaximun = false;
-            this.rjProgressBar2.ShowValue = RJCodeAdvance.RJControls.TextPosition.Right;
-            this.rjProgressBar2.Size = new System.Drawing.Size(343, 29);
-            this.rjProgressBar2.SliderColor = System.Drawing.Color.RoyalBlue;
-            this.rjProgressBar2.SliderHeight = 6;
-            this.rjProgressBar2.SymbolAfter = "";
-            this.rjProgressBar2.SymbolBefore = "";
-            this.rjProgressBar2.TabIndex = 37;
-            // 
             // materialTabSelector1
             // 
             this.materialTabSelector1.BaseTabControl = null;
@@ -187,13 +173,63 @@
             this.pictureBox1.TabIndex = 28;
             this.pictureBox1.TabStop = false;
             // 
+            // progressBar1
+            // 
+            this.progressBar1.Location = new System.Drawing.Point(255, 93);
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(490, 35);
+            this.progressBar1.TabIndex = 38;
+            // 
+            // rjTextBox1
+            // 
+            this.rjTextBox1.BackColor = System.Drawing.SystemColors.Window;
+            this.rjTextBox1.BorderColor = System.Drawing.Color.Black;
+            this.rjTextBox1.BorderFocusColor = System.Drawing.Color.HotPink;
+            this.rjTextBox1.BorderRadius = 0;
+            this.rjTextBox1.BorderSize = 2;
+            this.rjTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjTextBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.rjTextBox1.Location = new System.Drawing.Point(255, 135);
+            this.rjTextBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.rjTextBox1.Multiline = false;
+            this.rjTextBox1.Name = "rjTextBox1";
+            this.rjTextBox1.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
+            this.rjTextBox1.PasswordChar = false;
+            this.rjTextBox1.PlaceholderColor = System.Drawing.Color.DarkGray;
+            this.rjTextBox1.PlaceholderText = "";
+            this.rjTextBox1.Size = new System.Drawing.Size(490, 35);
+            this.rjTextBox1.TabIndex = 39;
+            this.rjTextBox1.Texts = "";
+            this.rjTextBox1.UnderlinedStyle = false;
+            // 
+            // rjButton2
+            // 
+            this.rjButton2.BackColor = System.Drawing.Color.Black;
+            this.rjButton2.BackgroundColor = System.Drawing.Color.Black;
+            this.rjButton2.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.rjButton2.BorderRadius = 0;
+            this.rjButton2.BorderSize = 0;
+            this.rjButton2.FlatAppearance.BorderSize = 0;
+            this.rjButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rjButton2.ForeColor = System.Drawing.Color.White;
+            this.rjButton2.Location = new System.Drawing.Point(255, 177);
+            this.rjButton2.Name = "rjButton2";
+            this.rjButton2.Size = new System.Drawing.Size(150, 40);
+            this.rjButton2.TabIndex = 40;
+            this.rjButton2.Text = "Güncelle";
+            this.rjButton2.TextColor = System.Drawing.Color.White;
+            this.rjButton2.UseVisualStyleBackColor = false;
+            this.rjButton2.Click += new System.EventHandler(this.rjButton2_Click);
+            // 
             // frm_AnaMenü
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(767, 487);
+            this.Controls.Add(this.rjButton2);
+            this.Controls.Add(this.rjTextBox1);
+            this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.materialLabel1);
-            this.Controls.Add(this.rjProgressBar2);
             this.Controls.Add(this.btn_Raporlar);
             this.Controls.Add(this.btn_OgunEkle);
             this.Controls.Add(this.btn_YemekEkle);
@@ -220,7 +256,9 @@
         private RJCodeAdvance.RJControls.RJButton btn_YemekEkle;
         private RJCodeAdvance.RJControls.RJButton btn_OgunEkle;
         private RJCodeAdvance.RJControls.RJButton btn_Raporlar;
-        private RJCodeAdvance.RJControls.RJProgressBar rjProgressBar2;
         private MaterialSkin.Controls.MaterialTabSelector materialTabSelector1;
+        private System.Windows.Forms.ProgressBar progressBar1;
+        private RJCodeAdvance.RJControls.RJTextBox rjTextBox1;
+        private RJCodeAdvance.RJControls.RJButton rjButton2;
     }
 }

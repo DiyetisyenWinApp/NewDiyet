@@ -63,6 +63,16 @@ namespace UI_Layerr.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap istockphoto_1212576552_612x612 {
+            get {
+                object obj = ResourceManager.GetObject("istockphoto-1212576552-612x612", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap My_project {
             get {
                 object obj = ResourceManager.GetObject("My_project", resourceCulture);

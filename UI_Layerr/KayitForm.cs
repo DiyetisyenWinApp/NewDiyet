@@ -12,6 +12,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using UI_Layerr.Properties;
 
 namespace UI_Layerr
 {
@@ -25,7 +26,7 @@ namespace UI_Layerr
         {
             cmb_boy.SelectedIndex = 0;
             cmb_kilo.SelectedIndex = 0;
-
+            
             
         }
 
@@ -69,11 +70,13 @@ namespace UI_Layerr
                     N_userDetail.BirthDate = dtp_DogumTarihi.Value.Date;
                     if (Rdo_Erkek.Text == "Erkek")
                     {
-
+                        
                         N_userDetail.gender = Enitities.Enums.Gender.Erkek;
                     }
                     else
                     {
+                        
+                        
                         N_userDetail.gender = Enitities.Enums.Gender.Kadın;
                     }
                     
@@ -145,6 +148,30 @@ namespace UI_Layerr
         private void txt_Parola_Click(object sender, EventArgs e)
         {
             txt_Parola.Text = "";
+        }
+
+        private void btn_ResimEkle_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Rdo_Erkek_CheckedChanged(object sender, EventArgs e)
+        {
+            if (Rdo_Erkek.Checked)
+            {
+                rjCircularPictureBox1.Image = Resources.My_project;
+            }
+            
+        }
+
+        private void Rdo_Kadın_CheckedChanged(object sender, EventArgs e)
+        {
+            if (Rdo_Kadın.Checked)
+            {
+                rjCircularPictureBox1.Image = Resources.istockphoto_1212576552_612x612;
+                
+            }
+            
         }
     }
 }

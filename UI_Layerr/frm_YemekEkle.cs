@@ -32,7 +32,7 @@ namespace UI_Layerr
                 foodInfo.Karbonhidrat = (int)numericUpDown2.Value;
                 foodInfo.Protein = (int)numericUpDown3.Value;
                 foodInfo.Yag = (int)numericUpDown4.Value;
-                foodInfo.Gram = (int)numericUpDown5.Value;
+                foodInfo.Gram = 100;
                 db.FoodInfos.Add(foodInfo);
                 db.SaveChanges();
                 MessageBox.Show("İşlem Başarılı");
@@ -44,11 +44,6 @@ namespace UI_Layerr
                 MessageBox.Show(ex.Message +"Hatalı işlem !!!");
             }
            
-        }
-
-        private void frm_YemekEkle_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            
         }
     }
 }

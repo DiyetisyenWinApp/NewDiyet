@@ -32,7 +32,6 @@
             this.rjTextBox1 = new RJCodeAdvance.RJControls.RJTextBox();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.rjButton1 = new RJCodeAdvance.RJControls.RJButton();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
             this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
             this.materialLabel4 = new MaterialSkin.Controls.MaterialLabel();
@@ -41,13 +40,12 @@
             this.numericUpDown4 = new System.Windows.Forms.NumericUpDown();
             this.materialLabel6 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
-            this.numericUpDown5 = new System.Windows.Forms.NumericUpDown();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // rjTextBox1
@@ -59,14 +57,14 @@
             this.rjTextBox1.BorderSize = 2;
             this.rjTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rjTextBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.rjTextBox1.Location = new System.Drawing.Point(26, 13);
+            this.rjTextBox1.Location = new System.Drawing.Point(23, 13);
             this.rjTextBox1.Margin = new System.Windows.Forms.Padding(4);
             this.rjTextBox1.Multiline = false;
             this.rjTextBox1.Name = "rjTextBox1";
             this.rjTextBox1.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
             this.rjTextBox1.PasswordChar = false;
             this.rjTextBox1.PlaceholderColor = System.Drawing.Color.DarkGray;
-            this.rjTextBox1.PlaceholderText = "Yemek Adı";
+            this.rjTextBox1.PlaceholderText = "Yiyecek Adı";
             this.rjTextBox1.Size = new System.Drawing.Size(384, 35);
             this.rjTextBox1.TabIndex = 30;
             this.rjTextBox1.Texts = "";
@@ -75,14 +73,14 @@
             // numericUpDown1
             // 
             this.numericUpDown1.Location = new System.Drawing.Point(146, 109);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(59, 22);
-            this.numericUpDown1.TabIndex = 31;
-            this.numericUpDown1.Value = new decimal(new int[] {
-            100,
+            this.numericUpDown1.Maximum = new decimal(new int[] {
+            5000,
             0,
             0,
             0});
+            this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Size = new System.Drawing.Size(59, 22);
+            this.numericUpDown1.TabIndex = 31;
             // 
             // rjButton1
             // 
@@ -94,7 +92,7 @@
             this.rjButton1.FlatAppearance.BorderSize = 0;
             this.rjButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.rjButton1.ForeColor = System.Drawing.Color.White;
-            this.rjButton1.Location = new System.Drawing.Point(260, 79);
+            this.rjButton1.Location = new System.Drawing.Point(260, 123);
             this.rjButton1.Name = "rjButton1";
             this.rjButton1.Size = new System.Drawing.Size(150, 40);
             this.rjButton1.TabIndex = 40;
@@ -102,18 +100,6 @@
             this.rjButton1.TextColor = System.Drawing.Color.White;
             this.rjButton1.UseVisualStyleBackColor = false;
             this.rjButton1.Click += new System.EventHandler(this.rjButton1_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(423, 352);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 27;
-            this.pictureBox1.TabStop = false;
             // 
             // materialLabel3
             // 
@@ -134,11 +120,6 @@
             this.numericUpDown2.Name = "numericUpDown2";
             this.numericUpDown2.Size = new System.Drawing.Size(59, 22);
             this.numericUpDown2.TabIndex = 41;
-            this.numericUpDown2.Value = new decimal(new int[] {
-            60,
-            0,
-            0,
-            0});
             // 
             // materialLabel4
             // 
@@ -159,11 +140,6 @@
             this.numericUpDown3.Name = "numericUpDown3";
             this.numericUpDown3.Size = new System.Drawing.Size(59, 22);
             this.numericUpDown3.TabIndex = 43;
-            this.numericUpDown3.Value = new decimal(new int[] {
-            20,
-            0,
-            0,
-            0});
             // 
             // materialLabel5
             // 
@@ -184,11 +160,6 @@
             this.numericUpDown4.Name = "numericUpDown4";
             this.numericUpDown4.Size = new System.Drawing.Size(59, 22);
             this.numericUpDown4.TabIndex = 45;
-            this.numericUpDown4.Value = new decimal(new int[] {
-            20,
-            0,
-            0,
-            0});
             // 
             // materialLabel6
             // 
@@ -209,24 +180,24 @@
             this.materialLabel2.Depth = 0;
             this.materialLabel2.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel2.Location = new System.Drawing.Point(22, 76);
+            this.materialLabel2.Location = new System.Drawing.Point(22, 52);
             this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel2.Name = "materialLabel2";
-            this.materialLabel2.Size = new System.Drawing.Size(56, 23);
+            this.materialLabel2.Size = new System.Drawing.Size(304, 46);
             this.materialLabel2.TabIndex = 48;
-            this.materialLabel2.Text = "Gram";
+            this.materialLabel2.Text = "100 Gram İçin hesaplanan makron \r\ndeğerlerini giriniz";
             // 
-            // numericUpDown5
+            // pictureBox1
             // 
-            this.numericUpDown5.Location = new System.Drawing.Point(146, 79);
-            this.numericUpDown5.Name = "numericUpDown5";
-            this.numericUpDown5.Size = new System.Drawing.Size(59, 22);
-            this.numericUpDown5.TabIndex = 47;
-            this.numericUpDown5.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(423, 352);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 27;
+            this.pictureBox1.TabStop = false;
             // 
             // frm_YemekEkle
             // 
@@ -234,7 +205,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(423, 352);
             this.Controls.Add(this.materialLabel2);
-            this.Controls.Add(this.numericUpDown5);
             this.Controls.Add(this.materialLabel5);
             this.Controls.Add(this.numericUpDown4);
             this.Controls.Add(this.materialLabel4);
@@ -248,14 +218,12 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "frm_YemekEkle";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "frm_YemekEkle";
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frm_YemekEkle_FormClosed);
+            this.Text = "Yiyecek Ekle";
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -275,6 +243,5 @@
         private System.Windows.Forms.NumericUpDown numericUpDown4;
         private MaterialSkin.Controls.MaterialLabel materialLabel6;
         private MaterialSkin.Controls.MaterialLabel materialLabel2;
-        private System.Windows.Forms.NumericUpDown numericUpDown5;
     }
 }
