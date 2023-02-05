@@ -20,8 +20,9 @@ namespace Enitities.Concrete
         public virtual int UserDetailID { get; set; }
         public UserDetail UserDetail { get; set; }
 
-
-        public ICollection<FoodInfo> FoodInfos { get; set; }
+        public virtual int?  FoodInfoID { get; set; }
+        public FoodInfo FoodInfo { get; set; }
+        //public ICollection<FoodInfo> FoodInfos { get; set; }
 
 
     }

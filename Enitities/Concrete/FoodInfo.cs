@@ -25,7 +25,7 @@ namespace Enitities.Concrete
         [Required]
         public float Yag { get; set; }
 
-        public ICollection<Meal> Meal { get; set; }
+        public ICollection<Meal> Meals { get; set; }
 
 
     }

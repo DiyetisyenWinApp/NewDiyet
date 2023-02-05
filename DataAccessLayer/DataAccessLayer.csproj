@@ -53,49 +53,9 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="Context\Context.cs" />
-    <Compile Include="Migrations\202302031029327_V0.1.cs" />
-    <Compile Include="Migrations\202302031029327_V0.1.designer.cs">
-      <DependentUpon>202302031029327_V0.1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202302041142580_V0.2.cs" />
-    <Compile Include="Migrations\202302041142580_V0.2.designer.cs">
-      <DependentUpon>202302041142580_V0.2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202302041332233_V0.3.cs" />
-    <Compile Include="Migrations\202302041332233_V0.3.designer.cs">
-      <DependentUpon>202302041332233_V0.3.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202302041334581_V0.4.cs" />
-    <Compile Include="Migrations\202302041334581_V0.4.designer.cs">
-      <DependentUpon>202302041334581_V0.4.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202302041451275_V0.5.cs" />
-    <Compile Include="Migrations\202302041451275_V0.5.designer.cs">
-      <DependentUpon>202302041451275_V0.5.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202302041500297_V0.6.cs" />
-    <Compile Include="Migrations\202302041500297_V0.6.designer.cs">
-      <DependentUpon>202302041500297_V0.6.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202302041801257_V0.7.cs" />
-    <Compile Include="Migrations\202302041801257_V0.7.designer.cs">
-      <DependentUpon>202302041801257_V0.7.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202302041802331_V0.8.cs" />
-    <Compile Include="Migrations\202302041802331_V0.8.designer.cs">
-      <DependentUpon>202302041802331_V0.8.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202302041807040_V0.9.cs" />
-    <Compile Include="Migrations\202302041807040_V0.9.designer.cs">
-      <DependentUpon>202302041807040_V0.9.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202302050105444_V1.0.cs" />
-    <Compile Include="Migrations\202302050105444_V1.0.designer.cs">
-      <DependentUpon>202302050105444_V1.0.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202302050950335_v0.1.1.cs" />
-    <Compile Include="Migrations\202302050950335_v0.1.1.designer.cs">
-      <DependentUpon>202302050950335_v0.1.1.cs</DependentUpon>
+    <Compile Include="Migrations\202302051530553_v1.1451.cs" />
+    <Compile Include="Migrations\202302051530553_v1.1451.designer.cs">
+      <DependentUpon>202302051530553_v1.1451.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -111,38 +71,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202302031029327_V0.1.resx">
-      <DependentUpon>202302031029327_V0.1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202302041142580_V0.2.resx">
-      <DependentUpon>202302041142580_V0.2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202302041332233_V0.3.resx">
-      <DependentUpon>202302041332233_V0.3.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202302041334581_V0.4.resx">
-      <DependentUpon>202302041334581_V0.4.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202302041451275_V0.5.resx">
-      <DependentUpon>202302041451275_V0.5.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202302041500297_V0.6.resx">
-      <DependentUpon>202302041500297_V0.6.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202302041801257_V0.7.resx">
-      <DependentUpon>202302041801257_V0.7.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202302041802331_V0.8.resx">
-      <DependentUpon>202302041802331_V0.8.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202302041807040_V0.9.resx">
-      <DependentUpon>202302041807040_V0.9.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202302050105444_V1.0.resx">
-      <DependentUpon>202302050105444_V1.0.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202302050950335_v0.1.1.resx">
-      <DependentUpon>202302050950335_v0.1.1.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202302051530553_v1.1451.resx">
+      <DependentUpon>202302051530553_v1.1451.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

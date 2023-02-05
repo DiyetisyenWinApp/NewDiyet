@@ -34,7 +34,7 @@ namespace UI_Layerr
         {
             frm_Meal frm_Meal = new frm_Meal(GelenID);
             frm_Meal.Show();
-            this.Hide();
+            
 
         }
 
@@ -49,7 +49,7 @@ namespace UI_Layerr
         {
             frm_Rapor frm_Rapor = new frm_Rapor(GelenID);
             frm_Rapor.Show();
-            this.Hide();
+            
         }
     }
 }

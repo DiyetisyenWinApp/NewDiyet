@@ -68,8 +68,14 @@ namespace UI_Layerr
                 cmb_Ogun.SelectedIndex == 1 ? MealType.Ogle :
                 cmb_Ogun.SelectedIndex == 2 ? MealType.Aksam :
                 MealType.AraOgun);
+
+            meal.FoodInfoID = queryYemekelr.FoodInfoID;
             db.Meals.Add(meal);
+
             db.SaveChanges();
+            var qry = db.Meals.Where(x => x.UserDetailID == GelenID).FirstOrDefault();
+            dataGridView2.DataSource = null;
+            dataGridView2.DataSource =qry;
 
 
         }
