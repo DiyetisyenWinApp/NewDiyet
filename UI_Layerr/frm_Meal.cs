@@ -1,4 +1,5 @@
 ﻿using DataAccessLayer.Context;
+using Enitities.Concrete;
 using Enitities.Enums;
 using System;
 using System.Collections.Generic;
@@ -49,6 +50,26 @@ namespace UI_Layerr
             string yemekAdı = textBox1.Text;
             var queryYemekelr = db.FoodInfos.Where(x => x.FoodName.Contains(yemekAdı));
             dataGridView1.DataSource = queryYemekelr.ToList();
+
+
+        }
+
+        private void rjButton1_Click(object sender, EventArgs e)
+        {
+            string yemekAdı = textBox1.Text;
+            var queryYemekelr = db.FoodInfos.Where(x => x.FoodName.Contains(yemekAdı)).FirstOrDefault();
+            
+            Meal meal = new Meal();
+            meal.TüketimTarihi = DateTime.Now;
+            meal.UserDetailID = GelenID;
+            meal.TopKcall = comboBox1.SelectedIndex * 100;
+            meal.MealType =
+                (cmb_Ogun.SelectedIndex == 0 ? MealType.Kahvaltı :
+                cmb_Ogun.SelectedIndex == 1 ? MealType.Ogle :
+                cmb_Ogun.SelectedIndex == 2 ? MealType.Aksam :
+                MealType.AraOgun);
+            db.Meals.Add(meal);
+            db.SaveChanges();
 
 
         }

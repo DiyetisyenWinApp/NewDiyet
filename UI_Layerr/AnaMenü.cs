@@ -47,7 +47,7 @@ namespace UI_Layerr
 
         private void btn_Raporlar_Click(object sender, EventArgs e)
         {
-            frm_Rapor frm_Rapor = new frm_Rapor();
+            frm_Rapor frm_Rapor = new frm_Rapor(GelenID);
             frm_Rapor.Show();
             this.Hide();
         }

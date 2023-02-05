@@ -141,7 +141,7 @@
             this.btn_Raporlar.Name = "btn_Raporlar";
             this.btn_Raporlar.Size = new System.Drawing.Size(150, 40);
             this.btn_Raporlar.TabIndex = 35;
-            this.btn_Raporlar.Text = "Raporlar";
+            this.btn_Raporlar.Text = "Gunluk Raporlar";
             this.btn_Raporlar.TextColor = System.Drawing.Color.White;
             this.btn_Raporlar.UseVisualStyleBackColor = false;
             this.btn_Raporlar.Click += new System.EventHandler(this.btn_Raporlar_Click);

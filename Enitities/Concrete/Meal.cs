@@ -17,11 +17,11 @@ namespace Enitities.Concrete
         public DateTime TüketimTarihi { get; set; }
 
         //bağlantılar
-        public virtual int UserID { get; set; }
-        public User User { get; set; }
+        public virtual int UserDetailID { get; set; }
+        public UserDetail UserDetail { get; set; }
 
 
-        //public ICollection<FoodInfo> FoodInfos { get; set; }
+        public ICollection<FoodInfo> FoodInfos { get; set; }
 
 
     }

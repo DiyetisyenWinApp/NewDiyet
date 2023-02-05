@@ -51,11 +51,11 @@
             this.cmb_Aktivite.IconColor = System.Drawing.Color.MediumSlateBlue;
             this.cmb_Aktivite.ListBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(228)))), ((int)(((byte)(245)))));
             this.cmb_Aktivite.ListTextColor = System.Drawing.Color.DimGray;
-            this.cmb_Aktivite.Location = new System.Drawing.Point(12, 50);
+            this.cmb_Aktivite.Location = new System.Drawing.Point(12, 26);
             this.cmb_Aktivite.MinimumSize = new System.Drawing.Size(200, 30);
             this.cmb_Aktivite.Name = "cmb_Aktivite";
             this.cmb_Aktivite.Padding = new System.Windows.Forms.Padding(1);
-            this.cmb_Aktivite.Size = new System.Drawing.Size(606, 30);
+            this.cmb_Aktivite.Size = new System.Drawing.Size(606, 38);
             this.cmb_Aktivite.TabIndex = 28;
             this.cmb_Aktivite.Texts = "Aktivite Düzeyi Seçiniz";
             this.cmb_Aktivite.ValueMember = "Çok Az (Hareket etmiyorum veya çok az hareket ediyorum.)";
@@ -72,11 +72,11 @@
             this.cmb_HedefSecim.IconColor = System.Drawing.Color.MediumSlateBlue;
             this.cmb_HedefSecim.ListBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(228)))), ((int)(((byte)(245)))));
             this.cmb_HedefSecim.ListTextColor = System.Drawing.Color.DimGray;
-            this.cmb_HedefSecim.Location = new System.Drawing.Point(12, 97);
+            this.cmb_HedefSecim.Location = new System.Drawing.Point(12, 84);
             this.cmb_HedefSecim.MinimumSize = new System.Drawing.Size(200, 30);
             this.cmb_HedefSecim.Name = "cmb_HedefSecim";
             this.cmb_HedefSecim.Padding = new System.Windows.Forms.Padding(1);
-            this.cmb_HedefSecim.Size = new System.Drawing.Size(606, 30);
+            this.cmb_HedefSecim.Size = new System.Drawing.Size(606, 39);
             this.cmb_HedefSecim.TabIndex = 29;
             this.cmb_HedefSecim.Texts = "Hedef Seçiniz";
             this.cmb_HedefSecim.ValueMember = "Çok Az (Hareket etmiyorum veya çok az hareket ediyorum.)";
@@ -91,7 +91,7 @@
             this.btn_Kaydet.FlatAppearance.BorderSize = 0;
             this.btn_Kaydet.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Kaydet.ForeColor = System.Drawing.Color.White;
-            this.btn_Kaydet.Location = new System.Drawing.Point(12, 152);
+            this.btn_Kaydet.Location = new System.Drawing.Point(12, 213);
             this.btn_Kaydet.Name = "btn_Kaydet";
             this.btn_Kaydet.Size = new System.Drawing.Size(606, 46);
             this.btn_Kaydet.TabIndex = 30;
@@ -116,9 +116,9 @@
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.DarkGray;
             this.pictureBox2.Image = global::UI_Layerr.Properties.Resources.My_project;
-            this.pictureBox2.Location = new System.Drawing.Point(0, 233);
+            this.pictureBox2.Location = new System.Drawing.Point(530, 130);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(203, 204);
+            this.pictureBox2.Size = new System.Drawing.Size(88, 77);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 32;
             this.pictureBox2.TabStop = false;

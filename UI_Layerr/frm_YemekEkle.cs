@@ -1,4 +1,6 @@
-﻿using System;
+﻿using DataAccessLayer.Context;
+using Enitities.Concrete;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,15 +14,34 @@ namespace UI_Layerr
 {
     public partial class frm_YemekEkle : Form
     {
+        Context db = new Context();
+
         public frm_YemekEkle()
         {
             InitializeComponent();
         }
-        int GelenID;
-        public frm_YemekEkle(int ID)
+     
+
+        private void rjButton1_Click(object sender, EventArgs e)
         {
-            InitializeComponent();
-            GelenID = ID;
+            try
+            {
+                FoodInfo foodInfo = new FoodInfo();
+                foodInfo.FoodName = rjTextBox1.Texts;
+                foodInfo.Kalori = (int)numericUpDown1.Value;
+                foodInfo.Karbonhidrat = (int)numericUpDown2.Value;
+                foodInfo.Protein = (int)numericUpDown3.Value;
+                foodInfo.Yag = (int)numericUpDown4.Value;
+                foodInfo.Gram = (int)numericUpDown5.Value;
+                db.FoodInfos.Add(foodInfo);
+                db.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message +"Hatalı işlem !!!");
+            }
+           
         }
     }
 }
