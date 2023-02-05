@@ -44,71 +44,78 @@ namespace UI_Layerr
         frm_GirisYap frm1;
         private void btn_Kaydet_Click(object sender, EventArgs e)
         {
+            if (cmb_Aktivite.SelectedIndex>=0&&cmb_HedefSecim.SelectedIndex>=0)
+            {
 
+                var query_UserDetail1 = db.UserDetails.Where(x => x.UserDetailID == gelenUserDetailID).FirstOrDefault();
+                if (cmb_Aktivite.SelectedIndex == 0)
+                {
+                    query_UserDetail1.acitvityLevel = Enitities.Enums.AcitvityLevel.Non;
+                    hareket = 1;
+
+                }
+                else if (cmb_Aktivite.SelectedIndex == 1)
+                {
+                    query_UserDetail1.acitvityLevel = Enitities.Enums.AcitvityLevel.Easy;
+                    hareket = 1.2F;
+                }
+                else if (cmb_Aktivite.SelectedIndex == 2)
+                {
+                    query_UserDetail1.acitvityLevel = Enitities.Enums.AcitvityLevel.Middle;
+                    hareket = 1.375F;
+                }
+                else if (cmb_Aktivite.SelectedIndex == 3)
+                {
+                    query_UserDetail1.acitvityLevel = Enitities.Enums.AcitvityLevel.Hard;
+                    hareket = 1.55F;
+                }
+                else if (cmb_Aktivite.SelectedIndex == 4)
+                {
+                    query_UserDetail1.acitvityLevel = Enitities.Enums.AcitvityLevel.Extreme;
+                    hareket = 1.80F;
+                }
+
+
+                // Hedef seçim veri tabanın aklayıt
+
+                var query_UserDetail = db.UserDetails.Where(x => x.UserDetailID == gelenUserDetailID).FirstOrDefault();
+                if (cmb_HedefSecim.SelectedIndex == 0)
+                {
+                    query_UserDetail1.intention = Enitities.Enums.Intention.WeightLose;
+                    hedef = -500;
+                }
+                else if (cmb_HedefSecim.SelectedIndex == 1)
+                {
+                    query_UserDetail1.intention = Enitities.Enums.Intention.KeepWeight;
+                    hedef = 0;
+                }
+                else if (cmb_HedefSecim.SelectedIndex == 2)
+                {
+                    query_UserDetail1.intention = Enitities.Enums.Intention.WeightGain;
+                    hedef = 500;
+                }
+
+                // AGK değerini hesaplayarak body analiz tablosuna kayıt ettik
+                var query_bodyAnalys = db.BodyAnalyses.Where(x => x.UserDetailID == gelenUserDetailID).FirstOrDefault();
+                query_bodyAnalys.AGK = AGK_HEsapla(gelenBoy, gelenKilo, gelenGender, gelenYas);
+
+                // eklene değişiklikleri veri tabanına kaydettik
+                db.SaveChanges();
+
+                //kayıt başarıl ımesajı yazdırıldı ve ilk formun  yüklenemsi sağlandı
+                lbl_HataMesajı.Text = "kayıt işlemi başarılı";
+                Task.Delay(7000);
+                frm1 = new frm_GirisYap();
+                frm1.Show();
+                this.Hide();
+
+            }
+            else
+            {
+                MessageBox.Show("Lütfen seçim yapın");
+            }
 
             // activity level seçim
-            
-            var query_UserDetail1 = db.UserDetails.Where(x => x.UserDetailID == gelenUserDetailID).FirstOrDefault();
-            if (cmb_Aktivite.SelectedIndex == 0)
-            {
-                query_UserDetail1.acitvityLevel = Enitities.Enums.AcitvityLevel.Non;
-                hareket = 1;
-
-            }
-            else if(cmb_Aktivite.SelectedIndex == 1)
-            {
-                query_UserDetail1.acitvityLevel = Enitities.Enums.AcitvityLevel.Easy;
-                hareket = 1.2F;
-            }
-            else if (cmb_Aktivite.SelectedIndex == 2)
-            {
-                query_UserDetail1.acitvityLevel = Enitities.Enums.AcitvityLevel.Middle;
-                hareket = 1.375F;
-            }
-            else if (cmb_Aktivite.SelectedIndex == 3)
-            {
-                query_UserDetail1.acitvityLevel = Enitities.Enums.AcitvityLevel.Hard;
-                hareket = 1.55F;
-            }
-            else if (cmb_Aktivite.SelectedIndex == 4)
-            {
-                query_UserDetail1.acitvityLevel = Enitities.Enums.AcitvityLevel.Extreme;
-                hareket = 1.80F;
-            }
-            
-
-            // Hedef seçim veri tabanın aklayıt
-
-            var query_UserDetail = db.UserDetails.Where(x => x.UserDetailID == gelenUserDetailID).FirstOrDefault();
-            if(cmb_HedefSecim.SelectedIndex == 0)
-            {
-                query_UserDetail1.intention = Enitities.Enums.Intention.WeightLose;
-                hedef = -500;
-            }
-            else if(cmb_HedefSecim.SelectedIndex == 1)
-            {
-                query_UserDetail1.intention = Enitities.Enums.Intention.KeepWeight;
-                hedef = 0;
-            }
-            else if (cmb_HedefSecim.SelectedIndex == 2)
-            {
-                query_UserDetail1.intention = Enitities.Enums.Intention.WeightGain;
-                hedef = 500;
-            }
-
-            // AGK değerini hesaplayarak body analiz tablosuna kayıt ettik
-            var query_bodyAnalys = db.BodyAnalyses.Where(x => x.UserDetailID == gelenUserDetailID).FirstOrDefault();
-            query_bodyAnalys.AGK = AGK_HEsapla(gelenBoy, gelenKilo, gelenGender, gelenYas);
-
-            // eklene değişiklikleri veri tabanına kaydettik
-            db.SaveChanges();
-
-            //kayıt başarıl ımesajı yazdırıldı ve ilk formun  yüklenemsi sağlandı
-            lbl_HataMesajı.Text = "kayıt işlemi başarılı";
-            Task.Delay(7000);
-            frm1 = new frm_GirisYap();
-            frm1.Show();
-            this.Hide();
 
 
 

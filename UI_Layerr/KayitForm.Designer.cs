@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_KayitOl));
-            this.btn_ResimEkle = new System.Windows.Forms.Button();
             this.btn_KayıtOl = new System.Windows.Forms.Button();
             this.cmb_boy = new System.Windows.Forms.ComboBox();
             this.materialLabel4 = new MaterialSkin.Controls.MaterialLabel();
@@ -38,7 +37,6 @@
             this.cmb_kilo = new System.Windows.Forms.ComboBox();
             this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
             this.lbl_Cinsiyet = new MaterialSkin.Controls.MaterialLabel();
-            this.txt_Parola = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.txt_ePosta = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.txt_Soyad = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.txt_Ad = new MaterialSkin.Controls.MaterialSingleLineTextField();
@@ -46,22 +44,11 @@
             this.Rdo_Kadın = new RJCodeAdvance.RJControls.RJRadioButton();
             this.rjCircularPictureBox1 = new RJCodeAdvance.RJControls.RJCircularPictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.rjCircularPictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // btn_ResimEkle
-            // 
-            this.btn_ResimEkle.BackColor = System.Drawing.Color.Black;
-            this.btn_ResimEkle.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btn_ResimEkle.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_ResimEkle.Location = new System.Drawing.Point(0, 199);
-            this.btn_ResimEkle.Name = "btn_ResimEkle";
-            this.btn_ResimEkle.Size = new System.Drawing.Size(194, 36);
-            this.btn_ResimEkle.TabIndex = 42;
-            this.btn_ResimEkle.Text = "RESİM EKLE";
-            this.btn_ResimEkle.UseVisualStyleBackColor = false;
-            this.btn_ResimEkle.Click += new System.EventHandler(this.btn_ResimEkle_Click);
             // 
             // btn_KayıtOl
             // 
@@ -282,9 +269,9 @@
             "228",
             "229",
             "230"});
-            this.cmb_boy.Location = new System.Drawing.Point(477, 250);
+            this.cmb_boy.Location = new System.Drawing.Point(560, 150);
             this.cmb_boy.Name = "cmb_boy";
-            this.cmb_boy.Size = new System.Drawing.Size(137, 24);
+            this.cmb_boy.Size = new System.Drawing.Size(89, 24);
             this.cmb_boy.TabIndex = 40;
             // 
             // materialLabel4
@@ -294,10 +281,10 @@
             this.materialLabel4.Depth = 0;
             this.materialLabel4.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel4.Location = new System.Drawing.Point(370, 248);
+            this.materialLabel4.Location = new System.Drawing.Point(455, 148);
             this.materialLabel4.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel4.Name = "materialLabel4";
-            this.materialLabel4.Size = new System.Drawing.Size(93, 26);
+            this.materialLabel4.Size = new System.Drawing.Size(99, 26);
             this.materialLabel4.TabIndex = 39;
             this.materialLabel4.Text = "BOY (CM)";
             // 
@@ -311,7 +298,7 @@
             this.lbl_DogumTarihi.Location = new System.Drawing.Point(189, 99);
             this.lbl_DogumTarihi.MouseState = MaterialSkin.MouseState.HOVER;
             this.lbl_DogumTarihi.Name = "lbl_DogumTarihi";
-            this.lbl_DogumTarihi.Size = new System.Drawing.Size(199, 31);
+            this.lbl_DogumTarihi.Size = new System.Drawing.Size(242, 31);
             this.lbl_DogumTarihi.TabIndex = 38;
             this.lbl_DogumTarihi.Text = "DOĞUM TARİHİ";
             // 
@@ -321,10 +308,10 @@
             this.dtp_DogumTarihi.BorderColor = System.Drawing.Color.PaleVioletRed;
             this.dtp_DogumTarihi.BorderSize = 0;
             this.dtp_DogumTarihi.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F);
-            this.dtp_DogumTarihi.Location = new System.Drawing.Point(189, 135);
+            this.dtp_DogumTarihi.Location = new System.Drawing.Point(189, 148);
             this.dtp_DogumTarihi.MinimumSize = new System.Drawing.Size(4, 35);
             this.dtp_DogumTarihi.Name = "dtp_DogumTarihi";
-            this.dtp_DogumTarihi.Size = new System.Drawing.Size(199, 35);
+            this.dtp_DogumTarihi.Size = new System.Drawing.Size(242, 35);
             this.dtp_DogumTarihi.SkinColor = System.Drawing.Color.Black;
             this.dtp_DogumTarihi.TabIndex = 37;
             this.dtp_DogumTarihi.TextColor = System.Drawing.Color.White;
@@ -535,9 +522,9 @@
             "228",
             "229",
             "230"});
-            this.cmb_kilo.Location = new System.Drawing.Point(477, 196);
+            this.cmb_kilo.Location = new System.Drawing.Point(560, 101);
             this.cmb_kilo.Name = "cmb_kilo";
-            this.cmb_kilo.Size = new System.Drawing.Size(137, 24);
+            this.cmb_kilo.Size = new System.Drawing.Size(89, 24);
             this.cmb_kilo.TabIndex = 36;
             // 
             // materialLabel2
@@ -548,10 +535,10 @@
             this.materialLabel2.Depth = 0;
             this.materialLabel2.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel2.Location = new System.Drawing.Point(370, 196);
+            this.materialLabel2.Location = new System.Drawing.Point(455, 99);
             this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel2.Name = "materialLabel2";
-            this.materialLabel2.Size = new System.Drawing.Size(93, 23);
+            this.materialLabel2.Size = new System.Drawing.Size(93, 24);
             this.materialLabel2.TabIndex = 35;
             this.materialLabel2.Text = "KİLO (KG)";
             // 
@@ -561,31 +548,12 @@
             this.lbl_Cinsiyet.Depth = 0;
             this.lbl_Cinsiyet.Font = new System.Drawing.Font("Roboto", 11F);
             this.lbl_Cinsiyet.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.lbl_Cinsiyet.Location = new System.Drawing.Point(412, 99);
+            this.lbl_Cinsiyet.Location = new System.Drawing.Point(455, 190);
             this.lbl_Cinsiyet.MouseState = MaterialSkin.MouseState.HOVER;
             this.lbl_Cinsiyet.Name = "lbl_Cinsiyet";
-            this.lbl_Cinsiyet.Size = new System.Drawing.Size(202, 31);
+            this.lbl_Cinsiyet.Size = new System.Drawing.Size(187, 24);
             this.lbl_Cinsiyet.TabIndex = 33;
             this.lbl_Cinsiyet.Text = "CİNSİYET";
-            // 
-            // txt_Parola
-            // 
-            this.txt_Parola.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txt_Parola.Depth = 0;
-            this.txt_Parola.Font = new System.Drawing.Font("Javanese Text", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_Parola.Hint = "";
-            this.txt_Parola.Location = new System.Drawing.Point(416, 56);
-            this.txt_Parola.MouseState = MaterialSkin.MouseState.HOVER;
-            this.txt_Parola.Name = "txt_Parola";
-            this.txt_Parola.PasswordChar = '\0';
-            this.txt_Parola.SelectedText = "";
-            this.txt_Parola.SelectionLength = 0;
-            this.txt_Parola.SelectionStart = 0;
-            this.txt_Parola.Size = new System.Drawing.Size(199, 28);
-            this.txt_Parola.TabIndex = 31;
-            this.txt_Parola.Text = "PAROLA";
-            this.txt_Parola.UseSystemPasswordChar = false;
-            this.txt_Parola.Click += new System.EventHandler(this.txt_Parola_Click);
             // 
             // txt_ePosta
             // 
@@ -600,7 +568,7 @@
             this.txt_ePosta.SelectedText = "";
             this.txt_ePosta.SelectionLength = 0;
             this.txt_ePosta.SelectionStart = 0;
-            this.txt_ePosta.Size = new System.Drawing.Size(199, 28);
+            this.txt_ePosta.Size = new System.Drawing.Size(216, 28);
             this.txt_ePosta.TabIndex = 30;
             this.txt_ePosta.Text = "E-POSTA ";
             this.txt_ePosta.UseSystemPasswordChar = false;
@@ -620,7 +588,7 @@
             this.txt_Soyad.SelectedText = "";
             this.txt_Soyad.SelectionLength = 0;
             this.txt_Soyad.SelectionStart = 0;
-            this.txt_Soyad.Size = new System.Drawing.Size(199, 28);
+            this.txt_Soyad.Size = new System.Drawing.Size(193, 28);
             this.txt_Soyad.TabIndex = 29;
             this.txt_Soyad.Text = "SOYAD";
             this.txt_Soyad.UseSystemPasswordChar = false;
@@ -639,7 +607,7 @@
             this.txt_Ad.SelectedText = "";
             this.txt_Ad.SelectionLength = 0;
             this.txt_Ad.SelectionStart = 0;
-            this.txt_Ad.Size = new System.Drawing.Size(199, 28);
+            this.txt_Ad.Size = new System.Drawing.Size(216, 28);
             this.txt_Ad.TabIndex = 28;
             this.txt_Ad.Text = "AD";
             this.txt_Ad.UseSystemPasswordChar = false;
@@ -650,7 +618,7 @@
             this.Rdo_Erkek.AutoSize = true;
             this.Rdo_Erkek.CheckedColor = System.Drawing.Color.MediumSlateBlue;
             this.Rdo_Erkek.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Rdo_Erkek.Location = new System.Drawing.Point(413, 141);
+            this.Rdo_Erkek.Location = new System.Drawing.Point(459, 226);
             this.Rdo_Erkek.MinimumSize = new System.Drawing.Size(0, 21);
             this.Rdo_Erkek.Name = "Rdo_Erkek";
             this.Rdo_Erkek.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
@@ -667,7 +635,7 @@
             this.Rdo_Kadın.AutoSize = true;
             this.Rdo_Kadın.CheckedColor = System.Drawing.Color.MediumSlateBlue;
             this.Rdo_Kadın.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Rdo_Kadın.Location = new System.Drawing.Point(527, 140);
+            this.Rdo_Kadın.Location = new System.Drawing.Point(560, 226);
             this.Rdo_Kadın.MinimumSize = new System.Drawing.Size(0, 21);
             this.Rdo_Kadın.Name = "Rdo_Kadın";
             this.Rdo_Kadın.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
@@ -703,19 +671,43 @@
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(644, 437);
+            this.pictureBox1.Size = new System.Drawing.Size(664, 437);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 26;
             this.pictureBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.Location = new System.Drawing.Point(633, 56);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(22, 25);
+            this.label1.TabIndex = 45;
+            this.label1.Text = "  ";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.textBox1.Location = new System.Drawing.Point(414, 52);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.PasswordChar = '*';
+            this.textBox1.Size = new System.Drawing.Size(195, 32);
+            this.textBox1.TabIndex = 46;
+            this.textBox1.Text = "Parola";
+            this.textBox1.Click += new System.EventHandler(this.textBox1_Click);
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // frm_KayitOl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(644, 437);
+            this.ClientSize = new System.Drawing.Size(664, 437);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.Rdo_Kadın);
             this.Controls.Add(this.Rdo_Erkek);
-            this.Controls.Add(this.btn_ResimEkle);
             this.Controls.Add(this.btn_KayıtOl);
             this.Controls.Add(this.cmb_boy);
             this.Controls.Add(this.materialLabel4);
@@ -724,7 +716,6 @@
             this.Controls.Add(this.cmb_kilo);
             this.Controls.Add(this.materialLabel2);
             this.Controls.Add(this.lbl_Cinsiyet);
-            this.Controls.Add(this.txt_Parola);
             this.Controls.Add(this.txt_ePosta);
             this.Controls.Add(this.txt_Soyad);
             this.Controls.Add(this.txt_Ad);
@@ -743,8 +734,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btn_ResimEkle;
         private System.Windows.Forms.Button btn_KayıtOl;
         private System.Windows.Forms.ComboBox cmb_boy;
         private MaterialSkin.Controls.MaterialLabel materialLabel4;
@@ -753,7 +742,6 @@
         private System.Windows.Forms.ComboBox cmb_kilo;
         private MaterialSkin.Controls.MaterialLabel materialLabel2;
         private MaterialSkin.Controls.MaterialLabel lbl_Cinsiyet;
-        private MaterialSkin.Controls.MaterialSingleLineTextField txt_Parola;
         private MaterialSkin.Controls.MaterialSingleLineTextField txt_ePosta;
         private MaterialSkin.Controls.MaterialSingleLineTextField txt_Soyad;
         private MaterialSkin.Controls.MaterialSingleLineTextField txt_Ad;
@@ -761,5 +749,7 @@
         private RJCodeAdvance.RJControls.RJRadioButton Rdo_Erkek;
         private RJCodeAdvance.RJControls.RJRadioButton Rdo_Kadın;
         private RJCodeAdvance.RJControls.RJCircularPictureBox rjCircularPictureBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
