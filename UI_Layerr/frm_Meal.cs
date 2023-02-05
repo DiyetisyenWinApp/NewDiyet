@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -44,14 +45,12 @@ namespace UI_Layerr
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
+            
             string yemekAdı = textBox1.Text;
-            var queryYemekelr = db.FoodInfos.Where(x => x.FoodName == yemekAdı);
+            var queryYemekelr = db.FoodInfos.Where(x => x.FoodName.Contains(yemekAdı));
             dataGridView1.DataSource = queryYemekelr.ToList();
-            foreach (var item in queryYemekelr)
-            {
 
-                lbx_Yemekler.Text = item.ToString();
-            }
+
         }
     }
 }

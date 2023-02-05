@@ -37,8 +37,8 @@
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.rjButton1 = new RJCodeAdvance.RJControls.RJButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.lbx_Yemekler = new System.Windows.Forms.ListBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.lbx_Yemekler = new System.Windows.Forms.ListBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -63,7 +63,7 @@
             this.materialLabel1.Location = new System.Drawing.Point(57, 9);
             this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel1.Name = "materialLabel1";
-            this.materialLabel1.Size = new System.Drawing.Size(54, 24);
+            this.materialLabel1.Size = new System.Drawing.Size(54, 23);
             this.materialLabel1.TabIndex = 31;
             this.materialLabel1.Text = "Öğün";
             // 
@@ -96,7 +96,7 @@
             this.materialLabel3.Location = new System.Drawing.Point(376, 12);
             this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel3.Name = "materialLabel3";
-            this.materialLabel3.Size = new System.Drawing.Size(68, 24);
+            this.materialLabel3.Size = new System.Drawing.Size(68, 23);
             this.materialLabel3.TabIndex = 35;
             this.materialLabel3.Text = "Yemek";
             // 
@@ -109,7 +109,7 @@
             this.materialLabel4.Location = new System.Drawing.Point(388, 274);
             this.materialLabel4.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel4.Name = "materialLabel4";
-            this.materialLabel4.Size = new System.Drawing.Size(56, 24);
+            this.materialLabel4.Size = new System.Drawing.Size(56, 23);
             this.materialLabel4.TabIndex = 37;
             this.materialLabel4.Text = "Gram";
             // 
@@ -155,6 +155,17 @@
             this.pictureBox1.TabIndex = 29;
             this.pictureBox1.TabStop = false;
             // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.textBox1.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower;
+            this.textBox1.Location = new System.Drawing.Point(450, 11);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(219, 24);
+            this.textBox1.TabIndex = 42;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
             // lbx_Yemekler
             // 
             this.lbx_Yemekler.BackColor = System.Drawing.Color.WhiteSmoke;
@@ -164,16 +175,6 @@
             this.lbx_Yemekler.Name = "lbx_Yemekler";
             this.lbx_Yemekler.Size = new System.Drawing.Size(289, 196);
             this.lbx_Yemekler.TabIndex = 40;
-            // 
-            // textBox1
-            // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.textBox1.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower;
-            this.textBox1.Location = new System.Drawing.Point(450, 11);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(186, 22);
-            this.textBox1.TabIndex = 42;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // frm_Meal
             // 
@@ -212,7 +213,7 @@
         private MaterialSkin.Controls.MaterialLabel materialLabel4;
         private System.Windows.Forms.NumericUpDown numericUpDown1;
         private RJCodeAdvance.RJControls.RJButton rjButton1;
-        private System.Windows.Forms.ListBox lbx_Yemekler;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.ListBox lbx_Yemekler;
     }
 }
