@@ -21,7 +21,7 @@ namespace Enitities.Concrete
         public User User { get; set; }
 
 
-        public ICollection<FoodInfo> FoodInfos { get; set; }
+        //public ICollection<FoodInfo> FoodInfos { get; set; }
 
 
     }

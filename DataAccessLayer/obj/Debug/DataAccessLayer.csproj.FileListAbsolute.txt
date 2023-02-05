@@ -54,3 +54,4 @@ C:\Users\Ertan\Desktop\Diyet-\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer
 C:\Users\Ertan\Desktop\Diyet-\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.V07.resources
 C:\Users\Ertan\Desktop\Diyet-\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.V08.resources
 C:\Users\Ertan\Desktop\Diyet-\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.V09.resources
+C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.V10.resources

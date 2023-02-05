@@ -63,6 +63,16 @@ namespace UI_Layerr.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap My_project {
+            get {
+                object obj = ResourceManager.GetObject("My_project", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Sağlıklı_Yemek_Menüsü {
             get {
                 object obj = ResourceManager.GetObject("Sağlıklı Yemek Menüsü", resourceCulture);

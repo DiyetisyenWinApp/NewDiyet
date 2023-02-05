@@ -61,3 +61,6 @@ C:\Users\Ertan\Desktop\Diyet-\NewDiyet\UI_Layerr\obj\Debug\UI_Layerr.frm_KayitOl
 C:\Users\Ertan\Desktop\Diyet-\NewDiyet\UI_Layerr\obj\Debug\UI_Layerr.frm_Meal.resources
 C:\Users\Ertan\Desktop\Diyet-\NewDiyet\UI_Layerr\obj\Debug\UI_Layerr.frm_YemekEkle.resources
 C:\Users\Ertan\Desktop\Diyet-\NewDiyet\UI_Layerr\obj\Debug\UI_Layerr.frm_Rapor.resources
+C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\UI_Layerr\obj\Debug\UI_Layerr.frm_Meal.resources
+C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\UI_Layerr\obj\Debug\UI_Layerr.frm_Rapor.resources
+C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\UI_Layerr\obj\Debug\UI_Layerr.frm_YemekEkle.resources

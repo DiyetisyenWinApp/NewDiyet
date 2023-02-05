@@ -32,9 +32,9 @@
             this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.rjProgressBar1 = new RJCodeAdvance.RJControls.RJProgressBar();
             this.rjButton1 = new RJCodeAdvance.RJControls.RJButton();
-            this.rjButton2 = new RJCodeAdvance.RJControls.RJButton();
-            this.rjButton3 = new RJCodeAdvance.RJControls.RJButton();
-            this.rjButton4 = new RJCodeAdvance.RJControls.RJButton();
+            this.btn_YemekEkle = new RJCodeAdvance.RJControls.RJButton();
+            this.btn_OgunEkle = new RJCodeAdvance.RJControls.RJButton();
+            this.btn_Raporlar = new RJCodeAdvance.RJControls.RJButton();
             this.rjProgressBar2 = new RJCodeAdvance.RJControls.RJProgressBar();
             this.materialTabSelector1 = new MaterialSkin.Controls.MaterialTabSelector();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -45,12 +45,12 @@
             // 
             this.materialLabel1.AutoSize = true;
             this.materialLabel1.Depth = 0;
-            this.materialLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.materialLabel1.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel1.Location = new System.Drawing.Point(597, 9);
+            this.materialLabel1.Location = new System.Drawing.Point(251, 31);
             this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel1.Name = "materialLabel1";
-            this.materialLabel1.Size = new System.Drawing.Size(131, 24);
+            this.materialLabel1.Size = new System.Drawing.Size(136, 24);
             this.materialLabel1.TabIndex = 29;
             this.materialLabel1.Text = "materialLabel1";
             // 
@@ -89,62 +89,62 @@
             this.rjButton1.TextColor = System.Drawing.Color.White;
             this.rjButton1.UseVisualStyleBackColor = false;
             // 
-            // rjButton2
+            // btn_YemekEkle
             // 
-            this.rjButton2.BackColor = System.Drawing.Color.Black;
-            this.rjButton2.BackgroundColor = System.Drawing.Color.Black;
-            this.rjButton2.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.rjButton2.BorderRadius = 0;
-            this.rjButton2.BorderSize = 0;
-            this.rjButton2.FlatAppearance.BorderSize = 0;
-            this.rjButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton2.ForeColor = System.Drawing.Color.White;
-            this.rjButton2.Location = new System.Drawing.Point(35, 169);
-            this.rjButton2.Name = "rjButton2";
-            this.rjButton2.Size = new System.Drawing.Size(150, 40);
-            this.rjButton2.TabIndex = 33;
-            this.rjButton2.Text = "Yemek Ekle";
-            this.rjButton2.TextColor = System.Drawing.Color.White;
-            this.rjButton2.UseVisualStyleBackColor = false;
-            this.rjButton2.Click += new System.EventHandler(this.rjButton2_Click);
+            this.btn_YemekEkle.BackColor = System.Drawing.Color.Black;
+            this.btn_YemekEkle.BackgroundColor = System.Drawing.Color.Black;
+            this.btn_YemekEkle.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btn_YemekEkle.BorderRadius = 0;
+            this.btn_YemekEkle.BorderSize = 0;
+            this.btn_YemekEkle.FlatAppearance.BorderSize = 0;
+            this.btn_YemekEkle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_YemekEkle.ForeColor = System.Drawing.Color.White;
+            this.btn_YemekEkle.Location = new System.Drawing.Point(35, 169);
+            this.btn_YemekEkle.Name = "btn_YemekEkle";
+            this.btn_YemekEkle.Size = new System.Drawing.Size(150, 40);
+            this.btn_YemekEkle.TabIndex = 33;
+            this.btn_YemekEkle.Text = "Yemek Ekle";
+            this.btn_YemekEkle.TextColor = System.Drawing.Color.White;
+            this.btn_YemekEkle.UseVisualStyleBackColor = false;
+            this.btn_YemekEkle.Click += new System.EventHandler(this.btn_YemekEkle_Click);
             // 
-            // rjButton3
+            // btn_OgunEkle
             // 
-            this.rjButton3.BackColor = System.Drawing.Color.Black;
-            this.rjButton3.BackgroundColor = System.Drawing.Color.Black;
-            this.rjButton3.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.rjButton3.BorderRadius = 0;
-            this.rjButton3.BorderSize = 0;
-            this.rjButton3.FlatAppearance.BorderSize = 0;
-            this.rjButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton3.ForeColor = System.Drawing.Color.White;
-            this.rjButton3.Location = new System.Drawing.Point(35, 262);
-            this.rjButton3.Name = "rjButton3";
-            this.rjButton3.Size = new System.Drawing.Size(150, 40);
-            this.rjButton3.TabIndex = 34;
-            this.rjButton3.Text = "Öğün Ekle";
-            this.rjButton3.TextColor = System.Drawing.Color.White;
-            this.rjButton3.UseVisualStyleBackColor = false;
-            this.rjButton3.Click += new System.EventHandler(this.rjButton3_Click);
+            this.btn_OgunEkle.BackColor = System.Drawing.Color.Black;
+            this.btn_OgunEkle.BackgroundColor = System.Drawing.Color.Black;
+            this.btn_OgunEkle.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btn_OgunEkle.BorderRadius = 0;
+            this.btn_OgunEkle.BorderSize = 0;
+            this.btn_OgunEkle.FlatAppearance.BorderSize = 0;
+            this.btn_OgunEkle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_OgunEkle.ForeColor = System.Drawing.Color.White;
+            this.btn_OgunEkle.Location = new System.Drawing.Point(35, 262);
+            this.btn_OgunEkle.Name = "btn_OgunEkle";
+            this.btn_OgunEkle.Size = new System.Drawing.Size(150, 40);
+            this.btn_OgunEkle.TabIndex = 34;
+            this.btn_OgunEkle.Text = "Öğün Ekle";
+            this.btn_OgunEkle.TextColor = System.Drawing.Color.White;
+            this.btn_OgunEkle.UseVisualStyleBackColor = false;
+            this.btn_OgunEkle.Click += new System.EventHandler(this.btn_OgunEkle_Click);
             // 
-            // rjButton4
+            // btn_Raporlar
             // 
-            this.rjButton4.BackColor = System.Drawing.Color.Black;
-            this.rjButton4.BackgroundColor = System.Drawing.Color.Black;
-            this.rjButton4.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.rjButton4.BorderRadius = 0;
-            this.rjButton4.BorderSize = 0;
-            this.rjButton4.FlatAppearance.BorderSize = 0;
-            this.rjButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton4.ForeColor = System.Drawing.Color.White;
-            this.rjButton4.Location = new System.Drawing.Point(35, 355);
-            this.rjButton4.Name = "rjButton4";
-            this.rjButton4.Size = new System.Drawing.Size(150, 40);
-            this.rjButton4.TabIndex = 35;
-            this.rjButton4.Text = "Raporlar";
-            this.rjButton4.TextColor = System.Drawing.Color.White;
-            this.rjButton4.UseVisualStyleBackColor = false;
-            this.rjButton4.Click += new System.EventHandler(this.rjButton4_Click);
+            this.btn_Raporlar.BackColor = System.Drawing.Color.Black;
+            this.btn_Raporlar.BackgroundColor = System.Drawing.Color.Black;
+            this.btn_Raporlar.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btn_Raporlar.BorderRadius = 0;
+            this.btn_Raporlar.BorderSize = 0;
+            this.btn_Raporlar.FlatAppearance.BorderSize = 0;
+            this.btn_Raporlar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Raporlar.ForeColor = System.Drawing.Color.White;
+            this.btn_Raporlar.Location = new System.Drawing.Point(35, 355);
+            this.btn_Raporlar.Name = "btn_Raporlar";
+            this.btn_Raporlar.Size = new System.Drawing.Size(150, 40);
+            this.btn_Raporlar.TabIndex = 35;
+            this.btn_Raporlar.Text = "Raporlar";
+            this.btn_Raporlar.TextColor = System.Drawing.Color.White;
+            this.btn_Raporlar.UseVisualStyleBackColor = false;
+            this.btn_Raporlar.Click += new System.EventHandler(this.btn_Raporlar_Click);
             // 
             // rjProgressBar2
             // 
@@ -152,7 +152,7 @@
             this.rjProgressBar2.ChannelHeight = 6;
             this.rjProgressBar2.ForeBackColor = System.Drawing.Color.RoyalBlue;
             this.rjProgressBar2.ForeColor = System.Drawing.Color.White;
-            this.rjProgressBar2.Location = new System.Drawing.Point(412, 61);
+            this.rjProgressBar2.Location = new System.Drawing.Point(255, 87);
             this.rjProgressBar2.Name = "rjProgressBar2";
             this.rjProgressBar2.ShowMaximun = false;
             this.rjProgressBar2.ShowValue = RJCodeAdvance.RJControls.TextPosition.Right;
@@ -194,9 +194,9 @@
             this.ClientSize = new System.Drawing.Size(767, 487);
             this.Controls.Add(this.materialLabel1);
             this.Controls.Add(this.rjProgressBar2);
-            this.Controls.Add(this.rjButton4);
-            this.Controls.Add(this.rjButton3);
-            this.Controls.Add(this.rjButton2);
+            this.Controls.Add(this.btn_Raporlar);
+            this.Controls.Add(this.btn_OgunEkle);
+            this.Controls.Add(this.btn_YemekEkle);
             this.Controls.Add(this.rjButton1);
             this.Controls.Add(this.materialTabSelector1);
             this.Controls.Add(this.pictureBox1);
@@ -217,9 +217,9 @@
         private MaterialSkin.Controls.MaterialLabel materialLabel1;
         private RJCodeAdvance.RJControls.RJProgressBar rjProgressBar1;
         private RJCodeAdvance.RJControls.RJButton rjButton1;
-        private RJCodeAdvance.RJControls.RJButton rjButton2;
-        private RJCodeAdvance.RJControls.RJButton rjButton3;
-        private RJCodeAdvance.RJControls.RJButton rjButton4;
+        private RJCodeAdvance.RJControls.RJButton btn_YemekEkle;
+        private RJCodeAdvance.RJControls.RJButton btn_OgunEkle;
+        private RJCodeAdvance.RJControls.RJButton btn_Raporlar;
         private RJCodeAdvance.RJControls.RJProgressBar rjProgressBar2;
         private MaterialSkin.Controls.MaterialTabSelector materialTabSelector1;
     }

@@ -16,5 +16,11 @@ namespace UI_Layerr
         {
             InitializeComponent();
         }
+        int GelenID;
+        public frm_YemekEkle(int ID)
+        {
+            InitializeComponent();
+            GelenID = ID;
+        }
     }
 }

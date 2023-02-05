@@ -30,17 +30,19 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_KayitDevam));
             this.cmb_Aktivite = new RJCodeAdvance.RJControls.RJComboBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.cmb_HedefSecim = new RJCodeAdvance.RJControls.RJComboBox();
             this.btn_Kaydet = new RJCodeAdvance.RJControls.RJButton();
             this.lbl_HataMesajı = new MaterialSkin.Controls.MaterialLabel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // cmb_Aktivite
             // 
             this.cmb_Aktivite.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.cmb_Aktivite.BorderColor = System.Drawing.Color.MediumSlateBlue;
+            this.cmb_Aktivite.BorderColor = System.Drawing.Color.Black;
             this.cmb_Aktivite.BorderSize = 1;
             this.cmb_Aktivite.DisplayMember = "Çok Az (Hareket etmiyorum veya çok az hareket ediyorum.)";
             this.cmb_Aktivite.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDown;
@@ -58,22 +60,10 @@
             this.cmb_Aktivite.Texts = "Aktivite Düzeyi Seçiniz";
             this.cmb_Aktivite.ValueMember = "Çok Az (Hareket etmiyorum veya çok az hareket ediyorum.)";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(644, 437);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 27;
-            this.pictureBox1.TabStop = false;
-            // 
             // cmb_HedefSecim
             // 
             this.cmb_HedefSecim.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.cmb_HedefSecim.BorderColor = System.Drawing.Color.MediumSlateBlue;
+            this.cmb_HedefSecim.BorderColor = System.Drawing.Color.Black;
             this.cmb_HedefSecim.BorderSize = 1;
             this.cmb_HedefSecim.DisplayMember = "Çok Az (Hareket etmiyorum veya çok az hareket ediyorum.)";
             this.cmb_HedefSecim.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDown;
@@ -93,8 +83,8 @@
             // 
             // btn_Kaydet
             // 
-            this.btn_Kaydet.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.btn_Kaydet.BackgroundColor = System.Drawing.Color.MediumSlateBlue;
+            this.btn_Kaydet.BackColor = System.Drawing.Color.Black;
+            this.btn_Kaydet.BackgroundColor = System.Drawing.Color.Black;
             this.btn_Kaydet.BorderColor = System.Drawing.Color.PaleVioletRed;
             this.btn_Kaydet.BorderRadius = 0;
             this.btn_Kaydet.BorderSize = 0;
@@ -122,11 +112,35 @@
             this.lbl_HataMesajı.Size = new System.Drawing.Size(0, 24);
             this.lbl_HataMesajı.TabIndex = 31;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.DarkGray;
+            this.pictureBox2.Image = global::UI_Layerr.Properties.Resources.My_project;
+            this.pictureBox2.Location = new System.Drawing.Point(0, 233);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(203, 204);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 32;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(644, 437);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 27;
+            this.pictureBox1.TabStop = false;
+            // 
             // frm_KayitDevam
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(644, 437);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.lbl_HataMesajı);
             this.Controls.Add(this.btn_Kaydet);
             this.Controls.Add(this.cmb_HedefSecim);
@@ -137,6 +151,7 @@
             this.Text = "Form2";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.KayitDevamForm_FormClosed);
             this.Load += new System.EventHandler(this.KayitDevamForm_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -149,5 +164,6 @@
         private RJCodeAdvance.RJControls.RJComboBox cmb_HedefSecim;
         private RJCodeAdvance.RJControls.RJButton btn_Kaydet;
         private MaterialSkin.Controls.MaterialLabel lbl_HataMesajı;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

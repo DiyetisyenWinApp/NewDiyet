@@ -291,7 +291,7 @@
             this.materialLabel4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.materialLabel4.BackColor = System.Drawing.Color.Transparent;
             this.materialLabel4.Depth = 0;
-            this.materialLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.materialLabel4.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel4.Location = new System.Drawing.Point(370, 248);
             this.materialLabel4.MouseState = MaterialSkin.MouseState.HOVER;
@@ -305,7 +305,7 @@
             this.lbl_DogumTarihi.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl_DogumTarihi.BackColor = System.Drawing.Color.Transparent;
             this.lbl_DogumTarihi.Depth = 0;
-            this.lbl_DogumTarihi.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.lbl_DogumTarihi.Font = new System.Drawing.Font("Roboto", 11F);
             this.lbl_DogumTarihi.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.lbl_DogumTarihi.Location = new System.Drawing.Point(189, 99);
             this.lbl_DogumTarihi.MouseState = MaterialSkin.MouseState.HOVER;
@@ -545,12 +545,12 @@
             this.materialLabel2.AutoSize = true;
             this.materialLabel2.BackColor = System.Drawing.Color.Transparent;
             this.materialLabel2.Depth = 0;
-            this.materialLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.materialLabel2.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel2.Location = new System.Drawing.Point(370, 196);
             this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel2.Name = "materialLabel2";
-            this.materialLabel2.Size = new System.Drawing.Size(94, 24);
+            this.materialLabel2.Size = new System.Drawing.Size(93, 24);
             this.materialLabel2.TabIndex = 35;
             this.materialLabel2.Text = "KİLO (KG)";
             // 
@@ -558,7 +558,7 @@
             // 
             this.lbl_Cinsiyet.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl_Cinsiyet.Depth = 0;
-            this.lbl_Cinsiyet.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.lbl_Cinsiyet.Font = new System.Drawing.Font("Roboto", 11F);
             this.lbl_Cinsiyet.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.lbl_Cinsiyet.Location = new System.Drawing.Point(412, 99);
             this.lbl_Cinsiyet.MouseState = MaterialSkin.MouseState.HOVER;
