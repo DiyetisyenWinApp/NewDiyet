@@ -19,8 +19,6 @@ C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\bin\Debug\En
 C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\bin\Debug\EntityFramework.xml
 C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
-C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.V01.resources
-C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.cache
 C:\Users\Ertan\Desktop\Diyet-\NewDiyet\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
 C:\Users\Ertan\Desktop\Diyet-\NewDiyet\DataAccessLayer\bin\Debug\DataAccessLayer.dll
 C:\Users\Ertan\Desktop\Diyet-\NewDiyet\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
@@ -36,14 +34,7 @@ C:\Users\Ertan\Desktop\Diyet-\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer
 C:\Users\Ertan\Desktop\Diyet-\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
 C:\Users\Ertan\Desktop\Diyet-\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.dll
 C:\Users\Ertan\Desktop\Diyet-\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
-C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.V02.resources
-C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.V03.resources
-C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.V04.resources
-C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.V05.resources
-C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.V06.resources
-C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.V07.resources
-C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.V08.resources
-C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.V09.resources
-C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.V10.resources
 C:\Users\Ertan\Desktop\Diyet-\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.v11451.resources
 C:\Users\Ertan\Desktop\Diyet-\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.cache
+C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.V01.resources
+C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.cache

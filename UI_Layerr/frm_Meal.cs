@@ -56,6 +56,7 @@ namespace UI_Layerr
 
         private void rjButton1_Click(object sender, EventArgs e)
         {
+
             string yemekAdı = textBox1.Text;
             var queryYemekelr = db.FoodInfos.Where(x => x.FoodName.Contains(yemekAdı)).FirstOrDefault();
             
@@ -73,9 +74,53 @@ namespace UI_Layerr
             db.Meals.Add(meal);
 
             db.SaveChanges();
-            var qry = db.Meals.Where(x => x.UserDetailID == GelenID).FirstOrDefault();
-            dataGridView2.DataSource = null;
-            dataGridView2.DataSource =qry;
+
+            //kuyllanıcı ıd ile alakalı ve o güne ait öğünleri bize getiriyor
+            DateTime Bugün = DateTime.Now;
+            var qry = db.Meals.Where(x => x.UserDetailID == GelenID && x.TüketimTarihi.Day == Bugün.Day && x.TüketimTarihi.Month == Bugün.Month && Bugün.Year == x.TüketimTarihi.Year).ToList();
+            
+            
+            
+                
+            
+                
+
+            
+
+
+
+            //List<IQueryable< FoodInfo>> a = new List<IQueryable< FoodInfo>>();
+
+
+
+
+
+
+
+
+            //var qryFoodInfo = db.FoodInfos.Where(x => x.FoodInfoID == qry.FoodInfoID);
+            //  dataGridView2.DataSource = qryFoodInfo.Select(x => new
+            //    {
+            //        YemekAdı = x.FoodName,
+            //        Kalorı = x.Kalori
+            //    }).ToList();
+
+            //List<FoodInfo> list = new List<FoodInfo>();
+            //List<string> lists = new List<string>();
+            //foreach (var item in qry)
+            //{
+            //    var qry2 = db.FoodInfos.Where(x => x.FoodInfoID == item.FoodInfoID).FirstOrDefault();
+            //    string a = qry2.FoodName.ToString();
+            //    lists.Add(a);
+            //}
+
+
+            //dataGridView2.DataSource = lists;
+
+
+
+
+
 
 
         }

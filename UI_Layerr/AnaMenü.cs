@@ -42,7 +42,7 @@ namespace UI_Layerr
         {
             frm_YemekEkle frm_YemekEkle = new frm_YemekEkle();
             frm_YemekEkle.Show();
-            this.Close();
+            
         }
 
         private void btn_Raporlar_Click(object sender, EventArgs e)

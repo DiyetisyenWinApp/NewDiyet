@@ -37,8 +37,8 @@
             this.rjButton1 = new RJCodeAdvance.RJControls.RJButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
@@ -63,7 +63,7 @@
             this.materialLabel1.Location = new System.Drawing.Point(57, 9);
             this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel1.Name = "materialLabel1";
-            this.materialLabel1.Size = new System.Drawing.Size(54, 24);
+            this.materialLabel1.Size = new System.Drawing.Size(54, 23);
             this.materialLabel1.TabIndex = 31;
             this.materialLabel1.Text = "Öğün";
             // 
@@ -96,7 +96,7 @@
             this.materialLabel3.Location = new System.Drawing.Point(376, 12);
             this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel3.Name = "materialLabel3";
-            this.materialLabel3.Size = new System.Drawing.Size(68, 24);
+            this.materialLabel3.Size = new System.Drawing.Size(68, 23);
             this.materialLabel3.TabIndex = 35;
             this.materialLabel3.Text = "Yemek";
             // 
@@ -109,7 +109,7 @@
             this.materialLabel4.Location = new System.Drawing.Point(388, 274);
             this.materialLabel4.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel4.Name = "materialLabel4";
-            this.materialLabel4.Size = new System.Drawing.Size(56, 24);
+            this.materialLabel4.Size = new System.Drawing.Size(56, 23);
             this.materialLabel4.TabIndex = 37;
             this.materialLabel4.Text = "Gram";
             // 
@@ -155,15 +155,6 @@
             this.textBox1.TabIndex = 42;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // dataGridView2
-            // 
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(413, 60);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.RowHeadersWidth = 51;
-            this.dataGridView2.Size = new System.Drawing.Size(256, 168);
-            this.dataGridView2.TabIndex = 43;
-            // 
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
@@ -184,13 +175,23 @@
             this.comboBox1.Size = new System.Drawing.Size(62, 24);
             this.comboBox1.TabIndex = 44;
             // 
+            // dataGridView2
+            // 
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Location = new System.Drawing.Point(380, 60);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.RowHeadersWidth = 51;
+            this.dataGridView2.RowTemplate.Height = 24;
+            this.dataGridView2.Size = new System.Drawing.Size(289, 208);
+            this.dataGridView2.TabIndex = 45;
+            // 
             // frm_Meal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(681, 450);
-            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.dataGridView2);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.rjButton1);
             this.Controls.Add(this.materialLabel4);
@@ -221,7 +222,7 @@
         private MaterialSkin.Controls.MaterialLabel materialLabel4;
         private RJCodeAdvance.RJControls.RJButton rjButton1;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.DataGridView dataGridView2;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.DataGridView dataGridView2;
     }
 }

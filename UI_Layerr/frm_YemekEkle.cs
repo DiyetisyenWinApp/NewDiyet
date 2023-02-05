@@ -35,6 +35,8 @@ namespace UI_Layerr
                 foodInfo.Gram = (int)numericUpDown5.Value;
                 db.FoodInfos.Add(foodInfo);
                 db.SaveChanges();
+                MessageBox.Show("İşlem Başarılı");
+                rjTextBox1.Texts = "";
             }
             catch (Exception ex)
             {
@@ -42,6 +44,11 @@ namespace UI_Layerr
                 MessageBox.Show(ex.Message +"Hatalı işlem !!!");
             }
            
+        }
+
+        private void frm_YemekEkle_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            
         }
     }
 }
