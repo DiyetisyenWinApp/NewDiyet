@@ -711,8 +711,223 @@
 
             FoodInfo SekersizFistikEzmesi = new FoodInfo() { FoodName = "Şekersiz Fıstık Ezmesi", Kalori = 36f, Karbonhidrat = 1.1f, Protein = 1.32f, Yag = 2.76f, Gram = 100 }; context.FoodInfos.AddOrUpdate(SekersizFistikEzmesi);
 
+            //ET YEMEKLERİ
+
+            FoodInfo danaEti = new FoodInfo() { FoodName = "Dana Eti", Kalori = 2.31f, Karbonhidrat = 0, Protein = 0.3f, Yag = 0.11f }; context.FoodInfos.AddOrUpdate(danaEti);
+
+            FoodInfo kuzuEti = new FoodInfo() { FoodName = "Kuzu Eti", Kalori = 2.71f, Karbonhidrat = 0, Protein = 0.25f, Yag = 0.18f }; context.FoodInfos.AddOrUpdate(kuzuEti);
+
+            FoodInfo etliSebzeliPizza = new FoodInfo() { FoodName = " Etli Sebzeli Pizza", Kalori = 2.44f, Karbonhidrat = 0.25f, Protein = 0.11f, Yag = 0.11f }; context.FoodInfos.AddOrUpdate(etliSebzeliPizza);
+
+            FoodInfo hindiEtiKızarmıs = new FoodInfo() { FoodName = " Kızarmış Hindi Eti", Kalori = 1.9f, Karbonhidrat = 0, Protein = 0.28f, Yag = 0.07f }; context.FoodInfos.AddOrUpdate(hindiEtiKızarmıs);
+
+            FoodInfo kazEti = new FoodInfo() { FoodName = "Kaz Eti", Kalori = 3.05f, Karbonhidrat = 0, Protein = 0.25f, Yag = 0.22f }; context.FoodInfos.AddOrUpdate(kazEti);
+
+            FoodInfo keciEti = new FoodInfo() { FoodName = " Keçi Eti", Kalori = 1.4f, Karbonhidrat = 0, Protein = 0.27f, Yag = 0.03f }; context.FoodInfos.AddOrUpdate(keciEti);
+
+            FoodInfo kurutulmusSıgırEti = new FoodInfo() { FoodName = "Kurutulmuş Sığır Eti", Kalori = 4.1f, Karbonhidrat = 0.11f, Protein = 0.33f, Yag = 0.25f }; context.FoodInfos.AddOrUpdate(kurutulmusSıgırEti);
+
+            FoodInfo etliNohut = new FoodInfo() { FoodName = " Etli Nohut", Kalori = 1.74f, Karbonhidrat = 0.08f, Protein = 0.012f, Yag = 0.01f }; context.FoodInfos.AddOrUpdate(etliNohut);
+
+            FoodInfo etDoner = new FoodInfo() { FoodName = " Et Döner", Kalori = 2.52f, Karbonhidrat = 0.02f, Protein = 0.015f, Yag = 0.25f }; context.FoodInfos.AddOrUpdate(etDoner);
+
+            FoodInfo etKavurma = new FoodInfo() { FoodName = " Et Kavurma", Kalori = 3.43f, Karbonhidrat = 0, Protein = 0.2f, Yag = 0.28f }; context.FoodInfos.AddOrUpdate(etKavurma);
+
+            FoodInfo etSote = new FoodInfo() { FoodName = " Et Sote", Kalori = 1.43f, Karbonhidrat = 0.03f, Protein = 0.14f, Yag = 0.07f }; context.FoodInfos.AddOrUpdate(etSote);
+
+            FoodInfo danaEtliBurrito = new FoodInfo() { FoodName = " Dana Etli Burrito", Kalori = 2.62f, Karbonhidrat = 0.29f, Protein = 0.13f, Yag = 0.1f }; context.FoodInfos.AddOrUpdate(danaEtliBurrito);
+
+            FoodInfo etliKuruFasulye = new FoodInfo() { FoodName = " Etli Kuru Fasulye", Kalori = 1.43f, Karbonhidrat = 0.13f, Protein = 0.09f, Yag = 0.06f }; context.FoodInfos.AddOrUpdate(etliKuruFasulye);
+
+            FoodInfo etliTurlu = new FoodInfo() { FoodName = " Etli Türlü", Kalori = 0.9f, Karbonhidrat = 0.04f, Protein = 0.054f, Yag = 0.056f }; context.FoodInfos.AddOrUpdate(etliTurlu);
+
+            FoodInfo etliTazeFasulye = new FoodInfo() { FoodName = " Etli Taze Fasulye", Kalori = 0.88f, Karbonhidrat = 0.024f, Protein = 0.066f, Yag = 0.057f }; context.FoodInfos.AddOrUpdate(etliTazeFasulye);
+
+            FoodInfo etliBiberDolmasi = new FoodInfo() { FoodName = " Etli Biber Dolması", Kalori = 0.79f, Karbonhidrat = 0.036f, Protein = 0.054f, Yag = 0.047f }; context.FoodInfos.AddOrUpdate(etliBiberDolmasi);
+
+            FoodInfo etliPatates = new FoodInfo() { FoodName = " Etli Patates Yemeği", Kalori = 1.6f, Karbonhidrat = 0.04f, Protein = 0.013f, Yag = 0.01f }; context.FoodInfos.AddOrUpdate(etliPatates);
+
+            FoodInfo suluKofte = new FoodInfo() { FoodName = "Sulu Köfte", Kalori = 2.22f, Karbonhidrat = 0.10f, Protein = 0.14f, Yag = 0.13f }; context.FoodInfos.AddOrUpdate(suluKofte);
+
+            FoodInfo islimKebabi = new FoodInfo() { FoodName = " İslim Kebabı", Kalori = 0.87f, Karbonhidrat = 0.03f, Protein = 0.05f, Yag = 0.06f }; context.FoodInfos.AddOrUpdate(islimKebabi);
+
+            FoodInfo izgaraKofte = new FoodInfo() { FoodName = "Izgara Köfte", Kalori = 1.67f, Karbonhidrat = 0.04f, Protein = 0.14f, Yag = 0.1f }; context.FoodInfos.AddOrUpdate(izgaraKofte);
+
+            FoodInfo izmirKofte = new FoodInfo() { FoodName = " İzmir Köfte", Kalori = 1.65f, Karbonhidrat = 0.115f, Protein = 0.08f, Yag = 0.1f }; context.FoodInfos.AddOrUpdate(izmirKofte);
+
+            FoodInfo icliKöfte = new FoodInfo() { FoodName = "İçli Köfte", Kalori = 2.33f, Karbonhidrat = 0.32f, Protein = 0.1f, Yag = 0.07f }; context.FoodInfos.AddOrUpdate(icliKöfte);
+
+            FoodInfo kasapKofte = new FoodInfo() { FoodName = "Kasap Köfte", Kalori = 1.8f, Karbonhidrat = 0.10f, Protein = 0.017f, Yag = 0.076f }; context.FoodInfos.AddOrUpdate(kasapKofte);
+
+            FoodInfo inegolKofte = new FoodInfo() { FoodName = "İnegöl Köfte", Kalori = 3f, Karbonhidrat = 0.08f, Protein = 0.16f, Yag = 0.11f }; context.FoodInfos.AddOrUpdate(inegolKofte);
+
+            FoodInfo kadınbuduKöfte = new FoodInfo() { FoodName = "Kadınbudu Köfte", Kalori = 3.52f, Karbonhidrat = 0.14f, Protein = 0.13f, Yag = 0.27f }; context.FoodInfos.AddOrUpdate(kadınbuduKöfte);
+
+            FoodInfo adanaKebabi = new FoodInfo() { FoodName = " Adana Kebabı", Kalori = 2.29f, Karbonhidrat = 0.08f, Protein = 0.08f, Yag = 0.05f }; context.FoodInfos.AddOrUpdate(adanaKebabi);
+
+            FoodInfo patlicanKebabi = new FoodInfo() { FoodName = " Patlıcan Kebabı", Kalori = 1.02f, Karbonhidrat = 0.048f, Protein = 0.09f, Yag = 0.045f }; context.FoodInfos.AddOrUpdate(patlicanKebabi);
+
+            FoodInfo ormanKebabi = new FoodInfo() { FoodName = " Orman Kebabı", Kalori = 1.25f, Karbonhidrat = 0.1f, Protein = 0.048f, Yag = 0.04f }; context.FoodInfos.AddOrUpdate(ormanKebabi);
+
+            FoodInfo kuzuSis = new FoodInfo() { FoodName = "Kuzu Şiş", Kalori = 1.67f, Karbonhidrat = 0.038f, Protein = 0.165f, Yag = 0.097f }; context.FoodInfos.AddOrUpdate(kuzuSis);
+
+            FoodInfo tasKebabi = new FoodInfo() { FoodName = " Tas Kebabı", Kalori = 0.7f, Karbonhidrat = 0.07f, Protein = 0.05f, Yag = 0.04f }; context.FoodInfos.AddOrUpdate(tasKebabi);
+
+            FoodInfo beytiKebabi = new FoodInfo() { FoodName = " Beyti Kebabı", Kalori = 2f, Karbonhidrat = 0.13f, Protein = 0.1f, Yag = 0.12f }; context.FoodInfos.AddOrUpdate(beytiKebabi);
+
+            FoodInfo cagKebabi = new FoodInfo() { FoodName = " Cağ Kebabı", Kalori = 1.67f, Karbonhidrat = 0.038f, Protein = 0.165f, Yag = 0.097f }; context.FoodInfos.AddOrUpdate(cagKebabi);
+
+            FoodInfo tepsiKebabi = new FoodInfo() { FoodName = "Tepsi Kebabı", Kalori = 1.72f, Karbonhidrat = 0.04f, Protein = 0.106f, Yag = 0.123f }; context.FoodInfos.AddOrUpdate(tepsiKebabi);
 
 
+
+            FoodInfo urfaKebabi = new FoodInfo() { FoodName = " Urfa Kebabı", Kalori = 1.77f, Karbonhidrat = 0.016f, Protein = 0.154f, Yag = 0.118f }; context.FoodInfos.AddOrUpdate(urfaKebabi);
+
+            FoodInfo cokertmeKebabi = new FoodInfo() { FoodName = " Çökertme Kebabı", Kalori = 2.49f, Karbonhidrat = 0.12f, Protein = 0.105f, Yag = 0.28f }; context.FoodInfos.AddOrUpdate(cokertmeKebabi);
+
+            FoodInfo kagıtKebabı = new FoodInfo() { FoodName = " Kağıt Kebabı", Kalori = 0.8f, Karbonhidrat = 0.036f, Protein = 0.103f, Yag = 0.028f }; context.FoodInfos.AddOrUpdate(kagıtKebabı);
+
+            FoodInfo iskender = new FoodInfo() { FoodName = "İskender", Kalori = 1.93f, Karbonhidrat = 0.14f, Protein = 0.09f, Yag = 0.11f }; context.FoodInfos.AddOrUpdate(iskender);
+
+            FoodInfo aliNazik = new FoodInfo() { FoodName = "Alinazik Kebabı", Kalori = 0.57f, Karbonhidrat = 0.03f, Protein = 0.035f, Yag = 0.034f }; context.FoodInfos.AddOrUpdate(aliNazik);
+
+            FoodInfo manisaKebabi = new FoodInfo() { FoodName = " Manisa Kebabı", Kalori = 5.34f, Karbonhidrat = 3.35f, Protein = 2.33f, Yag = 3.36f }; context.FoodInfos.AddOrUpdate(manisaKebabi);
+
+            FoodInfo soganKebabi = new FoodInfo() { FoodName = " Soğan Kebabı", Kalori = 2.79f, Karbonhidrat = 0.05f, Protein = 0.09f, Yag = 0.05f }; context.FoodInfos.AddOrUpdate(soganKebabi);
+
+            FoodInfo ıslakHamburger = new FoodInfo() { FoodName = " Islak Hamburger", Kalori = 1.66f, Karbonhidrat = 0.153f, Protein = 0.07f, Yag = 0.08f }; context.FoodInfos.AddOrUpdate(ıslakHamburger);
+
+            FoodInfo hamburger = new FoodInfo() { FoodName = "Hamburger", Kalori = 2.58f, Karbonhidrat = 0.265f, Protein = 0.147f, Yag = 0.104f }; context.FoodInfos.AddOrUpdate(hamburger);
+
+            FoodInfo kiymaliBorek = new FoodInfo() { FoodName = " Kıymalı Börek", Kalori = 2.48f, Karbonhidrat = 0.288f, Protein = 0.092f, Yag = 0.104f }; context.FoodInfos.AddOrUpdate(kiymaliBorek);
+
+            FoodInfo patlicanMusakka = new FoodInfo() { FoodName = " Patlıcan Musakka", Kalori = 1.42f, Karbonhidrat = 0.096f, Protein = 0.048f, Yag = 0.06f }; context.FoodInfos.AddOrUpdate(patlicanMusakka);
+
+            FoodInfo kiymaliPide = new FoodInfo() { FoodName = " Kıymalı Pide", Kalori = 2.09f, Karbonhidrat = 0.245f, Protein = 0.082f, Yag = 0.085f }; context.FoodInfos.AddOrUpdate(kiymaliPide);
+
+            FoodInfo kiymaliYumurta = new FoodInfo() { FoodName = " Kıymalı Yumurta", Kalori = 3.62f, Karbonhidrat = 0.074f, Protein = 0.25f, Yag = 0.074f }; context.FoodInfos.AddOrUpdate(kiymaliYumurta);
+
+            FoodInfo kavrulmusKiyma = new FoodInfo() { FoodName = " Kavrulmuş Kıyma", Kalori = 2f, Karbonhidrat = 0.007f, Protein = 0.276f, Yag = 0.122f }; context.FoodInfos.AddOrUpdate(kavrulmusKiyma);
+
+            FoodInfo kiymaliMakarna = new FoodInfo() { FoodName = " Kıymalı Makarna", Kalori = 3.92f, Karbonhidrat = 0.539f, Protein = 0.155f, Yag = 0.121f }; context.FoodInfos.AddOrUpdate(kiymaliMakarna);
+
+            FoodInfo kiymaliIspanak = new FoodInfo() { FoodName = " Kıymalı Ispanak", Kalori = 0.75f, Karbonhidrat = 0.105f, Protein = 0.036f, Yag = 0.023f }; context.FoodInfos.AddOrUpdate(kiymaliIspanak);
+
+            FoodInfo kiymaliKarnabahar = new FoodInfo() { FoodName = " Kıymalı Karnabahar", Kalori = 1.12f, Karbonhidrat = 0.11f, Protein = 0.03f, Yag = 0.06f }; context.FoodInfos.AddOrUpdate(kiymaliKarnabahar);
+
+            FoodInfo kiymaliKabak = new FoodInfo() { FoodName = " Kıymalı Kabak Yemeği", Kalori = 0.6f, Karbonhidrat = 0.105f, Protein = 0.022f, Yag = 0.016f }; context.FoodInfos.AddOrUpdate(kiymaliKabak);
+
+            FoodInfo karniyarik = new FoodInfo() { FoodName = "Karnıyarık", Kalori = 0.55f, Karbonhidrat = 0.025f, Protein = 0.032f, Yag = 0.035f }; context.FoodInfos.AddOrUpdate(karniyarik);
+
+            FoodInfo kiymaliBezelye = new FoodInfo() { FoodName = " Kıymalı Bezelye", Kalori = 0.96f, Karbonhidrat = 0.058f, Protein = 0.079f, Yag = 0.044f }; context.FoodInfos.AddOrUpdate(kiymaliBezelye);
+
+            FoodInfo kiymaliBamya = new FoodInfo() { FoodName = " Kıymalı Bamya", Kalori = 0.45f, Karbonhidrat = 0.032f, Protein = 0.034f, Yag = 0.018f }; context.FoodInfos.AddOrUpdate(kiymaliBamya);
+
+            FoodInfo kiymaliGozleme = new FoodInfo() { FoodName = " Kıymalı Gözleme", Kalori = 2.56f, Karbonhidrat = 0.445f, Protein = 0.103f, Yag = 0.06f }; context.FoodInfos.AddOrUpdate(kiymaliGozleme);
+
+            FoodInfo kiymaliKabuska = new FoodInfo() { FoodName = " Kıymalı Kapuska", Kalori = 0.59f, Karbonhidrat = 0.049f, Protein = 0.025f, Yag = 0.032f }; context.FoodInfos.AddOrUpdate(kiymaliKabuska);
+
+            FoodInfo kiymaliPatates = new FoodInfo() { FoodName = " Kıymalı Patates", Kalori = 0.8f, Karbonhidrat = 0.09f, Protein = 0.04f, Yag = 0.03f }; context.FoodInfos.AddOrUpdate(kiymaliPatates);
+
+            FoodInfo kiymaliYaprakSarma = new FoodInfo() { FoodName = " Kıymalı Yaprak Sarma", Kalori = 1.06f, Karbonhidrat = 0.052f, Protein = 0.056f, Yag = 0.071f }; context.FoodInfos.AddOrUpdate(kiymaliYaprakSarma);
+
+            FoodInfo kuzuKusleme = new FoodInfo() { FoodName = " Kuzu Küşleme", Kalori = 2.20f, Karbonhidrat = 0.025f, Protein = 0.328f, Yag = 0.09f }; context.FoodInfos.AddOrUpdate(kuzuKusleme);
+
+            FoodInfo etliLahanaSarma = new FoodInfo() { FoodName = " Etli Lahana Sarma", Kalori = 1.25f, Karbonhidrat = 0.115f, Protein = 0.04f, Yag = 0.025f }; context.FoodInfos.AddOrUpdate(etliLahanaSarma);
+
+            FoodInfo etliPilav = new FoodInfo() { FoodName = " Etli Pilav", Kalori = 1.42f, Karbonhidrat = 0.22f, Protein = 0.055f, Yag = 0.035f }; context.FoodInfos.AddOrUpdate(etliPilav);
+
+            FoodInfo etliEkmek = new FoodInfo() { FoodName = " Etli Ekmek", Kalori = 3.07f, Karbonhidrat = 0.352f, Protein = 0.11f, Yag = 0.136f }; context.FoodInfos.AddOrUpdate(etliEkmek);
+
+            //SEBZELER
+
+            FoodInfo domates = new FoodInfo() { FoodName = "Domates", Kalori = 22, Karbonhidrat = 4.78f, Protein = 1.08f, Yag = 0.25f, Gram = 100 }; context.FoodInfos.AddOrUpdate(domates);
+
+            FoodInfo ceriDomates = new FoodInfo() { FoodName = "Çeri Domates", Kalori = 27, Karbonhidrat = 5.8f, Protein = 1.31f, Yag = 0.30f, Gram = 100 }; context.FoodInfos.AddOrUpdate(ceriDomates);
+
+            FoodInfo salatalik = new FoodInfo() { FoodName = "Salatalık", Kalori = 15, Karbonhidrat = 3.63f, Protein = 0.65f, Yag = 0.11f, Gram = 100 }; context.FoodInfos.AddOrUpdate(salatalik);
+
+            FoodInfo marul = new FoodInfo() { FoodName = "Marul", Kalori = 5, Karbonhidrat = 1.03f, Protein = 0.5f, Yag = 0.05f, Gram = 100 }; context.FoodInfos.AddOrUpdate(marul);
+
+            FoodInfo carlistonBiber = new FoodInfo() { FoodName = "Çarliston Biber", Kalori = 12, Karbonhidrat = 2.46f, Protein = 0.76f, Yag = 0.21f, Gram = 100 }; context.FoodInfos.AddOrUpdate(carlistonBiber);
+
+            FoodInfo kirmiziBiber = new FoodInfo() { FoodName = " Kırmızı Biber", Kalori = 37, Karbonhidrat = 7.18f, Protein = 1.18f, Yag = 0.36f, Gram = 100 }; context.FoodInfos.AddOrUpdate(kirmiziBiber);
+
+            FoodInfo nane = new FoodInfo() { FoodName = "Nane", Kalori = 1, Karbonhidrat = 0.24f, Protein = 0.06f, Yag = 0.001f, Gram = 100 }; context.FoodInfos.AddOrUpdate(nane);
+
+            FoodInfo feslegen = new FoodInfo() { FoodName = "Feslegen", Kalori = 1, Karbonhidrat = 0.23f, Protein = 0.13f, Yag = 0.03f, Gram = 100 }; context.FoodInfos.AddOrUpdate(feslegen);
+
+            FoodInfo dereotu = new FoodInfo() { FoodName = "Dereotu", Kalori = 1, Karbonhidrat = 0.23f, Protein = 0.13f, Yag = 0.01f, Gram = 100 }; context.FoodInfos.AddOrUpdate(dereotu);
+
+            FoodInfo kisnis = new FoodInfo() { FoodName = "Kişniş", Kalori = 5, Karbonhidrat = 0.99f, Protein = 0.22f, Yag = 0.32f, Gram = 100 }; context.FoodInfos.AddOrUpdate(kisnis);
+
+            FoodInfo biberiye = new FoodInfo() { FoodName = "Biberiye", Kalori = 4, Karbonhidrat = 0.77f, Protein = 0.06f, Yag = 0.18f, Gram = 100 }; context.FoodInfos.AddOrUpdate(biberiye);
+
+            FoodInfo maydanoz = new FoodInfo() { FoodName = "Maydanoz", Kalori = 1, Karbonhidrat = 0.24f, Protein = 0.11f, Yag = 0.03f, Gram = 100 }; context.FoodInfos.AddOrUpdate(maydanoz);
+
+            FoodInfo turp = new FoodInfo() { FoodName = "Turp", Kalori = 19, Karbonhidrat = 3.94f, Protein = 0.79f, Yag = 0.12f, Gram = 100 }; context.FoodInfos.AddOrUpdate(turp);
+
+            FoodInfo karnabahar = new FoodInfo() { FoodName = "Karnabahar", Kalori = 27, Karbonhidrat = 5.32f, Protein = 2.05f, Yag = 0.3f, Gram = 100 }; context.FoodInfos.AddOrUpdate(karnabahar);
+
+            FoodInfo brokoli = new FoodInfo() { FoodName = "Brokoli", Kalori = 31, Karbonhidrat = 6.04f, Protein = 2.57f, Yag = 0.34f, Gram = 100 }; context.FoodInfos.AddOrUpdate(brokoli);
+
+            FoodInfo brukselLahana = new FoodInfo() { FoodName = "Brüksel Lahana", Kalori = 38, Karbonhidrat = 7.88f, Protein = 2.97f, Yag = 0.26f, Gram = 100 }; context.FoodInfos.AddOrUpdate(brukselLahana);
+
+            FoodInfo beyazLahana = new FoodInfo() { FoodName = "Beyaz Lahana", Kalori = 22, Karbonhidrat = 5.16f, Protein = 1.14f, Yag = 0.09f, Gram = 100 }; context.FoodInfos.AddOrUpdate(beyazLahana);
+
+            FoodInfo kirmiziLahana = new FoodInfo() { FoodName = "Kırmızı Lahana", Kalori = 28, Karbonhidrat = 6.56f, Protein = 1.27f, Yag = 0.14f, Gram = 100 }; context.FoodInfos.AddOrUpdate(kirmiziLahana);
+
+            FoodInfo havuc = new FoodInfo() { FoodName = "Havuc", Kalori = 25, Karbonhidrat = 5.84f, Protein = 0.57f, Yag = 0.15f, Gram = 100 }; context.FoodInfos.AddOrUpdate(havuc);
+
+            FoodInfo sarimsak = new FoodInfo() { FoodName = "Sarımsak", Kalori = 4, Karbonhidrat = 0.99f, Protein = 0.19f, Yag = 0.02f, Gram = 100 }; context.FoodInfos.AddOrUpdate(sarimsak);
+
+            FoodInfo sogan = new FoodInfo() { FoodName = "Soğan", Kalori = 44, Karbonhidrat = 10.27f, Protein = 1.21f, Yag = 0.11f, Gram = 100 }; context.FoodInfos.AddOrUpdate(sogan);
+
+            FoodInfo yesilSogan = new FoodInfo() { FoodName = "Yeşil Soğan", Kalori = 2, Karbonhidrat = 0.44f, Protein = 0.11f, Yag = 0.01f, Gram = 100 }; context.FoodInfos.AddOrUpdate(yesilSogan);
+
+            FoodInfo semizotu = new FoodInfo() { FoodName = "Semizotu", Kalori = 9, Karbonhidrat = 1.46f, Protein = 0.87f, Yag = 0.15f, Gram = 100 }; context.FoodInfos.AddOrUpdate(semizotu);
+
+            FoodInfo pazi = new FoodInfo() { FoodName = "Pazı", Kalori = 7, Karbonhidrat = 1.35f, Protein = 0.65f, Yag = 0.07f, Gram = 100 }; context.FoodInfos.AddOrUpdate(pazi);
+
+            FoodInfo kabak = new FoodInfo() { FoodName = "Kabak", Kalori = 33, Karbonhidrat = 6.10f, Protein = 2.37f, Yag = 0.63f, Gram = 100 }; context.FoodInfos.AddOrUpdate(kabak);
+
+            FoodInfo roka = new FoodInfo() { FoodName = "Roka", Kalori = 5, Karbonhidrat = 0.73f, Protein = 0.52f, Yag = 0.13f, Gram = 100 }; context.FoodInfos.AddOrUpdate(roka);
+
+            //SEBZE YEMEKLERİ
+
+            FoodInfo ispanakYemeği = new FoodInfo() { FoodName = "Ispanak Yemeği (Etsiz)", Gram = 100, Kalori = 115, Karbonhidrat = 5.09f, Protein = 2.11f, Yag = 10.3f }; context.FoodInfos.AddOrUpdate(ispanakYemeği);
+
+            FoodInfo zeytinyagliSemizotu = new FoodInfo() { FoodName = "Zeytinyağlı Semizotu", Gram = 100, Kalori = 112, Karbonhidrat = 4.98f, Protein = 1.29f, Yag = 10.26f }; context.FoodInfos.AddOrUpdate(zeytinyagliSemizotu);
+
+            FoodInfo zeytinyağliPazi = new FoodInfo() { FoodName = "Zeytinyağlı Pazı", Gram = 100, Kalori = 131, Karbonhidrat = 11.89f, Protein = 3.74f, Yag = 7.18f }; context.FoodInfos.AddOrUpdate(zeytinyağliPazi);
+
+            FoodInfo zeytinyağliTazeFasulye = new FoodInfo() { FoodName = "Zeytinyağlı Taze Fasülye", Gram = 100, Kalori = 151, Karbonhidrat = 21.39f, Protein = 5.54f, Yag = 5.51f }; context.FoodInfos.AddOrUpdate(zeytinyağliTazeFasulye);
+
+            FoodInfo zeytinyağliPirasa = new FoodInfo() { FoodName = "Zeytinyağlı Pırasa", Gram = 100, Kalori = 120, Karbonhidrat = 7.25f, Protein = 0.91f, Yag = 10.27f }; context.FoodInfos.AddOrUpdate(zeytinyağliPirasa);
+
+            FoodInfo bezelyeYemeği = new FoodInfo() { FoodName = "Bezelye Yemeği (Etsiz)", Gram = 100, Kalori = 147, Karbonhidrat = 11.07f, Protein = 3.48f, Yag = 10.38f }; context.FoodInfos.AddOrUpdate(bezelyeYemeği);
+
+            FoodInfo zeytinyağliBrokoli = new FoodInfo() { FoodName = "Zeytinyağlı Brokoli", Gram = 100, Kalori = 80, Karbonhidrat = 7.14f, Protein = 2.37f, Yag = 5.41f }; context.FoodInfos.AddOrUpdate(zeytinyağliBrokoli);
+
+            FoodInfo karnabaharYemegi = new FoodInfo() { FoodName = "Karnabahar Yemeği(Etsiz)", Gram = 100, Kalori = 115, Karbonhidrat = 5.29f, Protein = 1.48f, Yag = 10.41f }; context.FoodInfos.AddOrUpdate(karnabaharYemegi);
+
+            FoodInfo bamyaYemegi = new FoodInfo() { FoodName = "Bamya Yemeği (Etsiz)", Gram = 100, Kalori = 113, Karbonhidrat = 4.68f, Protein = 1.06f, Yag = 10.57f }; context.FoodInfos.AddOrUpdate(bamyaYemegi);
+
+            FoodInfo zeytinyağliTurlu = new FoodInfo() { FoodName = "Zeytinyağlı Türlü", Gram = 100, Kalori = 112, Karbonhidrat = 8.68f, Protein = 1.33f, Yag = 8.87f }; context.FoodInfos.AddOrUpdate(zeytinyağliTurlu);
+
+            FoodInfo zeytinyağliBakla = new FoodInfo() { FoodName = "Zeytinyağlı Bakla", Gram = 100, Kalori = 145, Karbonhidrat = 9.76f, Protein = 3.32f, Yag = 10.69f }; context.FoodInfos.AddOrUpdate(zeytinyağliBakla);
+
+            FoodInfo zeytinyağliKereviz = new FoodInfo() { FoodName = "Zeytinyağlı Kereviz", Gram = 100, Kalori = 90, Karbonhidrat = 7.14f, Protein = 1.92f, Yag = 6.37f }; context.FoodInfos.AddOrUpdate(zeytinyağliKereviz);
+
+            FoodInfo zeytinyağliEnginar = new FoodInfo() { FoodName = "Zeytinyağlı Enginar", Gram = 100, Kalori = 146, Karbonhidrat = 12.09f, Protein = 2.93f, Yag = 10.71f }; context.FoodInfos.AddOrUpdate(zeytinyağliEnginar);
+
+            FoodInfo sebzeSote = new FoodInfo() { FoodName = "Sebze Sote", Gram = 100, Kalori = 90, Karbonhidrat = 4.55f, Protein = 0.94f, Yag = 10.19f }; context.FoodInfos.AddOrUpdate(sebzeSote);
+
+            FoodInfo zeytinyağliSebzeDolmasi = new FoodInfo() { FoodName = "Zeytinyağlı Sebze Dolması", Gram = 100, Kalori = 258, Karbonhidrat = 13.59f, Protein = 5.6f, Yag = 13.6f }; context.FoodInfos.AddOrUpdate(zeytinyağliSebzeDolmasi);
+
+            FoodInfo zeytinyağliYaprakSarma = new FoodInfo() { FoodName = "Zeytinyağlı Yaprak Sarma", Gram = 100, Kalori = 108, Karbonhidrat = 8.32f, Protein = 1.33f, Yag = 8.15f }; context.FoodInfos.AddOrUpdate(zeytinyağliYaprakSarma);
+
+            FoodInfo zeytinyağliKabak = new FoodInfo() { FoodName = "Zeytinyağlı Kabak", Gram = 100, Kalori = 111, Karbonhidrat = 5.19f, Protein = 0.81f, Yag = 10.18f }; context.FoodInfos.AddOrUpdate(zeytinyağliKabak);
         }
 
     }
