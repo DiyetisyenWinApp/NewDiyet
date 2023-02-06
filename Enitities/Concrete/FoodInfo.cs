@@ -15,7 +15,7 @@ namespace Enitities.Concrete
         [MaxLength (50)]
         public string FoodName { get; set; }
         [Required]
-        public float Gram { get; set; }
+        public float Gram { get; set; } = 100;
         [Required]
         public float Kalori { get; set; }
         [Required]

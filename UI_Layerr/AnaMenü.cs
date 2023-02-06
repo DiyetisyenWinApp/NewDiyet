@@ -148,7 +148,7 @@ namespace UI_Layerr
 
         private void rjButton3_Click(object sender, EventArgs e)
         {
-            frm_KullaniciBilgiGuncelle frm = new frm_KullaniciBilgiGuncelle();
+            frm_KullaniciBilgiGuncelle frm = new frm_KullaniciBilgiGuncelle(GelenID);
             frm.Show();
 
         }
