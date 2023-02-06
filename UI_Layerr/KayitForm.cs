@@ -52,7 +52,7 @@ namespace UI_Layerr
                 else
                 {
 
-                    if (txt_Ad.Text != "" && txt_ePosta.Text != "" && textBox1.Text != "" && txt_Soyad.Text != "" && dtp_DogumTarihi.Value.Year < DateTime.Now.Year)
+                    if (txt_Ad.Text != "" && txt_ePosta.Text != "" && textBox1.Text != "" && txt_Soyad.Text != "" && dtp_DogumTarihi.Value.Year < DateTime.Now.Year && (Rdo_Erkek.Checked || Rdo_Kadın.Checked))
 
                     {
 
@@ -130,7 +130,7 @@ namespace UI_Layerr
                     }
                     else
                     {
-                        MessageBox.Show("Lutfen dogru degerler girin");
+                        MessageBox.Show("Lutfen Tüm Bilgileri Doğru ve Eksiksiz giriniz.");
                     }
 
 
@@ -165,7 +165,7 @@ namespace UI_Layerr
             txt_ePosta.Text = "";
         }
 
-
+        //radio butonların check duruma göre görseli değişirecek.
         private void Rdo_Erkek_CheckedChanged(object sender, EventArgs e)
         {
             if (Rdo_Erkek.Checked)

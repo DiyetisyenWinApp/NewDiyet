@@ -75,11 +75,11 @@
             this.rjButton1.FlatAppearance.BorderSize = 0;
             this.rjButton1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.rjButton1.ForeColor = System.Drawing.Color.White;
-            this.rjButton1.Location = new System.Drawing.Point(35, 76);
+            this.rjButton1.Location = new System.Drawing.Point(35, 238);
             this.rjButton1.Name = "rjButton1";
             this.rjButton1.Size = new System.Drawing.Size(150, 40);
             this.rjButton1.TabIndex = 32;
-            this.rjButton1.Text = "Yiyecekler";
+            this.rjButton1.Text = "Yiyecek Bilgileri";
             this.rjButton1.TextColor = System.Drawing.Color.White;
             this.rjButton1.UseVisualStyleBackColor = false;
             this.rjButton1.Click += new System.EventHandler(this.rjButton1_Click);
@@ -94,7 +94,7 @@
             this.btn_YemekEkle.FlatAppearance.BorderSize = 0;
             this.btn_YemekEkle.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_YemekEkle.ForeColor = System.Drawing.Color.White;
-            this.btn_YemekEkle.Location = new System.Drawing.Point(35, 169);
+            this.btn_YemekEkle.Location = new System.Drawing.Point(35, 56);
             this.btn_YemekEkle.Name = "btn_YemekEkle";
             this.btn_YemekEkle.Size = new System.Drawing.Size(150, 40);
             this.btn_YemekEkle.TabIndex = 33;
@@ -113,7 +113,7 @@
             this.btn_OgunEkle.FlatAppearance.BorderSize = 0;
             this.btn_OgunEkle.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_OgunEkle.ForeColor = System.Drawing.Color.White;
-            this.btn_OgunEkle.Location = new System.Drawing.Point(35, 262);
+            this.btn_OgunEkle.Location = new System.Drawing.Point(35, 149);
             this.btn_OgunEkle.Name = "btn_OgunEkle";
             this.btn_OgunEkle.Size = new System.Drawing.Size(150, 40);
             this.btn_OgunEkle.TabIndex = 34;
@@ -132,7 +132,7 @@
             this.btn_Raporlar.FlatAppearance.BorderSize = 0;
             this.btn_Raporlar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_Raporlar.ForeColor = System.Drawing.Color.White;
-            this.btn_Raporlar.Location = new System.Drawing.Point(35, 355);
+            this.btn_Raporlar.Location = new System.Drawing.Point(35, 331);
             this.btn_Raporlar.Name = "btn_Raporlar";
             this.btn_Raporlar.Size = new System.Drawing.Size(150, 40);
             this.btn_Raporlar.TabIndex = 35;
@@ -149,7 +149,7 @@
             this.materialTabSelector1.Location = new System.Drawing.Point(0, 0);
             this.materialTabSelector1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialTabSelector1.Name = "materialTabSelector1";
-            this.materialTabSelector1.Size = new System.Drawing.Size(214, 533);
+            this.materialTabSelector1.Size = new System.Drawing.Size(214, 501);
             this.materialTabSelector1.TabIndex = 36;
             this.materialTabSelector1.Text = "materialTabSelector1";
             // 
@@ -160,7 +160,7 @@
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(123, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(644, 533);
+            this.pictureBox1.Size = new System.Drawing.Size(644, 501);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 28;
             this.pictureBox1.TabStop = false;
@@ -325,7 +325,7 @@
             this.rjButton3.FlatAppearance.BorderSize = 0;
             this.rjButton3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.rjButton3.ForeColor = System.Drawing.Color.White;
-            this.rjButton3.Location = new System.Drawing.Point(35, 445);
+            this.rjButton3.Location = new System.Drawing.Point(35, 421);
             this.rjButton3.Name = "rjButton3";
             this.rjButton3.Size = new System.Drawing.Size(150, 40);
             this.rjButton3.TabIndex = 51;
@@ -338,7 +338,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(767, 533);
+            this.ClientSize = new System.Drawing.Size(767, 501);
             this.Controls.Add(this.rjButton3);
             this.Controls.Add(this.rjTextBox5);
             this.Controls.Add(this.rjTextBox4);

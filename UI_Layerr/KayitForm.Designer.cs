@@ -539,7 +539,7 @@
             this.materialLabel2.Location = new System.Drawing.Point(455, 99);
             this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel2.Name = "materialLabel2";
-            this.materialLabel2.Size = new System.Drawing.Size(93, 24);
+            this.materialLabel2.Size = new System.Drawing.Size(93, 23);
             this.materialLabel2.TabIndex = 35;
             this.materialLabel2.Text = "KİLO (KG)";
             // 
