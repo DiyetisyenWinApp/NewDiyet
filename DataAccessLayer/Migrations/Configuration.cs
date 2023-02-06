@@ -928,6 +928,34 @@
             FoodInfo zeytinyağliYaprakSarma = new FoodInfo() { FoodName = "Zeytinyağlı Yaprak Sarma", Gram = 100, Kalori = 108, Karbonhidrat = 8.32f, Protein = 1.33f, Yag = 8.15f }; context.FoodInfos.AddOrUpdate(zeytinyağliYaprakSarma);
 
             FoodInfo zeytinyağliKabak = new FoodInfo() { FoodName = "Zeytinyağlı Kabak", Gram = 100, Kalori = 111, Karbonhidrat = 5.19f, Protein = 0.81f, Yag = 10.18f }; context.FoodInfos.AddOrUpdate(zeytinyağliKabak);
+
+
+            //SALATALAR           
+            FoodInfo sadeSalata = new FoodInfo() { FoodName = "Sade Salata (Karışık Yeşillik)", Gram = 100, Kalori = 9, Karbonhidrat = 1.76f, Protein = 0.84f, Yag = 0.13f }; context.FoodInfos.AddOrUpdate(sadeSalata);
+
+            FoodInfo mercimekliPeynirliSalata = new FoodInfo() { FoodName = "Mercimekli Lor Peynirli Salata", Gram = 100, Kalori = 180, Karbonhidrat = 28, Protein = 2.7f, Yag = 5.1f }; context.FoodInfos.AddOrUpdate(mercimekliPeynirliSalata);
+
+            FoodInfo tavukluSalata = new FoodInfo() { FoodName = "Tavuklu Salata", Gram = 100, Kalori = 225, Karbonhidrat = 5.28f, Protein = 31.38f, Yag = 8.29f }; context.FoodInfos.AddOrUpdate(tavukluSalata);
+
+            FoodInfo etliSalata = new FoodInfo() { FoodName = "Etli Salata (bonfileli/köfteli/fümeli)", Gram = 100, Kalori = 267, Karbonhidrat = 5.28f, Protein = 24.84f, Yag = 16.49f }; context.FoodInfos.AddOrUpdate(etliSalata);
+
+            FoodInfo tonBalikliSalata = new FoodInfo() { FoodName = "Ton Balıklı Salata", Gram = 100, Kalori = 215, Karbonhidrat = 5.28f, Protein = 21.96f, Yag = 6.35f }; context.FoodInfos.AddOrUpdate(tonBalikliSalata);
+
+            FoodInfo kisir = new FoodInfo() { FoodName = "Kısır", Gram = 100, Kalori = 108, Karbonhidrat = 15.84f, Protein = 2.71f, Yag = 4.64f }; context.FoodInfos.AddOrUpdate(kisir);
+
+            FoodInfo mercimekKoftesi = new FoodInfo() { FoodName = "Mercimet Köftesi", Gram = 100, Kalori = 70, Karbonhidrat = 9.95f, Protein = 2.75f, Yag = 2.41f }; context.FoodInfos.AddOrUpdate(mercimekKoftesi);
+
+            FoodInfo tabuleSalatasi = new FoodInfo() { FoodName = "Tabule Salatası", Gram = 100, Kalori = 588, Karbonhidrat = 51, Protein = 14.4f, Yag = 33.3f }; context.FoodInfos.AddOrUpdate(tabuleSalatasi);
+
+            FoodInfo peynirliYumurtaliSalata = new FoodInfo() { FoodName = "Peynirli Yumurtalı Salata", Gram = 100, Kalori = 225, Karbonhidrat = 6.7f, Protein = 16.78f, Yag = 9.81f }; context.FoodInfos.AddOrUpdate(peynirliYumurtaliSalata);
+
+            FoodInfo cobanSalata = new FoodInfo() { FoodName = "Çoban Salata", Gram = 100, Kalori = 115, Karbonhidrat = 16.62f, Protein = 3.19f, Yag = 3.76f }; context.FoodInfos.AddOrUpdate(cobanSalata);
+
+            FoodInfo gavurdağiSalata = new FoodInfo() { FoodName = "Gavurdağı Salata", Gram = 100, Kalori = 114, Karbonhidrat = 7.71f, Protein = 2.95f, Yag = 7.72f }; context.FoodInfos.AddOrUpdate(gavurdağiSalata);
+
+            FoodInfo patatesSalatasi = new FoodInfo() { FoodName = "Patates Salatası", Gram = 100, Kalori = 132, Karbonhidrat = 21.77f, Protein = 2.46f, Yag = 3.33f }; context.FoodInfos.AddOrUpdate(patatesSalatasi);
+
+            FoodInfo meyveSalatasi = new FoodInfo() { FoodName = "Meyve Salatası", Gram = 100, Kalori = 172, Karbonhidrat = 38.4f, Protein = 1.65f, Yag = 0.96f }; context.FoodInfos.AddOrUpdate(meyveSalatasi);
         }
 
     }
