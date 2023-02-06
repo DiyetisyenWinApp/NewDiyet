@@ -1,4 +1,5 @@
 ﻿using DataAccessLayer.Context;
+using Enitities.Enums;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -24,14 +25,16 @@ namespace UI_Layerr
             GelenID = ID;
         }
         Context db = new Context();
+        DateTime Bugün = DateTime.Now;
         private void frm_AnaMenü_Load(object sender, EventArgs e)
         {
-            
+            materialLabel2.Text = "Günlük Toplam Değerler";
+
             try
             {
 
                 var query1 = db.Users.Where(x => x.UserID == GelenID).FirstOrDefault();
-                materialLabel1.Text = query1.UserName + " " + query1.UserSurname;
+                rjTextBox5.Texts = "Merhaba " + query1.UserName.ToUpper() ;
                 ProgresBarSet();
 
             }
@@ -40,11 +43,51 @@ namespace UI_Layerr
 
                 MessageBox.Show(ex.Message + " Hata");
             }
+
+            KahvaltiKaloriToplam();
+            OgleYemegiKaloriToplam();
+            AksamYemegiKaloriToplam();
+        }
+        private void AksamYemegiKaloriToplam()
+        {
+            float topAksamKalori = 0;
+            var qry = db.BodyAnalyses.Where(x => x.UserDetailID == GelenID).FirstOrDefault();
+            var qry2 = db.Meals.Where(x => x.UserDetailID == GelenID && x.TüketimTarihi.Day == Bugün.Day && x.TüketimTarihi.Month == Bugün.Month && Bugün.Year == x.TüketimTarihi.Year && x.MealType == MealType.Aksam);
+
+            foreach (var item in qry2)
+            {
+                topAksamKalori += item.TopKcall;
+            }
+            rjTextBox4.Texts = "Akşam Yemeğinde Toplam : " + topAksamKalori.ToString() + " Kalori Aldınız";
+        }
+        private void OgleYemegiKaloriToplam()
+        {
+            float topOgleKalori = 0;
+            var qry = db.BodyAnalyses.Where(x => x.UserDetailID == GelenID).FirstOrDefault();
+            var qry2 = db.Meals.Where(x => x.UserDetailID == GelenID && x.TüketimTarihi.Day == Bugün.Day && x.TüketimTarihi.Month == Bugün.Month && Bugün.Year == x.TüketimTarihi.Year && x.MealType == MealType.Ogle);
+
+            foreach (var item in qry2)
+            {
+                topOgleKalori += item.TopKcall;
+            }
+            rjTextBox3.Texts = "Öğle Yemeğinde Toplam : " + topOgleKalori.ToString() + " Kalori Aldınız";
+        }
+        private void KahvaltiKaloriToplam()
+        {
+            float topKahvaltı = 0;
+            var qry = db.BodyAnalyses.Where(x => x.UserDetailID == GelenID).FirstOrDefault();
+            var qry2 = db.Meals.Where(x => x.UserDetailID == GelenID && x.TüketimTarihi.Day == Bugün.Day && x.TüketimTarihi.Month == Bugün.Month && Bugün.Year == x.TüketimTarihi.Year && x.MealType == MealType.Kahvaltı);
+
+            foreach (var item in qry2)
+            {
+                topKahvaltı += item.TopKcall;
+            }
+            rjTextBox2.Texts = "Kahvaltıda Toplam : " + topKahvaltı.ToString() + " Kalori Aldınız";
         }
 
         private void ProgresBarSet()
         {
-            DateTime Bugün = DateTime.Now;
+            
             float top = 0;
             var qry = db.BodyAnalyses.Where(x => x.UserDetailID == GelenID).FirstOrDefault();
             var qry2 = db.Meals.Where(x => x.UserDetailID == GelenID && x.TüketimTarihi.Day == Bugün.Day && x.TüketimTarihi.Month == Bugün.Month && Bugün.Year == x.TüketimTarihi.Year);
@@ -57,7 +100,7 @@ namespace UI_Layerr
             {
                 progressBar1.Maximum = (int)qry.AGK;
                 progressBar1.Value = (int)top;
-                rjTextBox1.Texts = "Geriye kalan : " + ((int)qry.AGK - (int)top).ToString();
+                rjTextBox1.Texts = ((int)qry.AGK - (int)top).ToString() + " kalori değerinde besin tüketerek hedefinize ulaşın ";
             }
             else
             {

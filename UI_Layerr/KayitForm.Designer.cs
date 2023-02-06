@@ -53,6 +53,7 @@
             // btn_KayıtOl
             // 
             this.btn_KayıtOl.BackColor = System.Drawing.Color.Black;
+            this.btn_KayıtOl.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_KayıtOl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btn_KayıtOl.ForeColor = System.Drawing.Color.Transparent;
             this.btn_KayıtOl.Location = new System.Drawing.Point(0, 241);
@@ -650,7 +651,7 @@
             // rjCircularPictureBox1
             // 
             this.rjCircularPictureBox1.BorderCapStyle = System.Drawing.Drawing2D.DashCap.Flat;
-            this.rjCircularPictureBox1.BorderColor = System.Drawing.Color.Black;
+            this.rjCircularPictureBox1.BorderColor = System.Drawing.Color.DarkSlateBlue;
             this.rjCircularPictureBox1.BorderColor2 = System.Drawing.Color.Thistle;
             this.rjCircularPictureBox1.BorderLineStyle = System.Drawing.Drawing2D.DashStyle.Solid;
             this.rjCircularPictureBox1.BorderSize = 2;

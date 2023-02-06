@@ -89,7 +89,7 @@
             this.btn_Kaydet.BorderRadius = 0;
             this.btn_Kaydet.BorderSize = 0;
             this.btn_Kaydet.FlatAppearance.BorderSize = 0;
-            this.btn_Kaydet.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Kaydet.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_Kaydet.ForeColor = System.Drawing.Color.White;
             this.btn_Kaydet.Location = new System.Drawing.Point(12, 213);
             this.btn_Kaydet.Name = "btn_Kaydet";

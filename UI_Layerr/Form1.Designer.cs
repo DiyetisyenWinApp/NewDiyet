@@ -65,7 +65,7 @@
             this.btn_Giris.BorderRadius = 0;
             this.btn_Giris.BorderSize = 0;
             this.btn_Giris.FlatAppearance.BorderSize = 0;
-            this.btn_Giris.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Giris.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_Giris.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btn_Giris.ForeColor = System.Drawing.Color.White;
             this.btn_Giris.Location = new System.Drawing.Point(445, 244);
@@ -75,7 +75,7 @@
             this.btn_Giris.Text = "GİRİŞ YAP";
             this.btn_Giris.TextColor = System.Drawing.Color.White;
             this.btn_Giris.UseVisualStyleBackColor = false;
-            this.btn_Giris.Click += new System.EventHandler(this.btn_Giris_Click);
+            this.btn_Giris.Click += new System.EventHandler(this.btn_Giris_Click_1);
             // 
             // txt_Parola
             // 

@@ -35,6 +35,7 @@
             this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.rjButton1 = new RJCodeAdvance.RJControls.RJButton();
             this.label1 = new System.Windows.Forms.Label();
+            this.rjComboBox1 = new RJCodeAdvance.RJControls.RJComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -67,7 +68,7 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(60, 111);
+            this.dataGridView1.Location = new System.Drawing.Point(60, 115);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
@@ -98,7 +99,7 @@
             this.rjButton1.FlatAppearance.BorderSize = 0;
             this.rjButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.rjButton1.ForeColor = System.Drawing.Color.White;
-            this.rjButton1.Location = new System.Drawing.Point(140, 53);
+            this.rjButton1.Location = new System.Drawing.Point(433, 60);
             this.rjButton1.Name = "rjButton1";
             this.rjButton1.Size = new System.Drawing.Size(120, 33);
             this.rjButton1.TabIndex = 43;
@@ -117,11 +118,31 @@
             this.label1.TabIndex = 45;
             this.label1.Text = "0";
             // 
+            // rjComboBox1
+            // 
+            this.rjComboBox1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.rjComboBox1.BorderColor = System.Drawing.Color.MediumSlateBlue;
+            this.rjComboBox1.BorderSize = 1;
+            this.rjComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDown;
+            this.rjComboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.rjComboBox1.ForeColor = System.Drawing.Color.DimGray;
+            this.rjComboBox1.IconColor = System.Drawing.Color.MediumSlateBlue;
+            this.rjComboBox1.ListBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(228)))), ((int)(((byte)(245)))));
+            this.rjComboBox1.ListTextColor = System.Drawing.Color.DimGray;
+            this.rjComboBox1.Location = new System.Drawing.Point(60, 60);
+            this.rjComboBox1.MinimumSize = new System.Drawing.Size(200, 30);
+            this.rjComboBox1.Name = "rjComboBox1";
+            this.rjComboBox1.Padding = new System.Windows.Forms.Padding(1);
+            this.rjComboBox1.Size = new System.Drawing.Size(352, 30);
+            this.rjComboBox1.TabIndex = 46;
+            this.rjComboBox1.Texts = "";
+            // 
             // frm_Rapor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(702, 450);
+            this.Controls.Add(this.rjComboBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.rjButton1);
             this.Controls.Add(this.materialLabel1);
@@ -131,6 +152,7 @@
             this.Name = "frm_Rapor";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frm_Rapor";
+            this.Load += new System.EventHandler(this.frm_Rapor_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
@@ -146,5 +168,6 @@
         private MaterialSkin.Controls.MaterialLabel materialLabel1;
         private RJCodeAdvance.RJControls.RJButton rjButton1;
         private System.Windows.Forms.Label label1;
+        private RJCodeAdvance.RJControls.RJComboBox rjComboBox1;
     }
 }

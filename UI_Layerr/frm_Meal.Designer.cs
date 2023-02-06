@@ -61,7 +61,7 @@
             this.materialLabel1.Location = new System.Drawing.Point(57, 9);
             this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel1.Name = "materialLabel1";
-            this.materialLabel1.Size = new System.Drawing.Size(54, 23);
+            this.materialLabel1.Size = new System.Drawing.Size(54, 24);
             this.materialLabel1.TabIndex = 31;
             this.materialLabel1.Text = "Öğün";
             // 
@@ -94,7 +94,7 @@
             this.materialLabel3.Location = new System.Drawing.Point(376, 12);
             this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel3.Name = "materialLabel3";
-            this.materialLabel3.Size = new System.Drawing.Size(68, 23);
+            this.materialLabel3.Size = new System.Drawing.Size(68, 24);
             this.materialLabel3.TabIndex = 35;
             this.materialLabel3.Text = "Yemek";
             // 
@@ -107,7 +107,7 @@
             this.materialLabel4.Location = new System.Drawing.Point(12, 272);
             this.materialLabel4.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel4.Name = "materialLabel4";
-            this.materialLabel4.Size = new System.Drawing.Size(56, 23);
+            this.materialLabel4.Size = new System.Drawing.Size(56, 24);
             this.materialLabel4.TabIndex = 37;
             this.materialLabel4.Text = "Gram";
             // 
@@ -189,7 +189,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "frm_Meal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "frm_Meal";
+            this.Text = "Öğün Ekle";
             this.Load += new System.EventHandler(this.frm_Meal_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

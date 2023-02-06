@@ -22,41 +22,11 @@ namespace UI_Layerr
 
         }
 
-
-
-
-
-
-        private void btn_Giris_Click(object sender, EventArgs e)
+        private void btn_Giris_Click_1(object sender, EventArgs e)
         {
-
-            if (txt_ePosta.Text!="" && txt_Parola.Text!="")
-            {
-                Context db = new Context();
-                string pass = ShaHash(txt_Parola.Text);
-                var Userquery = db.Users.FirstOrDefault(x => x.E_Mail == txt_ePosta.Text && x.KullanıcıSifre==pass);
-                if (Userquery == null)
-                {
-                    MessageBox.Show("Hatalı şifre veya e_posta");
-                }
-                else
-                {
-                    BulunanID = Userquery.UserID;
-                    frm_AnaMenü frm = new frm_AnaMenü(BulunanID);
-                    frm.Show();
-                    this.Hide();
-                    
-                }
-            }
-            else
-            {
-                MessageBox.Show("Boş giriş yaptınız");
-            }
-          
-
-            
-            
+            GirişKontrol();
         }
+
 
         private void btn_Kayit_Click(object sender, EventArgs e)
         {
@@ -89,6 +59,36 @@ namespace UI_Layerr
             }
             return sb.ToString();
         }
+
+
+
+        private void GirişKontrol()
+        {
+            if (txt_ePosta.Text != "" && txt_Parola.Text != "")
+            {
+                Context db = new Context();
+                string pass = ShaHash(txt_Parola.Text);
+                var Userquery = db.Users.FirstOrDefault(x => x.E_Mail == txt_ePosta.Text && x.KullanıcıSifre == pass);
+                if (Userquery == null)
+                {
+                    MessageBox.Show("Hatalı şifre veya e_posta");
+                }
+                else
+                {
+                    BulunanID = Userquery.UserID;
+                    frm_AnaMenü frm = new frm_AnaMenü(BulunanID);
+                    frm.Show();
+                    this.Hide();
+
+                }
+            }
+            else
+            {
+                MessageBox.Show("Boş giriş yaptınız");
+            }
+        }
+
+
 
         //private void btnYeniKullanici_Click(object sender, EventArgs e)
         //{
