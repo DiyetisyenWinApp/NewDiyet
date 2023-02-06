@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_GirisYap));
             this.btn_Kayit = new RJCodeAdvance.RJControls.RJButton();
             this.btn_Giris = new RJCodeAdvance.RJControls.RJButton();
             this.txt_Parola = new MaterialSkin.Controls.MaterialSingleLineTextField();
@@ -141,6 +142,7 @@
             this.Controls.Add(this.txt_Parola);
             this.Controls.Add(this.txt_ePosta);
             this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frm_GirisYap";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";

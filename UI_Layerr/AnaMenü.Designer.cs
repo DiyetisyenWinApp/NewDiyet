@@ -334,6 +334,7 @@
             this.Controls.Add(this.materialTabSelector1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.rjProgressBar1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frm_AnaMenü";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AnaMenü";

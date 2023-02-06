@@ -110,7 +110,7 @@
             this.materialLabel3.Location = new System.Drawing.Point(22, 141);
             this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel3.Name = "materialLabel3";
-            this.materialLabel3.Size = new System.Drawing.Size(118, 23);
+            this.materialLabel3.Size = new System.Drawing.Size(118, 24);
             this.materialLabel3.TabIndex = 42;
             this.materialLabel3.Text = "Karbonhidrat";
             // 
@@ -130,7 +130,7 @@
             this.materialLabel4.Location = new System.Drawing.Point(22, 173);
             this.materialLabel4.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel4.Name = "materialLabel4";
-            this.materialLabel4.Size = new System.Drawing.Size(70, 23);
+            this.materialLabel4.Size = new System.Drawing.Size(70, 24);
             this.materialLabel4.TabIndex = 44;
             this.materialLabel4.Text = "Protein";
             // 
@@ -150,7 +150,7 @@
             this.materialLabel5.Location = new System.Drawing.Point(22, 205);
             this.materialLabel5.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel5.Name = "materialLabel5";
-            this.materialLabel5.Size = new System.Drawing.Size(42, 23);
+            this.materialLabel5.Size = new System.Drawing.Size(42, 24);
             this.materialLabel5.TabIndex = 46;
             this.materialLabel5.Text = "Yağ";
             // 
@@ -170,7 +170,7 @@
             this.materialLabel6.Location = new System.Drawing.Point(22, 109);
             this.materialLabel6.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel6.Name = "materialLabel6";
-            this.materialLabel6.Size = new System.Drawing.Size(59, 23);
+            this.materialLabel6.Size = new System.Drawing.Size(59, 24);
             this.materialLabel6.TabIndex = 32;
             this.materialLabel6.Text = "Kalori";
             // 
@@ -183,7 +183,7 @@
             this.materialLabel2.Location = new System.Drawing.Point(22, 52);
             this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel2.Name = "materialLabel2";
-            this.materialLabel2.Size = new System.Drawing.Size(304, 46);
+            this.materialLabel2.Size = new System.Drawing.Size(304, 48);
             this.materialLabel2.TabIndex = 48;
             this.materialLabel2.Text = "100 Gram İçin hesaplanan makron \r\ndeğerlerini giriniz";
             // 
@@ -216,6 +216,7 @@
             this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.rjTextBox1);
             this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frm_YemekEkle";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Yiyecek Ekle";

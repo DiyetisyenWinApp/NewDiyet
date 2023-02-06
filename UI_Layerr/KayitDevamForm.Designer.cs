@@ -146,6 +146,7 @@
             this.Controls.Add(this.cmb_HedefSecim);
             this.Controls.Add(this.cmb_Aktivite);
             this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frm_KayitDevam";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";

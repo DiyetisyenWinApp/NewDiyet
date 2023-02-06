@@ -149,6 +149,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.rjDatePicker1);
             this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frm_Rapor";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frm_Rapor";

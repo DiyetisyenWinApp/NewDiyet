@@ -722,6 +722,7 @@
             this.Controls.Add(this.txt_Ad);
             this.Controls.Add(this.rjCircularPictureBox1);
             this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frm_KayitOl";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "KayıtForm";
