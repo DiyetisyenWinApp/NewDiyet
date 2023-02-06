@@ -149,7 +149,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frm_KayitDevam";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form2";
+            this.Text = "Kayıt Devam Formu";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.KayitDevamForm_FormClosed);
             this.Load += new System.EventHandler(this.KayitDevamForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

@@ -44,6 +44,7 @@
             this.rjTextBox3 = new RJCodeAdvance.RJControls.RJTextBox();
             this.rjTextBox4 = new RJCodeAdvance.RJControls.RJTextBox();
             this.rjTextBox5 = new RJCodeAdvance.RJControls.RJTextBox();
+            this.rjButton3 = new RJCodeAdvance.RJControls.RJButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -314,11 +315,30 @@
             this.rjTextBox5.Texts = "";
             this.rjTextBox5.UnderlinedStyle = false;
             // 
+            // rjButton3
+            // 
+            this.rjButton3.BackColor = System.Drawing.Color.Black;
+            this.rjButton3.BackgroundColor = System.Drawing.Color.Black;
+            this.rjButton3.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.rjButton3.BorderRadius = 0;
+            this.rjButton3.BorderSize = 0;
+            this.rjButton3.FlatAppearance.BorderSize = 0;
+            this.rjButton3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.rjButton3.ForeColor = System.Drawing.Color.White;
+            this.rjButton3.Location = new System.Drawing.Point(35, 445);
+            this.rjButton3.Name = "rjButton3";
+            this.rjButton3.Size = new System.Drawing.Size(150, 40);
+            this.rjButton3.TabIndex = 51;
+            this.rjButton3.Text = "Bilgileri Güncelle";
+            this.rjButton3.TextColor = System.Drawing.Color.White;
+            this.rjButton3.UseVisualStyleBackColor = false;
+            // 
             // frm_AnaMenü
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(767, 533);
+            this.Controls.Add(this.rjButton3);
             this.Controls.Add(this.rjTextBox5);
             this.Controls.Add(this.rjTextBox4);
             this.Controls.Add(this.rjTextBox3);
@@ -362,5 +382,6 @@
         private RJCodeAdvance.RJControls.RJTextBox rjTextBox3;
         private RJCodeAdvance.RJControls.RJTextBox rjTextBox4;
         private RJCodeAdvance.RJControls.RJTextBox rjTextBox5;
+        private RJCodeAdvance.RJControls.RJButton rjButton3;
     }
 }

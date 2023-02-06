@@ -134,6 +134,9 @@ namespace UI_Layerr
 
         private void rjButton2_Click(object sender, EventArgs e)
         {
+            KahvaltiKaloriToplam();
+            OgleYemegiKaloriToplam();
+            AksamYemegiKaloriToplam();
             ProgresBarSet();
         }
 

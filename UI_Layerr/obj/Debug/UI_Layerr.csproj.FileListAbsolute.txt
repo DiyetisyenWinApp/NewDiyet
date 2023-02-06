@@ -67,3 +67,4 @@ C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\UI_Layerr\obj\Debug\UI_Layer
 C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\UI_Layerr\obj\Debug\UI_Layerr.frm_Yiyecekler.resources
 C:\Users\Ertan\Desktop\Diyet-\NewDiyet\UI_Layerr\obj\Debug\UI_Layerr.frm_Yiyecekler.resources
 C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\UI_Layerr\bin\Debug\CustomControls.RJControls.dll
+C:\Users\onurk\Desktop\GitHub OPrtak Proje\NewDiyet\UI_Layerr\obj\Debug\UI_Layerr.frm_KullaniciBilgiGuncelle.resources

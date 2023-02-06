@@ -64,7 +64,7 @@ namespace UI_Layerr
             {
                 meal.TüketimTarihi = DateTime.Now;
                 meal.UserDetailID = GelenID;
-                meal.TopKcall = (comboBox1.SelectedIndex) * 100;
+                meal.TopKcall = (comboBox1.SelectedIndex) * queryYemekelr.Kalori;
                 meal.MealType =
                     (cmb_Ogun.SelectedIndex == 0 ? MealType.Kahvaltı :
                     cmb_Ogun.SelectedIndex == 1 ? MealType.Ogle :
