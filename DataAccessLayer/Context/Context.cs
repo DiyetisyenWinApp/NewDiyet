@@ -13,7 +13,8 @@ namespace DataAccessLayer.Context
     {
         public Context() : base("DiyetDBContext")
         {
-
+            //Database.SetInitializer(new Context());
+            //Database.Initialize(false);
         }
 
         public DbSet<User> Users { get; set; }
