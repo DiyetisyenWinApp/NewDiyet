@@ -145,5 +145,12 @@ namespace UI_Layerr
             frm_Yiyecekler frmYiyecek = new frm_Yiyecekler();
             frmYiyecek.Show();
         }
+
+        private void rjButton3_Click(object sender, EventArgs e)
+        {
+            frm_KullaniciBilgiGuncelle frm = new frm_KullaniciBilgiGuncelle();
+            frm.Show();
+
+        }
     }
 }

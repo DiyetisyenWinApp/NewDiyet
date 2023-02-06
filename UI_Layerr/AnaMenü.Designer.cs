@@ -245,7 +245,7 @@
             this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel2.Name = "materialLabel2";
             this.materialLabel2.Padding = new System.Windows.Forms.Padding(1);
-            this.materialLabel2.Size = new System.Drawing.Size(138, 26);
+            this.materialLabel2.Size = new System.Drawing.Size(138, 25);
             this.materialLabel2.TabIndex = 43;
             this.materialLabel2.Text = "materialLabel2";
             // 
@@ -332,6 +332,7 @@
             this.rjButton3.Text = "Bilgileri Güncelle";
             this.rjButton3.TextColor = System.Drawing.Color.White;
             this.rjButton3.UseVisualStyleBackColor = false;
+            this.rjButton3.Click += new System.EventHandler(this.rjButton3_Click);
             // 
             // frm_AnaMenü
             // 
