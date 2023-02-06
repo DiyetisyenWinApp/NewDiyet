@@ -1,4 +1,5 @@
 ﻿using DataAccessLayer.Context;
+using Enitities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -50,25 +51,47 @@ namespace UI_Layerr
             {
                 if (rjComboBox1.SelectedIndex == 0)
                 {
- 
+                    var query = db.Meals.Where(x => x.UserDetailID == GelenID && x.MealType == Enitities.Enums.MealType.Kahvaltı).GroupBy(x => x.FoodInfoID).OrderBy(x => x.Count()).FirstOrDefault().ToList();
+                    int deneme = (int)query.Select(x => x.FoodInfoID).FirstOrDefault();
+                    var query2 = db.FoodInfos.Where(x => x.FoodInfoID == deneme).ToList();
+
+                    dataGridView1.DataSource = query2;
+
+
                 }
                 else if (rjComboBox1.SelectedIndex == 1)
                 {
+                    var query = db.Meals.Where(x => x.UserDetailID == GelenID && x.MealType == Enitities.Enums.MealType.Ogle).GroupBy(x => x.FoodInfoID).OrderBy(x => x.Count()).FirstOrDefault().ToList();
+                    int deneme = (int)query.Select(x => x.FoodInfoID).FirstOrDefault();
+                    var query2 = db.FoodInfos.Where(x => x.FoodInfoID == deneme).ToList();
 
+                    dataGridView1.DataSource = query2;
                 }
                 else if (rjComboBox1.SelectedIndex == 2)
                 {
+                    var query = db.Meals.Where(x => x.UserDetailID == GelenID && x.MealType == Enitities.Enums.MealType.Aksam).GroupBy(x => x.FoodInfoID).OrderBy(x => x.Count()).FirstOrDefault().ToList();
+                    int deneme = (int)query.Select(x => x.FoodInfoID).FirstOrDefault();
+                    var query2 = db.FoodInfos.Where(x => x.FoodInfoID == deneme).ToList();
 
+                    dataGridView1.DataSource = query2;
                 }
                 else if (rjComboBox1.SelectedIndex == 3)
                 {
+                    
+                    var query = db.Meals.Where(x => x.UserDetailID == GelenID && x.MealType == Enitities.Enums.MealType.AraOgun).GroupBy(x => x.FoodInfoID).OrderBy(x => x.Count()).FirstOrDefault().ToList();
+                    int deneme = (int)query.Select(x => x.FoodInfoID).FirstOrDefault();
+                    var query2 = db.FoodInfos.Where(x => x.FoodInfoID == deneme).ToList();
 
+                    dataGridView1.DataSource = query2;
                 }
                 else if (rjComboBox1.SelectedIndex == 4)
                 {
-                    var query = db.Meals.Where(x => x.UserDetailID == GelenID && x.TüketimTarihi.Year == rjDatePicker1.Value.Year && x.TüketimTarihi.Month == rjDatePicker1.Value.Month && x.TüketimTarihi.Day == rjDatePicker1.Value.Day).GroupBy(x => x.FoodInfoID).FirstOrDefault().Count();
-                    
-                    dataGridView1.DataSource = query;
+                    var query = db.Meals.Where(x => x.UserDetailID == GelenID).GroupBy(x => x.FoodInfoID).OrderBy(x => x.Count()).FirstOrDefault().ToList();
+
+                    int deneme = (int)query.Select(x => x.FoodInfoID).FirstOrDefault();
+                    var query2 = db.FoodInfos.Where(x => x.FoodInfoID == deneme).ToList();
+
+                    dataGridView1.DataSource = query2;
                 }
  
 

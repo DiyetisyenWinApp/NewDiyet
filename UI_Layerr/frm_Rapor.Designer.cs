@@ -29,29 +29,16 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_Rapor));
-            this.rjDatePicker1 = new RJCodeAdvance.RJControls.RJDatePicker();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.rjButton1 = new RJCodeAdvance.RJControls.RJButton();
             this.label1 = new System.Windows.Forms.Label();
             this.rjComboBox1 = new RJCodeAdvance.RJControls.RJComboBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.rjDatePicker1 = new RJCodeAdvance.RJControls.RJDatePicker();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // rjDatePicker1
-            // 
-            this.rjDatePicker1.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.rjDatePicker1.BorderSize = 0;
-            this.rjDatePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F);
-            this.rjDatePicker1.Location = new System.Drawing.Point(60, 12);
-            this.rjDatePicker1.MinimumSize = new System.Drawing.Size(4, 35);
-            this.rjDatePicker1.Name = "rjDatePicker1";
-            this.rjDatePicker1.Size = new System.Drawing.Size(200, 35);
-            this.rjDatePicker1.SkinColor = System.Drawing.Color.Black;
-            this.rjDatePicker1.TabIndex = 40;
-            this.rjDatePicker1.TextColor = System.Drawing.Color.White;
             // 
             // dataGridView1
             // 
@@ -137,6 +124,19 @@
             this.pictureBox1.TabIndex = 28;
             this.pictureBox1.TabStop = false;
             // 
+            // rjDatePicker1
+            // 
+            this.rjDatePicker1.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.rjDatePicker1.BorderSize = 0;
+            this.rjDatePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F);
+            this.rjDatePicker1.Location = new System.Drawing.Point(60, 12);
+            this.rjDatePicker1.MinimumSize = new System.Drawing.Size(4, 35);
+            this.rjDatePicker1.Name = "rjDatePicker1";
+            this.rjDatePicker1.Size = new System.Drawing.Size(200, 35);
+            this.rjDatePicker1.SkinColor = System.Drawing.Color.Black;
+            this.rjDatePicker1.TabIndex = 40;
+            this.rjDatePicker1.TextColor = System.Drawing.Color.White;
+            // 
             // frm_Rapor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -164,11 +164,11 @@
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
-        private RJCodeAdvance.RJControls.RJDatePicker rjDatePicker1;
         private System.Windows.Forms.DataGridView dataGridView1;
         private MaterialSkin.Controls.MaterialLabel materialLabel1;
         private RJCodeAdvance.RJControls.RJButton rjButton1;
         private System.Windows.Forms.Label label1;
         private RJCodeAdvance.RJControls.RJComboBox rjComboBox1;
+        private RJCodeAdvance.RJControls.RJDatePicker rjDatePicker1;
     }
 }
