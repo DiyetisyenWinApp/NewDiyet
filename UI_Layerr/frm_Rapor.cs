@@ -18,11 +18,11 @@ namespace UI_Layerr
         {
             InitializeComponent();
         }
-        public int glnID;
-        public frm_Rapor(int gelen)
+        public int GelenID;
+        public frm_Rapor(int ID)
         {
             InitializeComponent();
-            glnID = gelen;
+            GelenID = ID;
 
 
 
@@ -34,13 +34,15 @@ namespace UI_Layerr
             rjComboBox1.Items.Add("Akşam yemeğinde en çok yediklerim");
             rjComboBox1.Items.Add("Ara Öğünlerde en çok yediklerim");
         }
+        DateTime Bugün = DateTime.Now;
         private void rjButton1_Click(object sender, EventArgs e)
         {
             try
             {
-                var query = db.Meals.Where(x => x.UserDetailID == glnID && x.TüketimTarihi.Date == rjDatePicker1.Value.Date);
-                dataGridView1.DataSource = query.ToList();
-                var que = db.Meals.Where(x => x.UserDetailID == glnID).Sum(x => x.TopKcall);
+                var query = db.Meals.Where(x => x.UserDetailID == GelenID && x.TüketimTarihi.Date == rjDatePicker1.Value.Date).ToList();
+                dataGridView1.DataSource = query;
+
+                var que = db.Meals.Where(x => x.UserDetailID == GelenID && x.TüketimTarihi.Date == rjDatePicker1.Value.Date).Sum(x => x.TopKcall);
                 label1.Text = que.ToString();
             }
             catch (Exception ex)
